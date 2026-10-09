@@ -14,6 +14,7 @@
   const E_R_PERSIST_DAYS = 180, OTHER_PERSIST_DAYS = 90;
 
   const qp = new URLSearchParams(location.search);
+  const zoomParam = (qp.get("zoom") || "").split("-").map(Number);
   const S = {
     code: qp.get("code") || "",
     mode: qp.get("mode") === "hindsight" ? "hindsight" : "as_of",
@@ -21,6 +22,7 @@
     selected: qp.get("sel") || null,
     prevCursor: null,
     theme: qp.get("theme") || localStorage.getItem("rg_theme") || "dark",
+    zoom: (zoomParam.length === 2 && zoomParam.every((n) => !isNaN(n))) ? { start: zoomParam[0], end: zoomParam[1] } : null,
     filters: { E: 1, R: 1, N: 1, A: 1, C: 1 },
     site: null,
   };
@@ -96,10 +98,17 @@
       b.addEventListener("click", () => { S.mode = b.dataset.mode; sync(); renderAll(); });
     });
     $("cursor-input").addEventListener("change", (e) => {
-      if (e.target.value) { S.cursor = e.target.value; sync(); renderAll(); }
+      if (e.target.value) { S.cursor = e.target.value; sync(); renderAll(); ensureFocus(S.cursor); }
     });
     $("cursor-prev").addEventListener("click", () => jumpEvent(-1));
     $("cursor-next").addEventListener("click", () => jumpEvent(1));
+
+    // K线缩放/平移（桌面按钮；移动端手势由 dataZoom inside 提供）
+    $("kz-in").addEventListener("click", () => zoomBy(1 / 1.5));
+    $("kz-out").addEventListener("click", () => zoomBy(1.5));
+    $("kz-left").addEventListener("click", () => panBy(-0.3));
+    $("kz-right").addEventListener("click", () => panBy(0.3));
+    $("kz-reset").addEventListener("click", () => { S.zoom = null; applyZoom(0, 100); });
 
     // 主题切换
     $("theme-btn").addEventListener("click", () => {
@@ -126,7 +135,7 @@
     Object.keys(TYPE_NAME).forEach((t) => {
       const el = document.createElement("span");
       el.className = "chip on"; el.dataset.t = t;
-      el.textContent = t + " " + TYPE_NAME[t];
+      el.innerHTML = t + '<span class="ct"> ' + TYPE_NAME[t] + "</span>";
       el.addEventListener("click", () => {
         S.filters[t] = !S.filters[t];
         el.classList.toggle("on", !!S.filters[t]);
@@ -148,6 +157,7 @@
     if (dir > 0) target = dates.find((d) => d > S.cursor) || dates[dates.length - 1];
     else target = [...dates].reverse().find((d) => d < S.cursor) || dates[0];
     S.cursor = target; sync(); renderAll();
+    ensureFocus(S.cursor);
   }
 
   function sync() {
@@ -167,6 +177,7 @@
     S.selected = id;
     if (it && moveCursor) S.cursor = it.available_at;
     sync(); renderAll();
+    if (it && moveCursor) ensureFocus(it.available_at);
     const el = document.querySelector('.tl-item[data-id="' + CSS.escape(id) + '"]');
     if (el) el.scrollIntoView({ block: "center", behavior: "smooth" });
   }
@@ -177,6 +188,59 @@
     if (clearSel) S.selected = null;
     S.prevCursor = null;
     sync(); renderAll();
+    if (destCursor) ensureFocus(destCursor);
+  }
+
+  /* 标注自适应：按当前缩放窗口的像素密度决定是否显示 K 线标注（全览干净、放大后出现） */
+  function markerLabelsOn(barsCount) {
+    const chartW = (klineChart && klineChart.getWidth()) || 800;
+    const spanPct = S.zoom ? (S.zoom.end - S.zoom.start) : 100;
+    const barsShown = Math.max(15, barsCount * spanPct / 100);
+    return 45 * (chartW / barsShown) >= 42;
+  }
+
+  function currentZoom() {
+    if (!klineChart) return { start: 0, end: 100 };
+    const dz = (klineChart.getOption().dataZoom || [])[0] || {};
+    return { start: dz.start == null ? 0 : dz.start, end: dz.end == null ? 100 : dz.end };
+  }
+
+  function applyZoom(start, end) {
+    if (!klineChart) return;
+    const span = Math.min(100, Math.max(2, end - start));
+    const ns = Math.max(0, Math.min(start, 100 - span));
+    klineChart.dispatchAction({ type: "dataZoom", start: ns, end: ns + span });
+    S.zoom = (ns <= 0.01 && ns + span >= 99.99) ? null : { start: ns, end: ns + span };
+  }
+
+  function zoomBy(factor) {
+    const { start, end } = currentZoom();
+    const span = Math.min(100, Math.max(2, (end - start) * factor));
+    const center = (start + end) / 2;
+    applyZoom(center - span / 2, center + span / 2);
+  }
+
+  function panBy(frac) {
+    const { start, end } = currentZoom();
+    const span = end - start;
+    applyZoom(start + span * frac, end + span * frac);
+  }
+
+  /* 缩放状态下导航（选中/光标跳转）时，确保目标日期在可视窗口内（不在则居中到当前跨度） */
+  function ensureFocus(date) {
+    const z = currentZoom();
+    if (z.start <= 0.01 && z.end >= 99.99) return;
+    const bars = barsDisplay();
+    if (!bars.length || !date) return;
+    let idx = bars.findIndex((b) => b.d >= date);
+    if (idx < 0) idx = bars.length - 1;
+    const total = bars.length;
+    const sIdx = (z.start / 100) * total, eIdx = (z.end / 100) * total;
+    if (idx >= sIdx && idx <= eIdx) return;
+    const span = z.end - z.start;
+    let ns = (idx / total) * 100 - span / 2;
+    ns = Math.max(0, Math.min(ns, 100 - span));
+    applyZoom(ns, ns + span);
   }
 
   /* ── 渲染总入口 ── */
@@ -252,38 +316,33 @@
     const idx0 = all.findIndex((b) => b.d === disp[0].d);
     const slice = (arr) => arr.slice(idx0, idx0 + disp.length);
 
-    // 相位色带（窄带不显示标签，避免重叠；相位名称仍见下方图例）
+    // 相位色带（名称与收益见图表下方图例；此处仅保留色带，避免在全览/窄屏下标签拥挤）
     const markAreas = [];
     S.site.phases.forEach((ph) => {
       let end = ph.end;
       if (inAsOf() && end > S.cursor) end = S.cursor;
       const startD = ph.start < dates[0] ? dates[0] : ph.start;
       if (end < dates[0] || startD > dates[dates.length - 1]) return;
-      const si = Math.max(0, dates.findIndex((x) => x >= startD));
-      const ei = dates.findIndex((x) => x >= end);
-      const width = (ei < 0 ? dates.length - 1 : ei) - si;
       markAreas.push([
-        {
-          xAxis: startD, name: ph.name.replace("（未破坏）", ""),
-          label: { show: width >= 280 },
-          itemStyle: { color: hexA(PHASE_COLORS[ph.name] || "#8b949e", 0.12) },
-        },
+        { xAxis: startD, itemStyle: { color: hexA(PHASE_COLORS[ph.name] || "#8b949e", 0.12) } },
         { xAxis: end },
       ]);
     });
 
-    // 事件标记（高重要性条目带 kline_label 短标注，密集时上下交错）
+    // 事件标记（高重要性条目带 kline_label 短标注；按缩放密度自适应 + 密集时上下交错）
     const priceByDate = {};
     disp.forEach((b) => { priceByDate[b.d] = b; });
     const P = pal();
     const marks = [];
+    const showMarkerLabels = markerLabelsOn(disp.length);
+    S._labelsOn = showMarkerLabels;
     let lastLabelIdx = -999, labelOnTop = true;
     tlVisible().forEach((it) => {
       let d = it.date;
       if (!priceByDate[d]) { const nxt = dates.find((x) => x >= d); if (!nxt) return; d = nxt; }
       const idx = dates.indexOf(d);
       let label = { show: false };
-      if (it.kline_label) {
+      if (it.kline_label && showMarkerLabels) {
         labelOnTop = (idx - lastLabelIdx < 45) ? !labelOnTop : true;
         lastLabelIdx = idx;
         label = {
@@ -333,6 +392,14 @@
         { type: "category", data: dates, gridIndex: 0, axisLine: { lineStyle: { color: P.line } }, axisLabel: { color: P.text }, axisTick: { show: false }, boundaryGap: true },
         { type: "category", data: dates, gridIndex: 1, axisLabel: { show: false }, axisTick: { show: false }, axisLine: { lineStyle: { color: P.line } } },
       ],
+      dataZoom: [
+        {
+          type: "inside", xAxisIndex: [0, 1],
+          start: S.zoom ? S.zoom.start : 0, end: S.zoom ? S.zoom.end : 100,
+          minValueSpan: 15, zoomOnMouseWheel: true, moveOnMouseMove: true, moveOnMouseWheel: false,
+          throttle: 60,
+        },
+      ],
       yAxis: [
         { scale: true, gridIndex: 0, splitLine: { lineStyle: { color: P.grid } }, axisLabel: { color: P.text } },
         { gridIndex: 1, splitLine: { show: false }, axisLabel: { show: false } },
@@ -343,7 +410,6 @@
           itemStyle: { color: "#f85149", color0: "#3fb950", borderColor: "#f85149", borderColor0: "#3fb950" },
           markArea: {
             silent: true, data: markAreas,
-            label: { show: true, position: "insideTop", color: P.bandLabel, fontSize: 11 },
           },
           markPoint: { data: marks },
           markLine: { silent: true, symbol: "none", data: markLines },
@@ -361,6 +427,18 @@
       if (p.componentType === "markPoint" && p.data && p.data.itemId) { select(p.data.itemId, false); return; }
       if (p.componentType === "series" && p.seriesType === "candlestick" && p.name) {
         S.cursor = p.name; sync(); renderAll();
+      }
+    });
+    // 用户手势/滚轮缩放后记录窗口；跨过标注密度阈值时（防抖）重渲染以显隐标注
+    klineChart.off("datazoom");
+    klineChart.on("datazoom", () => {
+      const z = currentZoom();
+      S.zoom = (z.start <= 0.01 && z.end >= 99.99) ? null : { start: z.start, end: z.end };
+      const on = markerLabelsOn(barsDisplay().length);
+      if (on !== S._labelsOn) {
+        S._labelsOn = on;
+        if (S._dt) clearTimeout(S._dt);
+        S._dt = setTimeout(() => { if (S.site) renderKline(); }, 260);
       }
     });
   }

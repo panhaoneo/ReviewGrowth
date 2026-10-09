@@ -1,82 +1,75 @@
 {
- "generated_at": "2026-10-09 22:17:54",
+ "generated_at": "2026-10-10 07:24:06",
  "sources": [
   {
    "name": "同花顺 fuyao",
    "coverage": "日K线(前复权)/财报三表/财务指标",
    "url": "https://fuyao.aicubes.cn",
    "confidence": "high",
-   "fetch_time": "2026-10-09 21:49:11"
+   "fetch_time": "2026-10-09 18:12:59"
   },
   {
    "name": "baostock",
    "coverage": "基准指数日K/估值历史(PE/PB/PS)",
    "url": "http://baostock.com",
    "confidence": "high",
-   "fetch_time": "2026-10-09 21:51:47"
+   "fetch_time": "2026-10-09 18:04:38"
   },
   {
    "name": "巨潮资讯网",
    "coverage": "公告/定期报告披露日(权威源)",
    "url": "https://www.cninfo.com.cn",
    "confidence": "high",
-   "fetch_time": "2026-10-09 21:49:47"
+   "fetch_time": "2026-10-09 18:02:41"
   },
   {
    "name": "东方财富",
    "coverage": "机构研报元数据+PDF/个股新闻",
    "url": "https://data.eastmoney.com",
    "confidence": "medium",
-   "fetch_time": "2026-10-09 22:01:50"
+   "fetch_time": "2026-10-09 18:16:01"
   }
  ],
  "gaps": [
   {
-   "scope": "估值明细",
-   "reason": "baostock 数据服务不可达",
-   "impact": "中：PB/PS 缺失；PE 为近似值（EPS 基数与股本变动未精细还原）",
-   "mitigation": "服务恢复后 --only fetch_valuation --force 重抓",
-   "from": "valuation"
-  },
-  {
-   "scope": "估值口径（PE/PB/PS 历史）",
-   "reason": "抓取当日 baostock 数据服务不可达（TCP 10030 连接超时，已实测确认服务端/路由故障），降级为『不复权收盘价 ÷ EPS-TTM』近似口径",
-   "impact": "中：PE 量级与趋势可用（已与盈利/价格交叉核验），但 PB/PS 缺失、股本变动期的 EPS 基数存在近似误差",
-   "mitigation": "baostock 恢复后执行 python3 scripts/fetch_all.py --code 300308 --only fetch_valuation --force 重新抓取",
+   "scope": "扣非净利润/存货/合同负债/应收明细",
+   "reason": "fuyao 三表接口字段不含这些科目；巨大公告量下未逐期提取财报 PDF 附注",
+   "impact": "中：增长质量分析退化为可用科目（毛利率/现金流/应收/货币资金）组合判断",
+   "mitigation": "页面财报卡附巨潮公告原文链接可供人工核对；后续可从财报 PDF 批量补充",
    "from": "analysis"
   },
   {
-   "scope": "1990 条公告与 151 篇关键研报按窗口归集",
-   "reason": "跨窗口重叠（同日披露财报+预告+调研时公告密集）",
-   "impact": "低：timeline 仅收录策展后的关键节点（约 70 条），全量公告保留在 data/300308/events.json 供追溯",
+   "scope": "电话会/业绩说明会全文",
+   "reason": "公开渠道仅有深交所要求的《投资者关系活动记录表》摘要（2022 年 4 次会议已抽取原文），无逐字稿",
+   "impact": "中：Q&A 分析以记录表所载要点为准，可能遗漏未记录细节",
+   "mitigation": "2022 年 4 次关键电话会已用记录表原文；其余时期标注缺失",
+   "from": "analysis"
+  },
+  {
+   "scope": "新闻 2019-2021",
+   "reason": "东财新闻接口无历史回溯（仅覆盖近期），cls 快讯无历史",
+   "impact": "中：早期叙事以公告/研报/年报替代，可能漏掉未成公告的市场信息",
+   "mitigation": "timeline 不虚构 N 类条目；已知信息用公告与研报补足",
+   "from": "analysis"
+  },
+  {
+   "scope": "研报盈利预测结构化字段（东财 predictThisYearEps 等）",
+   "reason": "东财 reportapi 实测全部返回空字符串（字段已停更）",
+   "impact": "高：一致预期曲线无法直接从接口获得",
+   "mitigation": "改为从 126 篇关键研报 PDF 前 3 页抽取盈利预测（consensus.json），覆盖每期财报窗口",
+   "from": "analysis"
+  },
+  {
+   "scope": "电话会提问方身份/参会机构明细",
+   "reason": "记录表仅列参与单位类型与人数（如 2022-10-21 受邀投资者 1700 人）",
+   "impact": "低",
    "mitigation": "—",
    "from": "analysis"
   },
   {
-   "scope": "新闻 2018-2024",
-   "reason": "东财新闻接口无历史回溯（仅近期 94 条）",
-   "impact": "中：早期叙事以公告/研报/年报替代，timeline 不虚构 N 类条目",
-   "mitigation": "关键节点全部用公告与研报锚定",
-   "from": "analysis"
-  },
-  {
-   "scope": "扣非净利润/存货/合同负债明细",
-   "reason": "fuyao 三表字段限制（与 300750 相同）",
-   "impact": "中：增长质量分析以毛利率/现金流/应收替代",
-   "mitigation": "财报卡附巨潮原文链接",
-   "from": "analysis"
-  },
-  {
-   "scope": "电话会/业绩说明会逐字稿",
-   "reason": "公开渠道仅有深交所要求的《投资者关系活动记录表》",
-   "impact": "中：以 2022-2026 年 20 份记录表（已下载原文，含 2025-04-06 关税专项沟通）为准",
-   "mitigation": "—",
-   "from": "analysis"
-  },
-  {
-   "scope": "2018-2021 年电话会纪要",
-   "reason": "公司该时期披露的记录表较少（仅 2 份）",
-   "impact": "低：以研报与年报替代",
+   "scope": "2022 年报后（2023-01 起）行情仅延伸至 2023-04-28",
+   "reason": "复盘区间为 2019-2022，延伸窗口用于 FY2022 财报（2023-03-10）的 T+60 反馈",
+   "impact": "低：2023 年后续走势不在复盘范围",
    "mitigation": "—",
    "from": "analysis"
   },

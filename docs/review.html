@@ -45,6 +45,16 @@
   </aside>
 
   <section id="center-pane">
+    <div class="kline-toolbar">
+      <span class="kz-hint">拖拽平移 · 滚轮/双指缩放</span>
+      <span class="kz-btns">
+        <button id="kz-left" class="tb-btn" title="左移视图">◀</button>
+        <button id="kz-right" class="tb-btn" title="右移视图">▶</button>
+        <button id="kz-in" class="tb-btn" title="放大（缩小时间跨度）">＋</button>
+        <button id="kz-out" class="tb-btn" title="缩小（放大时间跨度）">－</button>
+        <button id="kz-reset" class="tb-btn" title="重置为全览">重置</button>
+      </span>
+    </div>
     <div id="kline" style="width:100%;height:460px"></div>
     <div id="phase-legend" class="phase-legend"></div>
     <div class="panels-row">
@@ -106,12 +116,13 @@
       <ul>
         <li><b>点 K 线上的圆点/菱形/三角/星星等标记</b>（或点左侧时间轴条目）→ 右栏显示该事件详情与「当时视角」判断；光标同时跳到该事件日。</li>
         <li><b>再点一次同一标记 = 取消选择</b>；详情卡顶部有「← 返回上一步 / 回到区间末 / 清除选择」，随时可还原。</li>
+        <li><b>K线缩放/平移</b>：电脑端用图区上方的 ◀ ▶ ＋ － 重置 按钮；也可直接在图上<b>拖拽平移、滚轮缩放</b>。手机端<b>单指滑动平移、双指捏合缩放</b>。缩放状态下点击事件标记会自动聚焦到该事件处；点「重置」回到全览。</li>
         <li>顶栏右侧可<b>切换暗色/亮色主题</b>、勾选事件类型（E财报 / R研报 / N新闻 / A公告 / C电话会）。</li>
       </ul>
       <h4>三、页面区块导览</h4>
       <ul>
         <li><b>左栏·时间轴</b>：按「可获取日」倒序排的事件流；虚线以下为「光标之后不可见」的条目。</li>
-        <li><b>中栏·K线</b>：色带为成长阶段（潜伏/确认/主升/高位震荡/证伪），标记上方短文字为关键事件；光标模式下 K 线截断到光标日。</li>
+        <li><b>中栏·K线</b>：色带标识成长阶段（各阶段名称与涨跌幅见图表下方图例）；标记上方的短文字为关键事件；光标模式下 K 线截断到光标日。</li>
         <li><b>右栏·as-of 信息包</b>：光标日的「当日新增」+「近期仍有效」（财报/研报保留 180 天）；卡片含来源链接与置信度圆点（🟢高权威源/双源一致 🟡单一来源 🔴待验证）。</li>
         <li><b>下方</b>：一致预期 EPS（每篇关键研报的盈利预测散点，按目标财年）、估值 PE 与历史分位、财报切片表（点行跳转）、逻辑验证矩阵（六个核心假设的状态变迁）、复盘结论（仅事后视角）。</li>
       </ul>

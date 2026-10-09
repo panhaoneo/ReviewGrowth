@@ -113,7 +113,20 @@ body.light .state.破坏{background:rgba(26,127,55,.12);color:#1a7f37}
 .sec-label{color:var(--sub);font-size:.82em;margin:10px 0 4px;font-weight:600}
 
 /* K线区 */
-#kline{background:var(--panel);border:1px solid var(--border2);border-radius:10px}
+#kline{background:var(--panel);border:1px solid var(--border2);border-radius:10px;touch-action:pan-y}
+.kline-toolbar{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:2px 2px 8px}
+.kz-hint{color:var(--sub);font-size:.82em}
+.kz-btns{display:inline-flex;gap:6px;flex-wrap:wrap}
+.kz-btns .tb-btn{min-width:34px;text-align:center}
+@media (max-width:640px){
+  #topbar{padding:8px 10px;gap:8px}
+  .tb-right{flex-wrap:wrap;justify-content:flex-end}
+  .chip .ct{display:none}
+  .chip{padding:2px 9px;font-size:.88em}
+  .kz-hint{display:none}
+  .kz-btns{width:100%;justify-content:flex-end}
+  .kz-btns .tb-btn{min-width:44px;padding:6px 12px;font-size:.95em}
+}
 .phase-legend{display:flex;gap:12px;flex-wrap:wrap;padding:6px 4px;font-size:.83em;color:var(--sub)}
 .phase-legend i{display:inline-block;width:10px;height:10px;border-radius:2px;margin-right:4px;vertical-align:middle}
 .panels-row{display:grid;grid-template-columns:1.4fr 1fr;gap:12px;margin-top:12px}
