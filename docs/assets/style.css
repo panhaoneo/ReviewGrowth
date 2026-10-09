@@ -4,9 +4,17 @@
   --fg:#c9d1d9; --sub:#8b949e; --link:#58a6ff; --accent:#79c0ff;
   --up:#f85149; --down:#3fb950;
   --c-e:#58a6ff; --c-r:#3fb950; --c-n:#8b949e; --c-a:#d29922; --c-c:#bc8cff;
+  --hover:#1c2128; --modal-bg:#161b22;
+}
+body.light{
+  --bg:#f6f8fa; --panel:#ffffff; --panel2:#f0f3f6; --border:#d0d7de; --border2:#e4e8ed;
+  --fg:#1f2328; --sub:#59636e; --link:#0969da; --accent:#0550ae;
+  --up:#cf222e; --down:#1a7f37;
+  --c-e:#0969da; --c-r:#1a7f37; --c-n:#6e7781; --c-a:#9a6700; --c-c:#8250df;
+  --hover:#f0f3f6; --modal-bg:#ffffff;
 }
 html,body{height:100%}
-body{font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--fg);font-size:13px;line-height:1.6;display:flex;flex-direction:column;min-height:100vh}
+body{font-family:-apple-system,"PingFang SC","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--fg);font-size:13px;line-height:1.6;display:flex;flex-direction:column;min-height:100vh;transition:background .15s,color .15s}
 a{color:var(--link);text-decoration:none}
 a:hover{text-decoration:underline}
 .sub{color:var(--sub);font-size:.9em;font-weight:400}
@@ -36,6 +44,27 @@ h2.pane-title .sub{font-size:.85em;margin-left:6px}
 .chip[data-t=E].on{background:var(--c-e)}.chip[data-t=R].on{background:var(--c-r)}
 .chip[data-t=N].on{background:var(--c-n)}.chip[data-t=A].on{background:var(--c-a)}
 .chip[data-t=C].on{background:var(--c-c)}
+.tb-btn{background:var(--panel2);border:1px solid var(--border);color:var(--fg);border-radius:6px;cursor:pointer;padding:3px 10px;font-size:.88em}
+.tb-btn:hover{border-color:var(--link);color:var(--link)}
+
+/* 使用说明弹窗 */
+.modal{position:fixed;inset:0;background:rgba(0,0,0,.55);z-index:99;display:flex;align-items:center;justify-content:center;padding:20px}
+.modal.hidden{display:none}
+.modal-box{background:var(--modal-bg);border:1px solid var(--border);border-radius:12px;max-width:760px;width:100%;max-height:86vh;display:flex;flex-direction:column;box-shadow:0 12px 40px rgba(0,0,0,.4)}
+.modal-head{display:flex;align-items:center;justify-content:space-between;padding:14px 18px;border-bottom:1px solid var(--border2)}
+.modal-head h3{color:var(--accent);font-size:1.05em}
+.modal-body{padding:14px 20px;overflow-y:auto;font-size:.92em}
+.modal-body h4{color:var(--accent);margin:14px 0 6px;font-size:.98em}
+.modal-body h4:first-child{margin-top:0}
+.modal-body p{margin:6px 0}
+.modal-body ul{padding-left:20px;margin:6px 0}
+.modal-body li{margin:4px 0}
+.modal-body b{color:var(--fg)}
+
+/* 详情卡操作行 */
+.detail-actions{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:8px}
+.detail-actions button{background:var(--panel2);border:1px solid var(--border);color:var(--fg);border-radius:6px;cursor:pointer;padding:3px 9px;font-size:.82em}
+.detail-actions button:hover{border-color:var(--link);color:var(--link)}
 
 /* 三栏布局 */
 #layout{display:grid;grid-template-columns:300px minmax(0,1fr) 360px;gap:12px;padding:12px 16px;flex:1}
@@ -63,6 +92,10 @@ h2.pane-title .sub{font-size:.85em;margin-left:6px}
 .state.中性{background:rgba(139,148,158,.2);color:#adbac7}
 .state.减弱{background:rgba(210,153,34,.2);color:#e3b341}
 .state.破坏{background:rgba(63,185,80,.2);color:#56d364}
+body.light .state.增强{background:rgba(207,34,46,.12);color:#cf222e}
+body.light .state.中性{background:rgba(89,99,110,.12);color:#59636e}
+body.light .state.减弱{background:rgba(154,103,0,.12);color:#9a6700}
+body.light .state.破坏{background:rgba(26,127,55,.12);color:#1a7f37}
 
 /* 卡片 */
 .card{border:1px solid var(--border);border-radius:8px;padding:10px 12px;margin-bottom:8px;background:var(--panel)}

@@ -19,9 +19,26 @@
     mode: qp.get("mode") === "hindsight" ? "hindsight" : "as_of",
     cursor: qp.get("date") || null,
     selected: qp.get("sel") || null,
+    prevCursor: null,
+    theme: qp.get("theme") || localStorage.getItem("rg_theme") || "dark",
     filters: { E: 1, R: 1, N: 1, A: 1, C: 1 },
     site: null,
   };
+
+  /* ── 主题调色板（暗/亮） ── */
+  function pal() {
+    return document.body.classList.contains("light")
+      ? { text: "#59636e", line: "#d0d7de", grid: "#e4e8ed", ttBg: "#ffffff", ttBorder: "#d0d7de",
+          ttText: "#1f2328", bandLabel: "#59636e", cursorLine: "#0969da", axisBg: "#f0f3f6" }
+      : { text: "#8b949e", line: "#30363d", grid: "#21262d", ttBg: "#161b22", ttBorder: "#30363d",
+          ttText: "#c9d1d9", bandLabel: "#c9d1d9", cursorLine: "#58a6ff", axisBg: "#1c2128" };
+  }
+
+  function applyTheme() {
+    document.body.classList.toggle("light", S.theme === "light");
+    const btn = $("theme-btn");
+    if (btn) btn.textContent = S.theme === "light" ? "暗色" : "亮色";
+  }
 
   /* ── 工具 ── */
   const $ = (id) => document.getElementById(id);
@@ -69,6 +86,7 @@
 
   function bindStaticEvents() {
     document.title = S.site.meta.name + " 复盘 · ReviewGrowth";
+    applyTheme();
     $("stock-name").textContent = S.site.meta.name + " " + S.site.meta.code;
     $("stock-range").textContent = S.site.meta.start_date + " ~ " + S.site.meta.end_date;
     $("cursor-input").min = S.site.meta.start_date;
@@ -82,6 +100,27 @@
     });
     $("cursor-prev").addEventListener("click", () => jumpEvent(-1));
     $("cursor-next").addEventListener("click", () => jumpEvent(1));
+
+    // 主题切换
+    $("theme-btn").addEventListener("click", () => {
+      S.theme = S.theme === "light" ? "dark" : "light";
+      localStorage.setItem("rg_theme", S.theme);
+      applyTheme();
+      [klineChart, consensusChart, valChart].forEach((c) => { if (c) c.dispose(); });
+      klineChart = consensusChart = valChart = null;
+      renderAll();
+    });
+
+    // 使用说明
+    const closeHelp = () => $("help-modal").classList.add("hidden");
+    $("help-btn").addEventListener("click", () => { $("help-modal").classList.remove("hidden"); localStorage.setItem("rg_help_seen", "1"); });
+    $("help-close").addEventListener("click", closeHelp);
+    $("help-modal").addEventListener("click", (e) => { if (e.target === $("help-modal")) closeHelp(); });
+    document.addEventListener("keydown", (e) => { if (e.key === "Escape") closeHelp(); });
+    if (qp.get("help") !== "0" && (qp.get("help") === "1" || !localStorage.getItem("rg_help_seen"))) {
+      $("help-modal").classList.remove("hidden");
+      localStorage.setItem("rg_help_seen", "1");
+    }
 
     const chips = $("type-chips");
     Object.keys(TYPE_NAME).forEach((t) => {
@@ -121,12 +160,23 @@
   }
 
   function select(id, moveCursor) {
-    S.selected = id;
+    // 再点同一项 = 取消选择
+    if (S.selected === id) { S.selected = null; sync(); renderAll(); return; }
     const it = tlAll().find((x) => x.id === id);
+    if (it && moveCursor && S.cursor !== it.available_at) S.prevCursor = S.cursor;
+    S.selected = id;
     if (it && moveCursor) S.cursor = it.available_at;
     sync(); renderAll();
     const el = document.querySelector('.tl-item[data-id="' + CSS.escape(id) + '"]');
     if (el) el.scrollIntoView({ block: "center", behavior: "smooth" });
+  }
+
+  /* 还原光标 / 清除选择 */
+  function restoreCursor(destCursor, clearSel) {
+    if (destCursor) S.cursor = destCursor;
+    if (clearSel) S.selected = null;
+    S.prevCursor = null;
+    sync(); renderAll();
   }
 
   /* ── 渲染总入口 ── */
@@ -222,18 +272,31 @@
       ]);
     });
 
-    // 事件标记
+    // 事件标记（高重要性条目带 kline_label 短标注，密集时上下交错）
     const priceByDate = {};
     disp.forEach((b) => { priceByDate[b.d] = b; });
+    const P = pal();
     const marks = [];
+    let lastLabelIdx = -999, labelOnTop = true;
     tlVisible().forEach((it) => {
       let d = it.date;
       if (!priceByDate[d]) { const nxt = dates.find((x) => x >= d); if (!nxt) return; d = nxt; }
+      const idx = dates.indexOf(d);
+      let label = { show: false };
+      if (it.kline_label) {
+        labelOnTop = (idx - lastLabelIdx < 45) ? !labelOnTop : true;
+        lastLabelIdx = idx;
+        label = {
+          show: true, formatter: it.kline_label,
+          position: labelOnTop ? "top" : "bottom",
+          fontSize: 10, color: P.bandLabel, backgroundColor: "transparent",
+        };
+      }
       marks.push({
         name: it.id, coord: [d, priceByDate[d].h], value: it.type, itemId: it.id,
-        symbol: TYPE_SYMBOL[it.type], symbolSize: 15,
-        itemStyle: { color: TYPE_COLORS[it.type], borderColor: "#0d1117", borderWidth: 1 },
-        label: { show: false },
+        symbol: TYPE_SYMBOL[it.type], symbolSize: it.kline_label ? 16 : 15,
+        itemStyle: { color: TYPE_COLORS[it.type], borderColor: P.ttBg, borderWidth: 1 },
+        label,
       });
     });
 
@@ -247,31 +310,31 @@
         [["基准", 0], ["T+1", 1], ["T+5", 5], ["T+20", 20], ["T+60", 60]].forEach(([label, n]) => {
           const j = baseIdx + n;
           if (j < all.length && all[j].d <= dates[dates.length - 1]) {
-            markLines.push([{ xAxis: all[j].d, label: { formatter: label, color: "#8b949e", fontSize: 10 }, lineStyle: { color: "#8b949e", type: "dashed", width: 1 } }, { xAxis: all[j].d }]);
+            markLines.push([{ xAxis: all[j].d, label: { formatter: label, color: P.text, fontSize: 10 }, lineStyle: { color: P.text, type: "dashed", width: 1 } }, { xAxis: all[j].d }]);
           }
         });
       }
     }
     // as-of 光标线
     if (inAsOf()) {
-      markLines.push([{ xAxis: S.cursor, lineStyle: { color: "#58a6ff", width: 1 }, label: { formatter: "cursor " + S.cursor, color: "#58a6ff", fontSize: 10 } }, { xAxis: S.cursor }]);
+      markLines.push([{ xAxis: S.cursor, lineStyle: { color: P.cursorLine, width: 1 }, label: { formatter: "cursor " + S.cursor, color: P.cursorLine, fontSize: 10 } }, { xAxis: S.cursor }]);
     }
 
     klineChart.setOption({
       animation: false,
       backgroundColor: "transparent",
-      axisPointer: { link: [{ xAxisIndex: "all" }], label: { backgroundColor: "#1c2128" } },
-      tooltip: { trigger: "axis", axisPointer: { type: "cross" }, backgroundColor: "#161b22", borderColor: "#30363d", textStyle: { color: "#c9d1d9", fontSize: 12 }, confine: true },
+      axisPointer: { link: [{ xAxisIndex: "all" }], label: { backgroundColor: P.axisBg } },
+      tooltip: { trigger: "axis", axisPointer: { type: "cross" }, backgroundColor: P.ttBg, borderColor: P.ttBorder, textStyle: { color: P.ttText, fontSize: 12 }, confine: true },
       grid: [
         { left: 56, right: 16, top: 14, height: 300 },
         { left: 56, right: 16, top: 330, height: 70 },
       ],
       xAxis: [
-        { type: "category", data: dates, gridIndex: 0, axisLine: { lineStyle: { color: "#30363d" } }, axisLabel: { color: "#8b949e" }, axisTick: { show: false }, boundaryGap: true },
-        { type: "category", data: dates, gridIndex: 1, axisLabel: { show: false }, axisTick: { show: false }, axisLine: { lineStyle: { color: "#30363d" } } },
+        { type: "category", data: dates, gridIndex: 0, axisLine: { lineStyle: { color: P.line } }, axisLabel: { color: P.text }, axisTick: { show: false }, boundaryGap: true },
+        { type: "category", data: dates, gridIndex: 1, axisLabel: { show: false }, axisTick: { show: false }, axisLine: { lineStyle: { color: P.line } } },
       ],
       yAxis: [
-        { scale: true, gridIndex: 0, splitLine: { lineStyle: { color: "#21262d" } }, axisLabel: { color: "#8b949e" } },
+        { scale: true, gridIndex: 0, splitLine: { lineStyle: { color: P.grid } }, axisLabel: { color: P.text } },
         { gridIndex: 1, splitLine: { show: false }, axisLabel: { show: false } },
       ],
       series: [
@@ -280,7 +343,7 @@
           itemStyle: { color: "#f85149", color0: "#3fb950", borderColor: "#f85149", borderColor0: "#3fb950" },
           markArea: {
             silent: true, data: markAreas,
-            label: { show: true, position: "insideTop", color: "#c9d1d9", fontSize: 11 },
+            label: { show: true, position: "insideTop", color: P.bandLabel, fontSize: 11 },
           },
           markPoint: { data: marks },
           markLine: { silent: true, symbol: "none", data: markLines },
@@ -320,9 +383,18 @@
   function renderDetail() {
     const el = $("detail-card");
     const it = tlAll().find((x) => x.id === S.selected);
-    if (!it) { el.innerHTML = '<p class="sub">点击 K线标记或时间轴条目查看详情</p>'; return; }
+    if (!it) {
+      el.innerHTML = '<p class="sub">点击 K线标记 / 时间轴条目 查看事件详情（再点一次可取消）；点击 K线空白处移动光标；<a href="#" id="help-inline">使用说明</a></p>';
+      const hl = $("help-inline");
+      if (hl) hl.addEventListener("click", (e) => { e.preventDefault(); $("help-modal").classList.remove("hidden"); });
+      return;
+    }
     const a = it.as_of || {};
-    let h = '<div class="card"><div class="c-head"><span class="tbadge ' + esc(it.type) + '">' + esc(it.type) + "</span>" +
+    let h = '<div class="detail-actions">' +
+      (S.prevCursor ? '<button data-act="back">← 返回 ' + esc(S.prevCursor) + "</button>" : "") +
+      '<button data-act="end">回到区间末</button>' +
+      '<button data-act="clear">✕ 取消选择</button></div>';
+    h += '<div class="card"><div class="c-head"><span class="tbadge ' + esc(it.type) + '">' + esc(it.type) + "</span>" +
       '<span class="c-title">' + esc(it.title) + "</span></div>" +
       '<div class="c-meta">' + esc(TYPE_NAME[it.type] || it.type) + " · 事件日 " + esc(it.date) +
       " · 披露 " + esc(it.published_at || "—") + " · 可见 " + esc(it.available_at) +
@@ -342,6 +414,12 @@
     }
     h += "</div>";
     el.innerHTML = h;
+    el.querySelectorAll("button[data-act]").forEach((b) => b.addEventListener("click", () => {
+      const act = b.dataset.act;
+      if (act === "back") restoreCursor(S.prevCursor, true);
+      else if (act === "end") restoreCursor(S.site.meta.end_date, true);
+      else if (act === "clear") { S.selected = null; sync(); renderAll(); }
+    }));
   }
 
   function renderReaction(pr) {
@@ -385,6 +463,7 @@
   /* ── 一致预期 ── */
   function renderConsensus() {
     if (!consensusChart) consensusChart = echarts.init($("consensus"), null, { renderer: "canvas" });
+    const P = pal();
     const fys = Object.keys(S.site.consensus).sort();
     const palette = ["#58a6ff", "#3fb950", "#d29922", "#bc8cff", "#e3b341", "#79c0ff", "#ff7b72"];
     const series = fys.map((fy, i) => {
@@ -399,16 +478,16 @@
     }).filter((s) => s.data.length);
     consensusChart.setOption({
       animation: false, backgroundColor: "transparent",
-      tooltip: { trigger: "axis", backgroundColor: "#161b22", borderColor: "#30363d", textStyle: { color: "#c9d1d9", fontSize: 12 }, confine: true, formatter: (ps) => {
+      tooltip: { trigger: "axis", backgroundColor: P.ttBg, borderColor: P.ttBorder, textStyle: { color: P.ttText, fontSize: 12 }, confine: true, formatter: (ps) => {
         const d = ps[0].axisValue;
         const rows = ps.map((p) => p.seriesName + "：" + p.data[1] + " 元");
         const org = (S.site.consensus[ps[0].seriesName.replace("FY", "")] || []).filter((x) => x.d === d);
         return d + "<br/>" + rows.join("<br/>") + (org.length ? "<br/>机构数：" + org[0].n_org : "");
       } },
-      legend: { textStyle: { color: "#8b949e" }, top: 0 },
+      legend: { textStyle: { color: P.text }, top: 0 },
       grid: { left: 46, right: 14, top: 26, bottom: 24 },
-      xAxis: { type: "category", axisLabel: { color: "#8b949e" }, axisLine: { lineStyle: { color: "#30363d" } } },
-      yAxis: { scale: true, axisLabel: { color: "#8b949e" }, splitLine: { lineStyle: { color: "#21262d" } } },
+      xAxis: { type: "category", axisLabel: { color: P.text }, axisLine: { lineStyle: { color: P.line } } },
+      yAxis: { scale: true, axisLabel: { color: P.text }, splitLine: { lineStyle: { color: P.grid } } },
       series,
     }, true);
     consensusChart.resize();
@@ -417,17 +496,18 @@
   /* ── 估值 ── */
   function renderValuationChart() {
     if (!valChart) valChart = echarts.init($("valuation"), null, { renderer: "canvas" });
+    const P = pal();
     let series = S.site.valuation.series;
     if (inAsOf()) series = series.filter((r) => r.d <= S.cursor);
     valChart.setOption({
       animation: false, backgroundColor: "transparent",
-      tooltip: { trigger: "axis", backgroundColor: "#161b22", borderColor: "#30363d", textStyle: { color: "#c9d1d9", fontSize: 12 }, confine: true },
-      legend: { textStyle: { color: "#8b949e" }, top: 0 },
+      tooltip: { trigger: "axis", backgroundColor: P.ttBg, borderColor: P.ttBorder, textStyle: { color: P.ttText, fontSize: 12 }, confine: true },
+      legend: { textStyle: { color: P.text }, top: 0 },
       grid: { left: 46, right: 44, top: 26, bottom: 24 },
-      xAxis: { type: "category", data: series.map((r) => r.d), axisLabel: { color: "#8b949e" }, axisLine: { lineStyle: { color: "#30363d" } } },
+      xAxis: { type: "category", data: series.map((r) => r.d), axisLabel: { color: P.text }, axisLine: { lineStyle: { color: P.line } } },
       yAxis: [
-        { scale: true, axisLabel: { color: "#8b949e" }, splitLine: { lineStyle: { color: "#21262d" } } },
-        { min: 0, max: 100, axisLabel: { color: "#8b949e", formatter: "{value}%" }, splitLine: { show: false } },
+        { scale: true, axisLabel: { color: P.text }, splitLine: { lineStyle: { color: P.grid } } },
+        { min: 0, max: 100, axisLabel: { color: P.text, formatter: "{value}%" }, splitLine: { show: false } },
       ],
       series: [
         { name: "PE-TTM", type: "line", showSymbol: false, data: series.map((r) => r.pe), lineStyle: { width: 1.5, color: "#e3b341" }, itemStyle: { color: "#e3b341" } },
@@ -522,5 +602,6 @@
     }).catch(() => {});
   }
 
+  applyTheme();
   boot();
 })();

@@ -14,7 +14,7 @@
 3. 检查各输出 JSON 的 `gaps`/`confidence` 字段；缺失项记录待写入 `analysis/{code}/gaps.json`。
 4. 读 `data/{code}/reports_txt/*.txt`（关键研报 PDF 前 3 页文本），为每篇写核心逻辑/风险（逐字引用）→ 合并为 `analysis/{code}/research_notes.json`（格式：{infoCode: {core_logic, risks, quotes, ...}}）。同时从「盈利预测」段落抽取 EPS → `analysis/{code}/consensus.json`（points: [{d, fy, eps, org, infoCode}]）。
 5. 按 **9 问财报模板**（见 `.qoder/skills/review-growth/SKILL.md`）为每个财报期写 `analysis/{code}/earnings_analysis.json`（key=period）。
-6. 写 `analysis/{code}/phases.json`（潜伏/确认/主升/高位震荡/证伪，`evidence_refs` 挂 timeline id）、`timeline.json`（每条含基础字段 + `as_of{summary,logic_state,evidence}` + `hindsight{summary,verification}`；**as_of 内禁止出现未来信息与价格反馈**）、`logic_validation.json`（假设 × 状态变迁）、`summary.json`、`review.json`、`gaps.json`。
+6. 写 `analysis/{code}/phases.json`（潜伏/确认/主升/高位震荡/证伪，`evidence_refs` 挂 timeline id）、`timeline.json`（每条含基础字段 + `as_of{summary,logic_state,evidence}` + `hindsight{summary,verification}`；**as_of 内禁止出现未来信息与价格反馈**；高重要性条目可加 `kline_label`（K线图上的短标注文本，≤12 字，约 15 条以内避免拥挤））、`logic_validation.json`（假设 × 状态变迁）、`summary.json`、`review.json`、`gaps.json`。
 7. 写 `report.md`（人读复盘）与 `confidence.md`（数据缺失与置信度）；数字必须与 `docs/data/{code}/site.json` 中机械计算值一致（先跑一次 build_site 取真实值再引用）。
 8. `python3 scripts/build_site.py --code {code}`——校验不过必须修复，禁止绕过。
 9. 本地验收（`cd docs && python3 -m http.server 8765`）→ commit & push（Pages workflow 自动部署）。
