@@ -265,7 +265,7 @@
       markAreas.push([
         {
           xAxis: startD, name: ph.name.replace("（未破坏）", ""),
-          label: { show: width >= 120 },
+          label: { show: width >= 280 },
           itemStyle: { color: hexA(PHASE_COLORS[ph.name] || "#8b949e", 0.12) },
         },
         { xAxis: end },

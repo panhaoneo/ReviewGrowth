@@ -6,10 +6,29 @@
 
 import io
 import contextlib
+import socket
 
 from common import log
 
 _LOGGED_IN = [False]
+_SERVER_UP = [None]   # None=未探测 / True / False
+
+
+def _server_up(timeout=5):
+    """快速 TCP 探活（baostock 数据端口 10030）。服务端故障时立即降级，
+    避免 login/query 长时间阻塞（实测故障期连接挂起 >100s）。"""
+    if _SERVER_UP[0] is not None:
+        return _SERVER_UP[0]
+    try:
+        s = socket.socket()
+        s.settimeout(timeout)
+        s.connect(("www.baostock.com", 10030))
+        s.close()
+        _SERVER_UP[0] = True
+    except Exception:
+        _SERVER_UP[0] = False
+        log("  ⚠ baostock 数据服务不可达（TCP 10030 超时），本模块降级返回 None")
+    return _SERVER_UP[0]
 
 
 def _bs():
@@ -18,6 +37,8 @@ def _bs():
 
 
 def _ensure_login():
+    if not _server_up():
+        return False
     bs = _bs()
     if not _LOGGED_IN[0]:
         with contextlib.redirect_stdout(io.StringIO()):

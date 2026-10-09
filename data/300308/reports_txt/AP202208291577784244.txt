@@ -1,0 +1,233 @@
+标题: Overseas data center demand to remain resilient in 2H22
+机构: 招银国际 | 分析师: Lily Yang,Alex Ng,Lana Lin
+日期: 2022-08-29 | 评级: 买入
+EPS预测(当年/次年/后年):  /  / 
+来源: https://data.eastmoney.com/report/info/AP202208291577784244.html
+窗口: 2022Q2 | score=38.5
+
+===== 第1页 =====
+CMB International Global Markets | Equity Research | Company Update   
+ 
+  
+ 
+PLEASE READ THE ANALYST CERTIFICATION AND IMPORTANT DISCLOSURES ON LAST PAGE  
+MORE REPORTS FROM BLOOMBERG: RESP  CMBR  <GO>  OR http://www.cmbi.com.hk  
+China Technology  Sector  
+ 
+Lily Yang , Ph.D  
+(852) 3916 3716  
+lilyyang@cmbi.com.hk  
+ 
+Alex Ng  
+(852) 3900 0881  
+alexng@cmbi.com.hk  
+ 
+Lana Lin  
+(852) 3761 8912  
+lanalin@cmbi.com.hk  
+ 
+ 
+Stock Data  
+Mkt. Cap. (RMB mn)  24,094  
+Avg. 3mths t/o (RMB mn)  450 
+52W High/Low (RMB)   43.96 /28.45  
+Total Issued Shares (mn)  799.7  
+Source: Bloomberg  
+ 
+Shareholding Structure  
+Zhongji Investment  11.74%  
+HKSC  9.31% 
+Wang Weixiu  8.02%  
+Source: Bloomberg  
+ 
+Share Performance  
+ Absolute  Relative  
+1-mth -11.6% -11.1% 
+3-mth 0.2% -9.5% 
+6-mth -18.2% -12.3% 
+Source: Bloomberg  
+ 
+12-mth Price Performance  
+ 
+Source: Bloomberg  
+ 
+Auditor: PWC Zhong Tian  
+ 
+Recent Reports:  
+1. Data  center demand to remain 
+resilient in 2H22 g in 2022 – 12 Jul  
+2022 ( Link) 
+2. Corporate Day  takeaways   – 23 Jun 
+2022 ( Link) 
+ 
+ 
+ 
+ 
+0.05.010.015.020.025.030.035.040.045.050.0
+Aug-21 Oct-21 Dec-21 Feb-22 Apr-22 Jun-22 Aug-22300308 CH SZCOMP  (rebased)(RMB )BUY ( Maintain ) 
+Target Price  RMB42.00  
+(Previous TP  RMB45.60)  
+Up/Downside    +39.4%  
+Current Price  RMB30.13  
+ 
+ 
+ 
+1      29 Aug 2022  
+  
+     
+ 
+     
+Innolight announced its 2Q22 results. 2Q22 revenue/NP to shareholders grew 
+17.3%/32.4%  YoY and 2.6%/ 26.5% QoQ to RMB2.1bn/RMB275mn. GPM for 
+2Q22 was 27.3% ( vs. 23.8 % for 2Q21 and 26.3% in 1Q 22), mainly due to 
+favorable product mix and reduced opex. We continue to see strong demand from 
+overseas cloud clients, while domestic Datacom demand s eems soft. We remain 
+positive on overseas client s’ capex growth  given their reaffirmed commitment to 
+invest  in technology infrastructure  even in this tough macro environment . We 
+maintain BUY rating and adjust TP to RMB42 .0, reflecting softer -than-expected 
+domestic demand for optical transceivers . 
+ Innolig ht’s 2Q sales grew 2.6% QoQ, in line with expectations. By 
+geography, overseas sales contribution increased significantly from 75.1% in 
+FY21 to 85.6% in 1H22. This is mainly due to strong demand from oversea s 
+cloud companies and relatively soft demand from domestic ICPs. 
+Amazon/ Googl e/Meta’s total capex grew 34.9%/ 23.6% YoY in 1Q/2Q22. The 
+surging demand for 200G/400G transceivers  created favorable  product  mix. 
+We see 2Q GPM grew to 27.3% vs. 26.3% in 1Q. As the market continues to 
+embrace higher bandwidth (e.g., continuous migration to 200G/ 400G, deploy 
+800G optical modules starts from 4Q22), we believe Innolight can benefit from 
+this trend . 
+ Looking forward, we remain positive on overseas clients’ capex growth. 
+Although we see many companies are  being disciplined or even cut on 
+spending, large cloud leaders  (AMAN/GOOG/FB/MSFT) all confirmed of 
+continuous  investment s in technology infrastructur e. However,  the market 
+seems to be less confident in Innolight’s clients’ demand, especially  when 
+Amazon and Meta guided lower -than-average sales growth for 3Q (-2% and -
+6%) and reduced hiring plans , suggesting  weak consumer spendin g. Contrary 
+to the consensus,  we are more opportunistic than the market,  considering 
+resource s should be allocated to key growth drivers, which will help boost 
+performance when macro recovers .  
+ Maintain  BUY and TP adjusted to RMB42.0 . Innolight  is a major beneficiary 
+of cloud capex growth. We maintained  positive outlook for its overseas 
+business  but lowered forecasts for domestic sales.  New TP of RMB42.0 is 
+based on 26x 23E P/E. Potential risks include 1) reduced  capex from global 
+cloud companies,  2) slower deployment of 5G infrastr ucture  and 3) faster -
+than-expected tech advancement . 
+Earnings Summary  
+(YE 31 Dec)  FY20A  FY21A  FY22E  FY23E  FY24 E 
+Turnover (RMB mn)  7,050  7,695  9,398  10,770  12,139  
+YoY growth (%)  48.2%  9.2%  22.1%  14.6%  12.7%  
+Gross margin (%)  25.4%  25.6%  26.3%  26.6%  26.6%  
+Net profit (RMB mn)  865  877  1,076  1,296  1,460  
+EPS (RMB)  1.23 1.21 1.34 1.62 1.82 
+YoY growth (%)  68.5%  -1.6%  11.1%  20.5%  12.7%  
+PE (x)  24.5 24.9 22.4 18.6 16.5 
+Yield (%)  0.4%  0.7%  0.9%  1.1%  1.2%  
+Roe (%)  11.0%  7.6%  8.7%  9.6%  10.0%  
+Net gearing (%)  9.9%  Net cash  Net cash  Net cash  Net cash  
+Source: Company  data, CMBIGM  estimates   Innolight (300308 CH)  
+ Overseas d ata center demand to remain resilient 
+in 2H22  
+===== 第2页 =====
+29 Aug 2022 
+ 
+ 
+ 
+ 
+PLEASE READ THE ANALYST CERTIFICATION AND IMPORTANT DISCLOSURES ON LAST PAGE  2 
+2Q22 Earnings Review  
+Figure 1: P&L forecasts  
+RMB mn  FY19A  FY20A 1H21A 2H21A  FY21A  1H22A 2H22E  FY22E FY23E FY24E 
+Revenue  4,758  7,050  3,298  4,398  7,695  4,231  5,166  9,398  10,770  12,139  
+…YoY  -7.7%  48.2%  1.6%  15.6%  9.2%  28.3%  17.5%  22.1%  14.6%  12.7%  
+Cost of sales  3,468  5,257  2,493  3,234  5,727  3,098  3,824  6,921  7,907  8,904  
+Gross profit  1,290  1,793  805 1,163  1,968  1,133  1,343  2,476  2,863  3,235  
+…YoY   (8.3%)  39.0%  -2.0%  19.7%  9.8%  40.8%  15.4%  25.8%  15.6%  13.0%  
+GPM (%)  27.1%  25.4%  24.4%  26.5%  25.6%  26.8%  26.0%  26.3%  26.6%  26.6%  
+                      
+SG&A  329 477 228 279 507 282 329 611 690 765 
+…% of rev  6.9%  6.8%  6.9%  6.3%  6.6%  6.7%  6.4%  6.5%  6.4%  6.3%  
+R&D  362 506 228 314 541 349 370 719 813 904 
+…% of rev  7.6%  7.2%  6.9%  7.1%  7.0%  8.2%  7.2%  7.6%  7.5%  7.4%  
+Operating profit  576 990 371 592 963 525 642 1,167  1,406  1,584  
+…YoY  -15.5%  71.7%  -13.7%  5.8%  -2.7%  41.3%  8.5%  21.2%  20.5%  12.7%  
+OPM (%)  12.1%  14.0%  11.3%  13.5%  12.5%  12.4%  12.4%  12.4%  13.1%  13.0%  
+                      
+Net profit  513 865 341 536 877 492 583 1,076  1,296  1,460  
+…YoY   -17.6%  68.6%  -6.7%  7.2%  1.3%  44.5%  8.8%  22.7%  20.5%  12.7%  
+NPM (%)  10.8%  12.3%  10.3%  12.2%  11.4%  11.6%  11.3%  11.4%  12.0%  12.0%  
+Source: Company data, CMBIGM estimates  
+Figure 2: Big four cloud companies’ capex remain at 
+high level  
+ 
+Source: Company filings , CMBIGM estimates  Figure 3: Top 10 transceiver suppliers 
+(2010/2016/2018/2021)  
+2010  2016   2018  2021  
+Finisar  Finisar  1 Finisar  II-VI & 
+Innolight (tie)  Opnext  Hisense  2 Innolight  
+Sumitomo  Accelink  3 Hisense  Huawei  
+(HiSilicon)  
+Avago  Acacia  4 Accelink  Cisco(Acacia)  
+Source 
+Photonics  FOIT(Avago)  5 FOIT(Avago)  Hisense  
+Fujitsu  Oclaro  6 Lumentum/  
+Oclaro  Broadcom  
+(Avago)  
+JDSU  Innolight  7 Acacia  Eoptolink  
+Emcore  Sumitomo  8 Intel Accelink  
+WTD  Lumentum  9 AOi Molex  
+NeoPhotonics  Source 
+Photonics  10 Sumitomo  Intel 
+Source: Lightcounting, CMBIGM estimates  
+Figure 4: Earnings revision  
+  New    Old   Diff (%)   
+RMBmn  FY22E FY23E FY24E FY22E FY23E FY24E FY22E FY23E FY24E 
+Revenue  9,398  10,770  12,139  9,908  11,426  12,362  -5% -6% -2% 
+Gross Profit  2,476  2,863  3,235  2,645  3,078  3,352  -6% -7% -3% 
+Operating Profit  1,167  1,406  1,584  1,187  1,503  1,650  -2% -6% -4% 
+Net profit  1,076  1,296  1,460  1,108  1,399  1,538  -3% -7% -5% 
+EPS (US$ cents)  1.34 1.62 1.82 1.38 1.75 1.92 -3% -7% -5% 
+Gross Margin  26.3%  26.6%  26.6%  26.7%  26.9%  27.1%  -0.3 ppt  -0.4 ppt  -0.5 ppt  
+Operating Margin  12.4%  13.1%  13.0%  12.0%  13.2%  13.4%  0.4 ppt  -0.1 ppt  -0.3 ppt  
+Net Margin  11.4%  12.0%  12.0%  11.2%  12.2%  12.4%  0.3 ppt  -0.2 ppt  -0.4 ppt  
+Source: Company data, CMBIGM estimates  
+ 
+ 
+ 
+0%2%4%6%8%10%12%14%16%18%20%
+0.05.010.015.020.025.030.035.040.0
+1Q17 4Q17 3Q18 2Q19 1Q20 4Q20 3Q21 2Q22Thousands
+Microsoft Meta Google
+Amazon Capex % rev.(US$ bn)
+===== 第3页 =====
+29 Aug 2022  
+ 
+ 
+ 
+PLEASE READ THE ANALYST CERTIFICATION AND IMPORTANT DISCLOSURES ON LAST PAGE  3 
+Figure 5: CMBI GM estimates vs consensus  
+  CMBI GM  Consensus   Diff (%)   
+US$ mn  FY22E FY23E FY24E FY22E FY23E FY24E FY22E FY23E FY24E 
+Revenue  9,398  10,770  12,139  9,391  10,981  12,447  0% -2% -2% 
+Gross Profit  2,476  2,863  3,235  2,514  2,998  3,442  -2% -5% -6% 
+Operating Profit  1,167  1,406  1,584  1,183  1,481  1,673  -1% -5% -5% 
+Net profit  1,076  1,296  1,460  1,112  1,372  1,607  -3% -6% -9% 
+EPS (US$ cents)  1.34 1.62 1.82 1.39 1.71 1.97 -3% -5% -7% 
+Gross Margin  26.3%  26.6%  26.6%  26.8%  27.3%  27.7%  -0.4 ppt  -0.7 ppt  -1 ppt  
+Operating Margin  12.4%  13.1%  13.0%  12.6%  13.5%  13.4%  -0.2 ppt  -0.4 ppt  -0.4 ppt  
+Net Margin  11.4%  12.0%  12.0%  11.8%  12.5%  12.9%  -0.4 ppt  -0.5 ppt  -0.9 ppt  
+Source: Company data, CMBIGM estimates  
+ 
+Figure 6: 12M forward P/E chart  
+ 
+Source: Company data, CMBIGM estimates  Figure 7: 12M forward P/E band  
+ 
+Source: Company data, CMBIGM estimates  
+  
+15171921232527293133
+08-21 11-21 02-22 05-22 08-22
+1-yr Forward P/E Mean
+Mean+1SD Mean-1SD
+0102030405060
+08/21 11/21 02/22 05/22 08/22
+Closing Px 18.3x 21.7x
+25.0x 28.3x 31.6x(RMB)

@@ -1,0 +1,211 @@
+标题: Strong 4Q21/1Q22 results; Reiterate BUY
+机构: 招银国际 | 分析师: Lily Yang,Alex Ng,Lana Lin
+日期: 2022-04-26 | 评级: 买入
+EPS预测(当年/次年/后年):  /  / 
+来源: https://data.eastmoney.com/report/info/AP202204261561688590.html
+窗口: 2021Q4 | score=39.5
+
+===== 第1页 =====
+CMB International Global Markets | Equity Research | Company Update   
+ 
+  
+ 
+PLEASE READ THE ANALYST CERTIFICATION AND IMPORTANT DISCLOSURES ON LAST PAGE  
+MORE REPORTS FROM BLOOMBERG: RESP  CMBR  <GO>  OR http://www.cmbi.com.hk  
+China Technology  Sector  
+ 
+Lily Yang , Ph.D  
+(852) 3916 3716  
+lilyyang@cmbi.com.hk  
+ 
+Alex Ng  
+(852) 3900 0881  
+alexng@cmbi.com.hk  
+ 
+Lana Lin  
+(852) 3761 8912  
+lanalin@cmbi.com.hk  
+ 
+ 
+Stock Data  
+Mkt. Cap. (RMB mn)  23,222  
+Avg. 3mths t/o (RMB mn)  197 
+52W High/Low (RMB)   45.38/28.45  
+Total Issued Shares (mn)  799.7  
+Source: Bloomberg  
+ 
+Shareholding Structure  
+Zhongji Investment  11.74%  
+HKSC  9.31% 
+Wang Weixiu  8.02%  
+Source: Bloomberg  
+ 
+Share Performance  
+ Absolute  Relative  
+1-mth -14.6% -4.4% 
+3-mth -26.1% -7.6% 
+6-mth -12.3% 10.5% 
+Source: Bloomberg  
+ 
+12-mth Price Performance  
+ 
+Source: Bloomberg  
+ 
+Auditor: PWC Zhong Tian  
+ 
+Related Reports  
+1. Mgmt. call takeaways: Expect strong 
+demand from digital infrastructure 
+(Link) 
+2. Optical Transceiver: Implications 
+from recent 4Q21 results ( Link) 
+ 
+ 
+ 
+ 
+0.05.010.015.020.025.030.035.040.045.050.0
+Apr-21 Jun-21 Aug-21 Oct-21 Dec-21 Feb-22300308 CH SZCOMP  (rebased)(RMB )BUY ( Maintain ) 
+Target Price  RMB 45.60 
+(Previous TP  RMB45.60 ) 
+Up/Downside    +57.0% 
+Current Price  RMB2 9.04 
+ 
+ 
+ 
+1      26 Apr 2022  
+  
+     
+ 
+     
+Innolight announced FY21 and 1Q22 results. FY21 revenue /NP grew 9.2%/1.3% 
+YoY to RMB7. 7bn/RMB877mn . 1Q22’s revenue/NP grew 41.9%/63.4% YoY to 
+RMB2.1bn/RMB217mn.  We think the results are solid and largely in-line with  our 
+expectations. We maintain  our positive outlook on overseas Cloud demand  and 
+believe  Innolight will continue to gain share in the optical transceiver market.  
+Reiterate BUY, with unchanged TP of RMB45.6.  
+ Innolight’s solid 4Q21/1Q22 results are largely within our expectations. 
+FY21 revenue was 1% lower than our previous estimate and net profit to 
+shareholders was 3% higher than our estimate. 1Q22 revenue/NP 
+accounted for 21%/20% of our full year forecasts.  We expect 2Q22 -4Q22 
+sales will deliver steady QoQ growth, following a similar trend as in 2021. 
+GPM improved to 28.1% in 4Q21 from 24.5% in Q3, mainly due to favorable 
+product mix as hyperscale CSPs are ramp ing up the deployments for 
+200G/400G optical modules . However,  GPM in 1Q22 dropped to 26.3% as 
+a result of contin uing component  shortage and increasing costs  affected by 
+domestic partial lockdown .  
+ Outlook remains positive given the demand from overseas Cloud 
+companies stays  strong . In our previous report ( Link), we pointed out that 
+Amazon, Meta and Microsoft all posted record Capex, and guided very 
+positive budget s for this year to support their cloud service s and AI -related 
+business es. We maintain  our positive outlook for Innolight. According to 
+Omdia, Innolight had taken up 12% market share in the optical transceiver 
+market ( ranked No. 2). The Company has gained the most share among the 
+top 10 players, mainly driven by the increasing sales of its 200G and 400G 
+optical module products.  
+ Reiterate  BUY  with unchanged  TP of RMB45.6 . We maintain BUY and 
+keep  our target price at RMB45 .6. Potential risks include weaker capex from 
+global cloud companies, slower deployment of 5G infrastr ucture and  worse -
+than-expected component shortage .  
+ 
+Earnings Summary  
+(YE 31 Dec)  FY19A  FY20A  FY21A  FY22E  FY23E 
+Turnover (RMB mn)  4,758  7,050  7,695  9,908  11,426  
+YoY growth (%)  -7.7%  48.2%  9.2%  28.8%  15.3%  
+Gross margin (%)  27.1%  25.4%  25.6%  26.6%  26.4%  
+Net profit (RMB mn)  513  865  877  1,095  1,352  
+EPS (RMB)  0.73 1.23 1.21 1.37 1.69 
+YoY growth (%)  -46.3%  68.5%  -1.6%  13.1%  23.5%  
+Consensus EPS (RMB)  NA NA NA 1.56 1.92 
+PE (x)  39.4 23.4 23.8 21.0 17.0 
+PB (x)  2.9 2.6 1.8 1.9 1.7 
+Yield (%)  0.3%  0.4%  0.8%  1.0%  1.2%  
+ROE (%) 7.4%  11.0%  7.6%  8.8%  10.0%  
+Net gearing (%)  Net cash  9.9%  Net cash  Net cash  Net cash  
+Source: Company  data, CMBIGM  estimates   Innolight (300308 CH)  
+ Strong  4Q21/1Q22  results; Reiterate BUY  
+===== 第2页 =====
+26 Apr 2022 
+ 
+ 
+ 
+ 
+PLEASE READ THE ANALYST CERTIFICATION AND IMPORTANT DISCLOSURES ON LAST PAGE  2 
+4Q21 Earnings Review  
+Figure 1: P&L forecasts  
+RMB mn  FY19A  FY20A 1Q21A 2Q21A 3Q21A 4Q21A  FY21E  1Q22A FY22E FY23E 
+Revenue  4,758  7,050  1,472  1,826  2,024  2,373  7,695  2,089  9,908  11,426  
+…YoY  -7.7%  48.2%  11% -5% 3% 29% 9.2%  42% 28.8%  15.3%  
+Cost of sales  3,468  5,257  1,102  1,391  1,528  1,706  5,727  1,540  7,277  8,412  
+Gross profit  1,290  1,793  370 435 496 667 1,968  549 2,631  3,014  
+…YoY   (8.3%)  39.0%  12% -11% 4% 35% 9.8%  49% 33.7%  14.5%  
+GPM (%)  27.1%  25.4%  25% 24% 25% 28% 25.6%  26% 26.6%  26.4%  
+                      
+SG&A  329 477 109 120 122 158 507 155 692 778 
+…% of rev  6.9%  6.8%  7% 7% 6% 7% 6.6%  7% 7.0%  6.8%  
+R&D  362 506 120 108 125 189 541 154 697 803 
+…% of rev  7.6%  7.2%  8% 6% 6% 8% 7.0%  7% 7.0%  7.0%  
+Operating profit  576 990 148 223 241 350 963 233 1,174  1,453  
+…YoY  -15.5%  71.7%  -14.6%  -13.2%  -10.2%  20.6%  -2.7%  57.3%  21.9%  23.8%  
+OPM (%)  12.1%  14.0%  10% 12% 12% 15% 12.5%  11% 11.8%  12.7%  
+                      
+Net profit  513 865 133 208 219 317 877 217 1,095  1,352  
+…YoY   -17.6%  68.6%  -13.4%  -1.8%  -6.6%  19.3%  1.3%  63.4%  24.8%  23.5%  
+NPM (%) 10.8%  12.3%  9.0%  11.4%  10.8%  13.4%  11.4%  10.4%  11.0%  11.8%  
+Source: Company data, CMBIGM estimates  
+Figure 2: Top Ten Optical Module Manufacturers  
+ 
+Source: Omdia , CMBIGM estimates  Figure 3: Market Share  Change in 2021  
+ 
+Source: Omdia , CMBIGM estimates  
+ 
+ 
+II-VI
+17%
+Innolight
+10%
+Lumentum
+9%
+Accelink
+8%
+Broadcom
+9%Hisens
+e5%Acacia
+5%O-Net 
+Communications
+3%Sumitomo
+3%Intel
+3%Others
+32%
+-1.0% -0.5% 0.0% 0.5% 1.0% 1.5%Innolight
+AcaciaII-VI
+Accelink
+O-Net Communications
+Hisense
+Sumitomo
+Broadcom
+Intel
+Lumentum
+===== 第3页 =====
+26 Apr 2022  
+ 
+ 
+ 
+PLEASE READ THE ANALYST CERTIFICATION AND IMPORTANT DISCLOSURES ON LAST PAGE  3 
+Figure 4: 12M forward P/E chart  
+ 
+Source: Company data, CMBIGM estimates  Figure 5: 12M forward P/E band  
+ 
+Source: Company data, CMBIGM estimates  
+ 
+ 
+ 
+ 
+  
+1517192123252729313335
+04-21 07-21 10-21 01-22 04-22
+1-yr Forward P/E Mean
+Mean+1SD Mean-1SD
+0102030405060
+04/21 07/21 10/21 01/22 04/22
+Closing Px 20.6x 23.6x
+26.6x 29.6x 32.6x(RMB)

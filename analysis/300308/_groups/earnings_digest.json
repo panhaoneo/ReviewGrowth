@@ -1,0 +1,3171 @@
+[
+ {
+  "period": "2018Q1",
+  "report_date": "2018-04-27",
+  "period_end": "2018-03-31",
+  "confidence": "high",
+  "single_q_亿": {
+   "revenue": 13.99,
+   "net_profit": 1.48,
+   "parent_net": 1.48,
+   "rd": 0.838
+  },
+  "cumulative_亿": {
+   "revenue": 14.0,
+   "parent_net": 1.48
+  },
+  "yoy": {
+   "revenue_yoy": 9502.7,
+   "parent_net_yoy": 3472.5,
+   "net_profit_yoy": 3472.5
+  },
+  "qoq": {
+   "revenue_qoq": 14.9,
+   "parent_net_qoq": 319.8
+  },
+  "margins_single": {
+   "gross": 24.3,
+   "net": 10.6,
+   "parent_net": 10.6
+  },
+  "ocf_single_亿": -0.44,
+  "cash_content": -0.3,
+  "ar_亿": 8.71,
+  "pe_at_report": 78.83132530120483,
+  "pe_pctile_at_report": null,
+  "announcement": {
+   "date": "2018-04-27",
+   "title": "2018年第一季度报告全文",
+   "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300308&announcementId=1204804930&orgId=9900022016&announceTime=20180427"
+  },
+  "window_reports": [
+   {
+    "d": "2018-05-04",
+    "org": "国元证券",
+    "title": "行业持续景气，定增助力5G布局",
+    "rating": "买入",
+    "infoCode": "AP201805041137314473"
+   },
+   {
+    "d": "2018-05-01",
+    "org": "民生证券",
+    "title": "一季度业绩稳定增长，定增加码高速光模块",
+    "rating": "",
+    "infoCode": "AP201805011134346836"
+   }
+  ],
+  "near_ir_files": [],
+  "price_ctx": {
+   "close_at_report": 30.84,
+   "ret60_before_pct": 1.5,
+   "dd_from_250d_high_pct": -21.6,
+   "close_t5": 32.67,
+   "close_t20": 35.82,
+   "ret_t20_pct": 16.2,
+   "ret_t60_pct": -6.8
+  }
+ },
+ {
+  "period": "2018Q2",
+  "report_date": "2018-08-08",
+  "period_end": "2018-06-30",
+  "confidence": "high",
+  "single_q_亿": {
+   "revenue": 14.27,
+   "net_profit": 1.69,
+   "parent_net": 1.69,
+   "rd": 0.808
+  },
+  "cumulative_亿": {
+   "revenue": 28.3,
+   "parent_net": 3.17
+  },
+  "yoy": {
+   "revenue_yoy": 2447.1,
+   "parent_net_yoy": 1925.5,
+   "net_profit_yoy": 1925.5
+  },
+  "qoq": {
+   "revenue_qoq": 2.0,
+   "parent_net_qoq": 14.5
+  },
+  "margins_single": {
+   "gross": 25.9,
+   "net": 11.9,
+   "parent_net": 11.9
+  },
+  "ocf_single_亿": 2.66,
+  "cash_content": 1.57,
+  "ar_亿": 11.05,
+  "pe_at_report": 39.400000000000006,
+  "pe_pctile_at_report": null,
+  "announcement": {
+   "date": "2018-08-08",
+   "title": "2018年半年度报告",
+   "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300308&announcementId=1205265684&orgId=9900022016&announceTime=20180808"
+  },
+  "window_reports": [
+   {
+    "d": "2018-08-10",
+    "org": "民生证券",
+    "title": "行业持续景气，毛利率回升，半年业绩稳定增长",
+    "rating": "买入",
+    "infoCode": "AP201808101177166703"
+   },
+   {
+    "d": "2018-08-08",
+    "org": "西南证券",
+    "title": "业绩符合预期，需求推动业绩高增长",
+    "rating": "买入",
+    "infoCode": "AP201808081176059563"
+   }
+  ],
+  "near_ir_files": [],
+  "price_ctx": {
+   "close_at_report": 20.53,
+   "ret60_before_pct": -44.2,
+   "dd_from_250d_high_pct": -47.8,
+   "close_t5": 21.54,
+   "close_t20": 19.91,
+   "ret_t20_pct": -3.0,
+   "ret_t60_pct": -6.8
+  }
+ },
+ {
+  "period": "2018Q3",
+  "report_date": "2018-10-30",
+  "period_end": "2018-09-30",
+  "confidence": "high",
+  "single_q_亿": {
+   "revenue": 13.77,
+   "net_profit": 1.65,
+   "parent_net": 1.65,
+   "rd": 0.727
+  },
+  "cumulative_亿": {
+   "revenue": 42.0,
+   "parent_net": 4.81
+  },
+  "yoy": {
+   "revenue_yoy": 28.9,
+   "parent_net_yoy": 34.5,
+   "net_profit_yoy": 34.5
+  },
+  "qoq": {
+   "revenue_qoq": -3.5,
+   "parent_net_qoq": -2.7
+  },
+  "margins_single": {
+   "gross": 27.9,
+   "net": 11.9,
+   "parent_net": 11.9
+  },
+  "ocf_single_亿": 0.88,
+  "cash_content": 0.53,
+  "ar_亿": 10.44,
+  "pe_at_report": 36.78846153846153,
+  "pe_pctile_at_report": 12.9,
+  "announcement": {
+   "date": "2018-10-30",
+   "title": "2018年第三季度报告全文",
+   "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300308&announcementId=1205555864&orgId=9900022016&announceTime=20181030"
+  },
+  "window_reports": [
+   {
+    "d": "2018-11-14",
+    "org": "长城国瑞证券",
+    "title": "高速光模块龙头，抢占400G和5G无线光模块市场先机",
+    "rating": "增持",
+    "infoCode": "AP201811141245100504"
+   },
+   {
+    "d": "2018-10-31",
+    "org": "西南证券",
+    "title": "2018年三季报点评：业绩符合预期，长期逻辑依旧向好",
+    "rating": "买入",
+    "infoCode": "AP201810311227420460"
+   },
+   {
+    "d": "2018-10-30",
+    "org": "国金证券",
+    "title": "从爆发式增长到有质量的可持续增长",
+    "rating": "",
+    "infoCode": "AP201810301224815766"
+   }
+  ],
+  "near_ir_files": [],
+  "price_ctx": {
+   "close_at_report": 16.91,
+   "ret60_before_pct": -32.3,
+   "dd_from_250d_high_pct": -57.0,
+   "close_t5": 20.04,
+   "close_t20": 19.84,
+   "ret_t20_pct": 17.3,
+   "ret_t60_pct": 2.2
+  }
+ },
+ {
+  "period": "2018Q4",
+  "report_date": "2019-04-24",
+  "period_end": "2018-12-31",
+  "confidence": "high",
+  "single_q_亿": {
+   "revenue": 9.53,
+   "net_profit": 1.42,
+   "parent_net": 1.42,
+   "rd": 0.722
+  },
+  "cumulative_亿": {
+   "revenue": 51.6,
+   "parent_net": 6.23
+  },
+  "yoy": {
+   "revenue_yoy": -21.7,
+   "parent_net_yoy": 302.4,
+   "net_profit_yoy": 302.4
+  },
+  "qoq": {
+   "revenue_qoq": -30.8,
+   "parent_net_qoq": -13.9
+  },
+  "margins_single": {
+   "gross": 32.8,
+   "net": 14.9,
+   "parent_net": 14.9
+  },
+  "ocf_single_亿": 3.5,
+  "cash_content": 2.47,
+  "ar_亿": 8.4,
+  "pe_at_report": 41.60294117647059,
+  "pe_pctile_at_report": 36.0,
+  "announcement": {
+   "date": "2019-04-24",
+   "title": "2018年年度报告",
+   "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300308&announcementId=1206080129&orgId=9900022016&announceTime=20190424"
+  },
+  "window_reports": [
+   {
+    "d": "2019-04-25",
+    "org": "信达证券",
+    "title": "并表带来业绩高增长，短期下滑不影响公司长期向上趋势",
+    "rating": "增持",
+    "infoCode": "AP201904251322621766"
+   },
+   {
+    "d": "2019-04-24",
+    "org": "华金证券",
+    "title": "龙头地位稳固，业绩短暂回落，期待行业回暖",
+    "rating": "买入",
+    "infoCode": "AP201904241322112044"
+   },
+   {
+    "d": "2019-04-24",
+    "org": "西南证券",
+    "title": "业绩将步入回暖周期，400G及5G助力公司发展",
+    "rating": "买入",
+    "infoCode": "AP201904241321924104"
+   },
+   {
+    "d": "2019-04-24",
+    "org": "国金证券",
+    "title": "短期波动不改长期向好趋势，数通400G和5G光模块是未来看点",
+    "rating": "",
+    "infoCode": "AP201904241321895891"
+   }
+  ],
+  "near_ir_files": [],
+  "price_ctx": {
+   "close_at_report": 26.31,
+   "ret60_before_pct": 53.4,
+   "dd_from_250d_high_pct": -33.1,
+   "close_t5": 21.49,
+   "close_t20": 19.35,
+   "ret_t20_pct": -26.4,
+   "ret_t60_pct": -17.5
+  }
+ },
+ {
+  "period": "2019Q1",
+  "report_date": "2019-04-24",
+  "period_end": "2019-03-31",
+  "confidence": "high",
+  "single_q_亿": {
+   "revenue": 8.76,
+   "net_profit": 0.99,
+   "parent_net": 0.99,
+   "rd": 0.494
+  },
+  "cumulative_亿": {
+   "revenue": 8.8,
+   "parent_net": 0.99
+  },
+  "yoy": {
+   "revenue_yoy": -37.4,
+   "parent_net_yoy": -32.7,
+   "net_profit_yoy": -32.7
+  },
+  "qoq": {
+   "revenue_qoq": -8.2,
+   "parent_net_qoq": -29.8
+  },
+  "margins_single": {
+   "gross": 28.1,
+   "net": 11.4,
+   "parent_net": 11.4
+  },
+  "ocf_single_亿": -1.42,
+  "cash_content": -1.42,
+  "ar_亿": 8.19,
+  "pe_at_report": 41.60294117647059,
+  "pe_pctile_at_report": 36.0,
+  "announcement": {
+   "date": "2019-04-24",
+   "title": "2019年第一季度报告全文",
+   "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300308&announcementId=1206080127&orgId=9900022016&announceTime=20190424"
+  },
+  "window_reports": [
+   {
+    "d": "2019-04-25",
+    "org": "信达证券",
+    "title": "并表带来业绩高增长，短期下滑不影响公司长期向上趋势",
+    "rating": "增持",
+    "infoCode": "AP201904251322621766"
+   },
+   {
+    "d": "2019-04-24",
+    "org": "华金证券",
+    "title": "龙头地位稳固，业绩短暂回落，期待行业回暖",
+    "rating": "买入",
+    "infoCode": "AP201904241322112044"
+   },
+   {
+    "d": "2019-04-24",
+    "org": "西南证券",
+    "title": "业绩将步入回暖周期，400G及5G助力公司发展",
+    "rating": "买入",
+    "infoCode": "AP201904241321924104"
+   },
+   {
+    "d": "2019-04-24",
+    "org": "国金证券",
+    "title": "短期波动不改长期向好趋势，数通400G和5G光模块是未来看点",
+    "rating": "",
+    "infoCode": "AP201904241321895891"
+   }
+  ],
+  "near_ir_files": [],
+  "price_ctx": {
+   "close_at_report": 26.31,
+   "ret60_before_pct": 53.4,
+   "dd_from_250d_high_pct": -33.1,
+   "close_t5": 21.49,
+   "close_t20": 19.35,
+   "ret_t20_pct": -26.4,
+   "ret_t60_pct": -17.5
+  }
+ },
+ {
+  "period": "2019Q2",
+  "report_date": "2019-08-24",
+  "period_end": "2019-06-30",
+  "confidence": "high",
+  "single_q_亿": {
+   "revenue": 11.6,
+   "net_profit": 1.08,
+   "parent_net": 1.08,
+   "rd": 0.94
+  },
+  "cumulative_亿": {
+   "revenue": 20.4,
+   "parent_net": 2.07
+  },
+  "yoy": {
+   "revenue_yoy": -18.7,
+   "parent_net_yoy": -36.3,
+   "net_profit_yoy": -36.3
+  },
+  "qoq": {
+   "revenue_qoq": 32.4,
+   "parent_net_qoq": 8.4
+  },
+  "margins_single": {
+   "gross": 28.7,
+   "net": 9.3,
+   "parent_net": 9.3
+  },
+  "ocf_single_亿": 2.42,
+  "cash_content": 2.25,
+  "ar_亿": 9.82,
+  "pe_at_report": 40.1340206185567,
+  "pe_pctile_at_report": 45.4,
+  "announcement": {
+   "date": "2019-08-24",
+   "title": "2019年半年度报告",
+   "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300308&announcementId=1206570105&orgId=9900022016&announceTime=20190824"
+  },
+  "window_reports": [
+   {
+    "d": "2019-08-30",
+    "org": "国金证券",
+    "title": "经营探底，质量提升，成长可期",
+    "rating": "买入",
+    "infoCode": "AP201908301345379790"
+   },
+   {
+    "d": "2019-08-29",
+    "org": "信达证券",
+    "title": "400G光模块加快出货，切入5G市场发展可期",
+    "rating": "增持",
+    "infoCode": "AP201908291345289125"
+   },
+   {
+    "d": "2019-08-27",
+    "org": "万联证券",
+    "title": "点评报告：受外部复杂环境影响较大，静待5G和400G需求放量",
+    "rating": "买入",
+    "infoCode": "AP201908271345181688"
+   },
+   {
+    "d": "2019-08-26",
+    "org": "东吴证券",
+    "title": "光模块驱动业绩稳健增长，市场进入上升期，盈利能力有望持续优化",
+    "rating": "买入",
+    "infoCode": "AP201908261345087874"
+   }
+  ],
+  "near_ir_files": [],
+  "price_ctx": {
+   "close_at_report": 25.31,
+   "ret60_before_pct": 34.1,
+   "dd_from_250d_high_pct": -16.5,
+   "close_t5": 26.29,
+   "close_t20": 30.47,
+   "ret_t20_pct": 20.4,
+   "ret_t60_pct": 11.0
+  }
+ },
+ {
+  "period": "2019Q3",
+  "report_date": "2019-10-30",
+  "period_end": "2019-09-30",
+  "confidence": "high",
+  "single_q_亿": {
+   "revenue": 12.49,
+   "net_profit": 1.51,
+   "parent_net": 1.51,
+   "rd": 0.811
+  },
+  "cumulative_亿": {
+   "revenue": 32.8,
+   "parent_net": 3.58
+  },
+  "yoy": {
+   "revenue_yoy": -9.3,
+   "parent_net_yoy": -8.5,
+   "net_profit_yoy": -8.5
+  },
+  "qoq": {
+   "revenue_qoq": 7.7,
+   "parent_net_qoq": 39.7
+  },
+  "margins_single": {
+   "gross": 28.1,
+   "net": 12.1,
+   "parent_net": 12.1
+  },
+  "ocf_single_亿": 1.46,
+  "cash_content": 0.97,
+  "ar_亿": 11.0,
+  "pe_at_report": 49.41176470588235,
+  "pe_pctile_at_report": 68.9,
+  "announcement": {
+   "date": "2019-10-30",
+   "title": "2019年第三季度报告全文",
+   "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300308&announcementId=1207034743&orgId=9900022016&announceTime=20191030"
+  },
+  "window_reports": [
+   {
+    "d": "2019-11-08",
+    "org": "万联证券",
+    "title": "跟踪报告：核心优势突出，5G+400G将成为公司业绩加速剂",
+    "rating": "买入",
+    "infoCode": "AP201911081370544520"
+   },
+   {
+    "d": "2019-11-01",
+    "org": "民生证券",
+    "title": "中际旭创2019年三季报点评：深耕数通市场，积极布局5G电信市场，静待400G产品需求逐步起量",
+    "rating": "买入",
+    "infoCode": "AP201911011370136188"
+   },
+   {
+    "d": "2019-10-30",
+    "org": "国元证券",
+    "title": "2019年三季报点评：业绩环比逐步改善，行业景气度迎向上拐点",
+    "rating": "增持",
+    "infoCode": "AP201910301370014695"
+   },
+   {
+    "d": "2019-10-30",
+    "org": "东莞证券",
+    "title": "2019年第三季度报告点评：营收同比跌幅收窄，业绩符合预期",
+    "rating": "增持",
+    "infoCode": "AP201910301370012584"
+   },
+   {
+    "d": "2019-10-30",
+    "org": "国金证券",
+    "title": "夯实基础，蓄势待发",
+    "rating": "买入",
+    "infoCode": "AP201910301370011861"
+   },
+   {
+    "d": "2019-10-30",
+    "org": "东吴证券",
+    "title": "营收净利润环比上升，毛利率保持稳定，受益5G网络建设需求增加，持续看好未来增长潜力",
+    "rating": "买入",
+    "infoCode": "AP201910301370010106"
+   }
+  ],
+  "near_ir_files": [],
+  "price_ctx": {
+   "close_at_report": 27.52,
+   "ret60_before_pct": 3.0,
+   "dd_from_250d_high_pct": -17.1,
+   "close_t5": 27.97,
+   "close_t20": 28.47,
+   "ret_t20_pct": 3.5,
+   "ret_t60_pct": 29.9
+  }
+ },
+ {
+  "period": "2019Q4",
+  "report_date": "2020-04-24",
+  "period_end": "2019-12-31",
+  "confidence": "high",
+  "single_q_亿": {
+   "revenue": 14.74,
+   "net_profit": 1.56,
+   "parent_net": 1.56,
+   "rd": 1.379
+  },
+  "cumulative_亿": {
+   "revenue": 47.6,
+   "parent_net": 5.13
+  },
+  "yoy": {
+   "revenue_yoy": 54.6,
+   "parent_net_yoy": 9.9,
+   "net_profit_yoy": 9.9
+  },
+  "qoq": {
+   "revenue_qoq": 18.0,
+   "parent_net_qoq": 3.3
+  },
+  "margins_single": {
+   "gross": 24.5,
+   "net": 10.6,
+   "parent_net": 10.6
+  },
+  "ocf_single_亿": 3.23,
+  "cash_content": 2.08,
+  "ar_亿": 11.33,
+  "pe_at_report": 85.61643835616438,
+  "pe_pctile_at_report": 96.7,
+  "announcement": {
+   "date": "2020-04-24",
+   "title": "2019年年度报告",
+   "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300308&announcementId=1207586918&orgId=9900022016&announceTime=20200424"
+  },
+  "window_reports": [
+   {
+    "d": "2020-04-27",
+    "org": "东吴证券",
+    "title": "Q1增长稳健，电信数通共振行业景气度，持续看好业绩高歌稳进",
+    "rating": "买入",
+    "infoCode": "AP202004271378782164"
+   },
+   {
+    "d": "2020-04-27",
+    "org": "太平洋",
+    "title": "业绩增长加速恢复，外延并购实现“电信+数通”共振",
+    "rating": "增持",
+    "infoCode": "AP202004271378748096"
+   },
+   {
+    "d": "2020-04-27",
+    "org": "华金证券",
+    "title": "业绩符合预期，光模块龙头重回增长快道",
+    "rating": "买入",
+    "infoCode": "AP202004271378706371"
+   },
+   {
+    "d": "2020-04-26",
+    "org": "国金证券",
+    "title": "不惧疫情的高增",
+    "rating": "买入",
+    "infoCode": "AP202004261378683688"
+   },
+   {
+    "d": "2020-04-26",
+    "org": "民生证券",
+    "title": "中际旭创2019年报及2020Q1季报点评：19Q4-20Q1业绩止跌回升迎来拐点，看好光模块行业景气度，旭创龙头起航时",
+    "rating": "买入",
+    "infoCode": "AP202004261378671670"
+   },
+   {
+    "d": "2020-04-24",
+    "org": "国元证券",
+    "title": "2019年年报及2020年一季报点评报告：业绩复苏迎接新时代，外延收购强化成长基础",
+    "rating": "增持",
+    "infoCode": "AP202004241378551827"
+   }
+  ],
+  "near_ir_files": [],
+  "price_ctx": {
+   "close_at_report": 42.24,
+   "ret60_before_pct": 12.0,
+   "dd_from_250d_high_pct": -15.7,
+   "close_t5": 45.25,
+   "close_t20": 38.04,
+   "ret_t20_pct": -10.0,
+   "ret_t60_pct": -10.4
+  }
+ },
+ {
+  "period": "2020Q1",
+  "report_date": "2020-04-24",
+  "period_end": "2020-03-31",
+  "confidence": "high",
+  "single_q_亿": {
+   "revenue": 13.26,
+   "net_profit": 1.54,
+   "parent_net": 1.54,
+   "rd": 0.88
+  },
+  "cumulative_亿": {
+   "revenue": 13.3,
+   "parent_net": 1.54
+  },
+  "yoy": {
+   "revenue_yoy": 51.4,
+   "parent_net_yoy": 54.4,
+   "net_profit_yoy": 54.4
+  },
+  "qoq": {
+   "revenue_qoq": -10.0,
+   "parent_net_qoq": -1.2
+  },
+  "margins_single": {
+   "gross": 24.9,
+   "net": 11.6,
+   "parent_net": 11.6
+  },
+  "ocf_single_亿": -3.42,
+  "cash_content": -2.22,
+  "ar_亿": 11.12,
+  "pe_at_report": 85.61643835616438,
+  "pe_pctile_at_report": 96.7,
+  "announcement": {
+   "date": "2020-04-24",
+   "title": "2020年第一季度报告全文",
+   "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300308&announcementId=1207586916&orgId=9900022016&announceTime=20200424"
+  },
+  "window_reports": [
+   {
+    "d": "2020-04-27",
+    "org": "东吴证券",
+    "title": "Q1增长稳健，电信数通共振行业景气度，持续看好业绩高歌稳进",
+    "rating": "买入",
+    "infoCode": "AP202004271378782164"
+   },
+   {
+    "d": "2020-04-27",
+    "org": "太平洋",
+    "title": "业绩增长加速恢复，外延并购实现“电信+数通”共振",
+    "rating": "增持",
+    "infoCode": "AP202004271378748096"
+   },
+   {
+    "d": "2020-04-27",
+    "org": "华金证券",
+    "title": "业绩符合预期，光模块龙头重回增长快道",
+    "rating": "买入",
+    "infoCode": "AP202004271378706371"
+   },
+   {
+    "d": "2020-04-26",
+    "org": "国金证券",
+    "title": "不惧疫情的高增",
+    "rating": "买入",
+    "infoCode": "AP202004261378683688"
+   },
+   {
+    "d": "2020-04-26",
+    "org": "民生证券",
+    "title": "中际旭创2019年报及2020Q1季报点评：19Q4-20Q1业绩止跌回升迎来拐点，看好光模块行业景气度，旭创龙头起航时",
+    "rating": "买入",
+    "infoCode": "AP202004261378671670"
+   },
+   {
+    "d": "2020-04-24",
+    "org": "国元证券",
+    "title": "2019年年报及2020年一季报点评报告：业绩复苏迎接新时代，外延收购强化成长基础",
+    "rating": "增持",
+    "infoCode": "AP202004241378551827"
+   }
+  ],
+  "near_ir_files": [],
+  "price_ctx": {
+   "close_at_report": 42.24,
+   "ret60_before_pct": 12.0,
+   "dd_from_250d_high_pct": -15.7,
+   "close_t5": 45.25,
+   "close_t20": 38.04,
+   "ret_t20_pct": -10.0,
+   "ret_t60_pct": -10.4
+  }
+ },
+ {
+  "period": "2020Q2",
+  "report_date": "2020-08-27",
+  "period_end": "2020-06-30",
+  "confidence": "high",
+  "single_q_亿": {
+   "revenue": 19.19,
+   "net_profit": 2.12,
+   "parent_net": 2.11,
+   "rd": 0.877
+  },
+  "cumulative_亿": {
+   "revenue": 32.4,
+   "parent_net": 3.65
+  },
+  "yoy": {
+   "revenue_yoy": 65.5,
+   "parent_net_yoy": 96.2,
+   "net_profit_yoy": 97.1
+  },
+  "qoq": {
+   "revenue_qoq": 44.7,
+   "parent_net_qoq": 37.6
+  },
+  "margins_single": {
+   "gross": 25.5,
+   "net": 11.1,
+   "parent_net": 11.0
+  },
+  "ocf_single_亿": 1.24,
+  "cash_content": 0.59,
+  "ar_亿": 17.28,
+  "pe_at_report": 62.16666666666667,
+  "pe_pctile_at_report": 62.6,
+  "announcement": {
+   "date": "2020-08-27",
+   "title": "2020年半年度报告",
+   "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300308&announcementId=1208263174&orgId=9900022016&announceTime=20200827"
+  },
+  "window_reports": [
+   {
+    "d": "2020-09-01",
+    "org": "开源证券",
+    "title": "公司信息更新报告：半年报亮眼，并购完善产业链全年业绩可期",
+    "rating": "买入",
+    "infoCode": "AP202009011405127704"
+   },
+   {
+    "d": "2020-09-01",
+    "org": "西南证券",
+    "title": "业绩高增长符合预期，产品技术行业领先",
+    "rating": "买入",
+    "infoCode": "AP202009011405124695"
+   },
+   {
+    "d": "2020-08-28",
+    "org": "东兴证券",
+    "title": "高速率光模块快速放量，储翰并表协同促增长",
+    "rating": "买入",
+    "infoCode": "AP202008281403023118"
+   },
+   {
+    "d": "2020-08-28",
+    "org": "国元证券",
+    "title": "2020年半年报点评：业绩全面爆发，未来成长可期",
+    "rating": "增持",
+    "infoCode": "AP202008281402957487"
+   },
+   {
+    "d": "2020-08-28",
+    "org": "万联证券",
+    "title": "半年报点评报告：数通+5G市场需求增长，公司利润显著提高",
+    "rating": "买入",
+    "infoCode": "AP202008281402937648"
+   },
+   {
+    "d": "2020-08-28",
+    "org": "国金证券",
+    "title": "单季营收创新高，全年高增可期",
+    "rating": "买入",
+    "infoCode": "AP202008281402892485"
+   },
+   {
+    "d": "2020-08-27",
+    "org": "华金证券",
+    "title": "数通+5G双驱动，H1增长再提速",
+    "rating": "买入",
+    "infoCode": "AP202008271402184022"
+   },
+   {
+    "d": "2020-08-27",
+    "org": "东吴证券",
+    "title": "400G光模块快速上量，100G继续平稳增长，20H1业绩符合预期",
+    "rating": "买入",
+    "infoCode": "AP202008271402067093"
+   }
+  ],
+  "near_ir_files": [],
+  "price_ctx": {
+   "close_at_report": 40.28,
+   "ret60_before_pct": 1.6,
+   "dd_from_250d_high_pct": -19.6,
+   "close_t5": 40.44,
+   "close_t20": 33.47,
+   "ret_t20_pct": -16.9,
+   "ret_t60_pct": -19.6
+  }
+ },
+ {
+  "period": "2020Q3",
+  "report_date": "2020-10-29",
+  "period_end": "2020-09-30",
+  "confidence": "high",
+  "single_q_亿": {
+   "revenue": 19.6,
+   "net_profit": 2.38,
+   "parent_net": 2.35,
+   "rd": 1.166
+  },
+  "cumulative_亿": {
+   "revenue": 52.0,
+   "parent_net": 6.0
+  },
+  "yoy": {
+   "revenue_yoy": 57.0,
+   "parent_net_yoy": 55.9,
+   "net_profit_yoy": 58.2
+  },
+  "qoq": {
+   "revenue_qoq": 2.2,
+   "parent_net_qoq": 11.0
+  },
+  "margins_single": {
+   "gross": 24.4,
+   "net": 12.1,
+   "parent_net": 12.0
+  },
+  "ocf_single_亿": 0.82,
+  "cash_content": 0.35,
+  "ar_亿": 17.15,
+  "pe_at_report": 44.859813084112155,
+  "pe_pctile_at_report": 38.4,
+  "announcement": {
+   "date": "2020-10-29",
+   "title": "2020年第三季度报告全文",
+   "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300308&announcementId=1208637096&orgId=9900022016&announceTime=20201029"
+  },
+  "window_reports": [
+   {
+    "d": "2020-10-30",
+    "org": "开源证券",
+    "title": "公司信息更新报告：业绩持续增长，收购打造光通信航空母舰",
+    "rating": "买入",
+    "infoCode": "AP202010301425046503"
+   },
+   {
+    "d": "2020-10-29",
+    "org": "万联证券",
+    "title": "三季报点评报告：Q3业绩符合预期，持续看好公司未来发展",
+    "rating": "买入",
+    "infoCode": "AP202010291424671721"
+   },
+   {
+    "d": "2020-10-29",
+    "org": "西南证券",
+    "title": "2020年三季报点评：电信数通业务双轮驱动，产品技术行业领先",
+    "rating": "买入",
+    "infoCode": "AP202010291424619132"
+   },
+   {
+    "d": "2020-10-29",
+    "org": "国元证券",
+    "title": "2020年三季报点评：业绩高速增长，400G龙头成长可期",
+    "rating": "买入",
+    "infoCode": "AP202010291424563024"
+   },
+   {
+    "d": "2020-10-29",
+    "org": "东吴证券",
+    "title": "三季度业绩稳步增长，公司加大研发投入，巩固行业龙头地位",
+    "rating": "买入",
+    "infoCode": "AP202010291424532786"
+   },
+   {
+    "d": "2020-10-29",
+    "org": "华金证券",
+    "title": "需求景气+强化管控，业绩稳健高增长",
+    "rating": "买入",
+    "infoCode": "AP202010291424519186"
+   }
+  ],
+  "near_ir_files": [],
+  "price_ctx": {
+   "close_at_report": 31.89,
+   "ret60_before_pct": -19.9,
+   "dd_from_250d_high_pct": -36.4,
+   "close_t5": 35.36,
+   "close_t20": 32.88,
+   "ret_t20_pct": 3.1,
+   "ret_t60_pct": 18.3
+  }
+ },
+ {
+  "period": "2020Q4",
+  "report_date": "2021-04-27",
+  "period_end": "2020-12-31",
+  "confidence": "high",
+  "single_q_亿": {
+   "revenue": 18.45,
+   "net_profit": 2.72,
+   "parent_net": 2.66,
+   "rd": 2.142
+  },
+  "cumulative_亿": {
+   "revenue": 70.5,
+   "parent_net": 8.65
+  },
+  "yoy": {
+   "revenue_yoy": 25.2,
+   "parent_net_yoy": 70.7,
+   "net_profit_yoy": 74.9
+  },
+  "qoq": {
+   "revenue_qoq": -5.9,
+   "parent_net_qoq": 13.2
+  },
+  "margins_single": {
+   "gross": 26.8,
+   "net": 14.8,
+   "parent_net": 14.4
+  },
+  "ocf_single_亿": 1.58,
+  "cash_content": 0.6,
+  "ar_亿": 15.14,
+  "pe_at_report": 26.422764227642276,
+  "pe_pctile_at_report": 4.7,
+  "announcement": {
+   "date": "2021-04-27",
+   "title": "2020年年度报告",
+   "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300308&announcementId=1209816698&orgId=9900022016&announceTime=20210427"
+  },
+  "window_reports": [
+   {
+    "d": "2021-05-07",
+    "org": "东兴证券",
+    "title": "高端光模块加速渗透，数通龙头优势稳固",
+    "rating": "买入",
+    "infoCode": "AP202105071490319900"
+   },
+   {
+    "d": "2021-05-07",
+    "org": "万联证券",
+    "title": "点评报告：400G光模块继续放量，全年高增长态势有望保持",
+    "rating": "买入",
+    "infoCode": "AP202105071490268608"
+   },
+   {
+    "d": "2021-04-30",
+    "org": "东吴证券",
+    "title": "2020年报点评：业绩维持稳健增长，高端产品优势仍然显著",
+    "rating": "买入",
+    "infoCode": "AP202104301488822465"
+   },
+   {
+    "d": "2021-04-29",
+    "org": "西南证券",
+    "title": "400G产品放量增长，公司业绩快速上升",
+    "rating": "买入",
+    "infoCode": "AP202104291488549920"
+   },
+   {
+    "d": "2021-04-28",
+    "org": "国元证券",
+    "title": "2020年年报及2021年一季报点评：400G驱动公司业绩高增长，阶段性波动不改龙头本色",
+    "rating": "买入",
+    "infoCode": "AP202104281488357187"
+   },
+   {
+    "d": "2021-04-28",
+    "org": "国金证券",
+    "title": "新品研发持续突破，产能巩固光模块龙头地位",
+    "rating": "买入",
+    "infoCode": "AP202104281488326384"
+   }
+  ],
+  "near_ir_files": [],
+  "price_ctx": {
+   "close_at_report": 20.75,
+   "ret60_before_pct": -41.0,
+   "dd_from_250d_high_pct": -58.3,
+   "close_t5": 21.64,
+   "close_t20": 26.21,
+   "ret_t20_pct": 26.3,
+   "ret_t60_pct": 4.3
+  }
+ },
+ {
+  "period": "2021Q1",
+  "report_date": "2021-04-27",
+  "period_end": "2021-03-31",
+  "confidence": "high",
+  "single_q_亿": {
+   "revenue": 14.72,
+   "net_profit": 1.35,
+   "parent_net": 1.33,
+   "rd": 1.199
+  },
+  "cumulative_亿": {
+   "revenue": 14.7,
+   "parent_net": 1.33
+  },
+  "yoy": {
+   "revenue_yoy": 11.0,
+   "parent_net_yoy": -13.4,
+   "net_profit_yoy": -12.2
+  },
+  "qoq": {
+   "revenue_qoq": -20.2,
+   "parent_net_qoq": -49.9
+  },
+  "margins_single": {
+   "gross": 25.1,
+   "net": 9.2,
+   "parent_net": 9.0
+  },
+  "ocf_single_亿": -1.31,
+  "cash_content": -0.99,
+  "ar_亿": 13.98,
+  "pe_at_report": 26.422764227642276,
+  "pe_pctile_at_report": 4.7,
+  "announcement": {
+   "date": "2021-04-27",
+   "title": "2021年第一季度报告全文",
+   "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300308&announcementId=1209816677&orgId=9900022016&announceTime=20210427"
+  },
+  "window_reports": [
+   {
+    "d": "2021-05-07",
+    "org": "东兴证券",
+    "title": "高端光模块加速渗透，数通龙头优势稳固",
+    "rating": "买入",
+    "infoCode": "AP202105071490319900"
+   },
+   {
+    "d": "2021-05-07",
+    "org": "万联证券",
+    "title": "点评报告：400G光模块继续放量，全年高增长态势有望保持",
+    "rating": "买入",
+    "infoCode": "AP202105071490268608"
+   },
+   {
+    "d": "2021-04-30",
+    "org": "东吴证券",
+    "title": "2020年报点评：业绩维持稳健增长，高端产品优势仍然显著",
+    "rating": "买入",
+    "infoCode": "AP202104301488822465"
+   },
+   {
+    "d": "2021-04-29",
+    "org": "西南证券",
+    "title": "400G产品放量增长，公司业绩快速上升",
+    "rating": "买入",
+    "infoCode": "AP202104291488549920"
+   },
+   {
+    "d": "2021-04-28",
+    "org": "国元证券",
+    "title": "2020年年报及2021年一季报点评：400G驱动公司业绩高增长，阶段性波动不改龙头本色",
+    "rating": "买入",
+    "infoCode": "AP202104281488357187"
+   },
+   {
+    "d": "2021-04-28",
+    "org": "国金证券",
+    "title": "新品研发持续突破，产能巩固光模块龙头地位",
+    "rating": "买入",
+    "infoCode": "AP202104281488326384"
+   }
+  ],
+  "near_ir_files": [],
+  "price_ctx": {
+   "close_at_report": 20.75,
+   "ret60_before_pct": -41.0,
+   "dd_from_250d_high_pct": -58.3,
+   "close_t5": 21.64,
+   "close_t20": 26.21,
+   "ret_t20_pct": 26.3,
+   "ret_t60_pct": 4.3
+  }
+ },
+ {
+  "period": "2021Q2",
+  "report_date": "2021-08-26",
+  "period_end": "2021-06-30",
+  "confidence": "high",
+  "single_q_亿": {
+   "revenue": 18.26,
+   "net_profit": 2.1,
+   "parent_net": 2.08,
+   "rd": 1.077
+  },
+  "cumulative_亿": {
+   "revenue": 33.0,
+   "parent_net": 3.41
+  },
+  "yoy": {
+   "revenue_yoy": -4.8,
+   "parent_net_yoy": -1.8,
+   "net_profit_yoy": -1.0
+  },
+  "qoq": {
+   "revenue_qoq": 24.1,
+   "parent_net_qoq": 56.1
+  },
+  "margins_single": {
+   "gross": 23.8,
+   "net": 11.5,
+   "parent_net": 11.4
+  },
+  "ocf_single_亿": 1.35,
+  "cash_content": 0.65,
+  "ar_亿": 15.86,
+  "pe_at_report": 30.733333333333338,
+  "pe_pctile_at_report": 11.9,
+  "announcement": {
+   "date": "2021-08-26",
+   "title": "2021年半年度报告",
+   "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300308&announcementId=1210860106&orgId=9900022016&announceTime=20210826"
+  },
+  "window_reports": [
+   {
+    "d": "2021-09-10",
+    "org": "太平洋",
+    "title": "海外光模块销量增长，技术实力领先",
+    "rating": "买入",
+    "infoCode": "AP202109101515393466"
+   },
+   {
+    "d": "2021-08-30",
+    "org": "东吴证券",
+    "title": "2021年半年报点评：下游需求影响Q2业绩，产品保持优势",
+    "rating": "买入",
+    "infoCode": "AP202108301513349009"
+   },
+   {
+    "d": "2021-08-27",
+    "org": "国元证券",
+    "title": "2021年半年报点评：国内市场拖累业绩，下半年景气度有望回升",
+    "rating": "增持",
+    "infoCode": "AP202108271512656591"
+   }
+  ],
+  "near_ir_files": [],
+  "price_ctx": {
+   "close_at_report": 23.98,
+   "ret60_before_pct": -10.0,
+   "dd_from_250d_high_pct": -42.4,
+   "close_t5": 23.14,
+   "close_t20": 22.88,
+   "ret_t20_pct": -4.6,
+   "ret_t60_pct": 3.1
+  }
+ },
+ {
+  "period": "2021Q3",
+  "report_date": "2021-10-26",
+  "period_end": "2021-09-30",
+  "confidence": "high",
+  "single_q_亿": {
+   "revenue": 20.24,
+   "net_profit": 2.2,
+   "parent_net": 2.19,
+   "rd": 1.246
+  },
+  "cumulative_亿": {
+   "revenue": 53.2,
+   "parent_net": 5.6
+  },
+  "yoy": {
+   "revenue_yoy": 3.3,
+   "parent_net_yoy": -6.6,
+   "net_profit_yoy": -7.4
+  },
+  "qoq": {
+   "revenue_qoq": 10.9,
+   "parent_net_qoq": 5.6
+  },
+  "margins_single": {
+   "gross": 24.5,
+   "net": 10.9,
+   "parent_net": 10.8
+  },
+  "ocf_single_亿": 3.49,
+  "cash_content": 1.59,
+  "ar_亿": 16.49,
+  "pe_at_report": 29.076271186440675,
+  "pe_pctile_at_report": 10.1,
+  "announcement": {
+   "date": "2021-10-26",
+   "title": "2021年第三季度报告",
+   "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300308&announcementId=1211373543&orgId=9900022016&announceTime=20211026"
+  },
+  "window_reports": [
+   {
+    "d": "2021-10-29",
+    "org": "东吴证券",
+    "title": "中际旭创2021年三季报点评：业绩增速趋稳，看好下游需求修复下长期发展空间",
+    "rating": "买入",
+    "infoCode": "AP202110291525772938"
+   },
+   {
+    "d": "2021-10-27",
+    "org": "民生证券",
+    "title": "三季度业绩走高，移动入局定增提振发展动力",
+    "rating": "买入",
+    "infoCode": "AP202110271525316543"
+   },
+   {
+    "d": "2021-10-27",
+    "org": "国金证券",
+    "title": "业绩拐点已至，定增获批将提升市场地位",
+    "rating": "买入",
+    "infoCode": "AP202110271525292991"
+   }
+  ],
+  "near_ir_files": [],
+  "price_ctx": {
+   "close_at_report": 22.14,
+   "ret60_before_pct": -0.4,
+   "dd_from_250d_high_pct": -43.8,
+   "close_t5": 22.5,
+   "close_t20": 25.43,
+   "ret_t20_pct": 14.9,
+   "ret_t60_pct": 16.3
+  }
+ },
+ {
+  "period": "2021Q4",
+  "report_date": "2022-04-25",
+  "period_end": "2021-12-31",
+  "confidence": "high",
+  "single_q_亿": {
+   "revenue": 23.73,
+   "net_profit": 3.21,
+   "parent_net": 3.17,
+   "rd": 1.889
+  },
+  "cumulative_亿": {
+   "revenue": 77.0,
+   "parent_net": 8.77
+  },
+  "yoy": {
+   "revenue_yoy": 28.6,
+   "parent_net_yoy": 19.3,
+   "net_profit_yoy": 17.9
+  },
+  "qoq": {
+   "revenue_qoq": 17.2,
+   "parent_net_qoq": 44.5
+  },
+  "margins_single": {
+   "gross": 28.1,
+   "net": 13.5,
+   "parent_net": 13.4
+  },
+  "ocf_single_亿": 4.6,
+  "cash_content": 1.45,
+  "ar_亿": 19.97,
+  "pe_at_report": 22.51162790697674,
+  "pe_pctile_at_report": 0.0,
+  "announcement": {
+   "date": "2022-04-25",
+   "title": "2021年年度报告",
+   "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300308&announcementId=1213057723&orgId=9900022016&announceTime=20220425"
+  },
+  "window_reports": [
+   {
+    "d": "2022-04-27",
+    "org": "国信证券",
+    "title": "一季度开端良好，受益于400G光模块加速部署",
+    "rating": "买入",
+    "infoCode": "AP202204271561900762"
+   },
+   {
+    "d": "2022-04-26",
+    "org": "东吴证券",
+    "title": "2021年年报及2022年一季报点评：22年Q1业绩高速增长，持续看好光模块龙头稳健发展",
+    "rating": "买入",
+    "infoCode": "AP202204261561709146"
+   },
+   {
+    "d": "2022-04-26",
+    "org": "招银国际",
+    "title": "Strong 4Q21/1Q22 results; Reiterate BUY",
+    "rating": "买入",
+    "infoCode": "AP202204261561688590"
+   },
+   {
+    "d": "2022-04-25",
+    "org": "国金证券",
+    "title": "数通业务高增，前瞻布局激光雷达",
+    "rating": "买入",
+    "infoCode": "AP202204251561463198"
+   },
+   {
+    "d": "2022-04-25",
+    "org": "民生证券",
+    "title": "2021年年报点评：海外数通市场需求持续高企，22Q1业绩大超预期",
+    "rating": "买入",
+    "infoCode": "AP202204251561446046"
+   }
+  ],
+  "near_ir_files": [
+   "ir_2022-05-06.txt"
+  ],
+  "price_ctx": {
+   "close_at_report": 18.35,
+   "ret60_before_pct": -27.0,
+   "dd_from_250d_high_pct": -39.0,
+   "close_t5": 20.41,
+   "close_t20": 19.82,
+   "ret_t20_pct": 8.0,
+   "ret_t60_pct": 17.8
+  }
+ },
+ {
+  "period": "2022Q1",
+  "report_date": "2022-04-25",
+  "period_end": "2022-03-31",
+  "confidence": "high",
+  "single_q_亿": {
+   "revenue": 20.89,
+   "net_profit": 2.15,
+   "parent_net": 2.17,
+   "rd": 1.544
+  },
+  "cumulative_亿": {
+   "revenue": 20.9,
+   "parent_net": 2.17
+  },
+  "yoy": {
+   "revenue_yoy": 41.9,
+   "parent_net_yoy": 63.4,
+   "net_profit_yoy": 59.5
+  },
+  "qoq": {
+   "revenue_qoq": -12.0,
+   "parent_net_qoq": -31.4
+  },
+  "margins_single": {
+   "gross": 26.3,
+   "net": 10.3,
+   "parent_net": 10.4
+  },
+  "ocf_single_亿": 9.0,
+  "cash_content": 4.14,
+  "ar_亿": 12.59,
+  "pe_at_report": 22.51162790697674,
+  "pe_pctile_at_report": 0.0,
+  "announcement": {
+   "date": "2022-04-25",
+   "title": "2022年一季度报告",
+   "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300308&announcementId=1213057673&orgId=9900022016&announceTime=20220425"
+  },
+  "window_reports": [
+   {
+    "d": "2022-04-27",
+    "org": "国信证券",
+    "title": "一季度开端良好，受益于400G光模块加速部署",
+    "rating": "买入",
+    "infoCode": "AP202204271561900762"
+   },
+   {
+    "d": "2022-04-26",
+    "org": "东吴证券",
+    "title": "2021年年报及2022年一季报点评：22年Q1业绩高速增长，持续看好光模块龙头稳健发展",
+    "rating": "买入",
+    "infoCode": "AP202204261561709146"
+   },
+   {
+    "d": "2022-04-26",
+    "org": "招银国际",
+    "title": "Strong 4Q21/1Q22 results; Reiterate BUY",
+    "rating": "买入",
+    "infoCode": "AP202204261561688590"
+   },
+   {
+    "d": "2022-04-25",
+    "org": "国金证券",
+    "title": "数通业务高增，前瞻布局激光雷达",
+    "rating": "买入",
+    "infoCode": "AP202204251561463198"
+   },
+   {
+    "d": "2022-04-25",
+    "org": "民生证券",
+    "title": "2021年年报点评：海外数通市场需求持续高企，22Q1业绩大超预期",
+    "rating": "买入",
+    "infoCode": "AP202204251561446046"
+   }
+  ],
+  "near_ir_files": [
+   "ir_2022-05-06.txt"
+  ],
+  "price_ctx": {
+   "close_at_report": 18.35,
+   "ret60_before_pct": -27.0,
+   "dd_from_250d_high_pct": -39.0,
+   "close_t5": 20.41,
+   "close_t20": 19.82,
+   "ret_t20_pct": 8.0,
+   "ret_t60_pct": 17.8
+  }
+ },
+ {
+  "period": "2022Q2",
+  "report_date": "2022-08-26",
+  "period_end": "2022-06-30",
+  "confidence": "high",
+  "single_q_亿": {
+   "revenue": 21.42,
+   "net_profit": 2.74,
+   "parent_net": 2.75,
+   "rd": 1.946
+  },
+  "cumulative_亿": {
+   "revenue": 42.3,
+   "parent_net": 4.92
+  },
+  "yoy": {
+   "revenue_yoy": 17.3,
+   "parent_net_yoy": 32.4,
+   "net_profit_yoy": 30.5
+  },
+  "qoq": {
+   "revenue_qoq": 2.6,
+   "parent_net_qoq": 26.5
+  },
+  "margins_single": {
+   "gross": 27.3,
+   "net": 12.8,
+   "parent_net": 12.8
+  },
+  "ocf_single_亿": 3.18,
+  "cash_content": 1.16,
+  "ar_亿": 15.18,
+  "pe_at_report": 22.485074626865675,
+  "pe_pctile_at_report": 0.1,
+  "announcement": {
+   "date": "2022-08-26",
+   "title": "2022年半年度报告",
+   "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300308&announcementId=1214407833&orgId=9900022016&announceTime=20220826"
+  },
+  "window_reports": [
+   {
+    "d": "2022-09-06",
+    "org": "群益证券",
+    "title": "营收高速增长，盈利能力显着增强",
+    "rating": "增持",
+    "infoCode": "AP202209061578072519"
+   },
+   {
+    "d": "2022-08-29",
+    "org": "招银国际",
+    "title": "Overseas data center demand to remain resilient in 2H22",
+    "rating": "买入",
+    "infoCode": "AP202208291577784244"
+   },
+   {
+    "d": "2022-08-28",
+    "org": "国元证券",
+    "title": "2022年半年度报告点评：兼顾周期与成长，行业景气上行叠加激光雷达业务逐步落地",
+    "rating": "增持",
+    "infoCode": "AP202208281577743741"
+   },
+   {
+    "d": "2022-08-28",
+    "org": "民生证券",
+    "title": "2022年中报点评：业绩超预期，充分享受数通领域高景气",
+    "rating": "买入",
+    "infoCode": "AP202208281577742927"
+   },
+   {
+    "d": "2022-08-26",
+    "org": "国信证券",
+    "title": "业绩位于预告中值，持续受益于数通市场需求升级",
+    "rating": "买入",
+    "infoCode": "AP202208261577696272"
+   },
+   {
+    "d": "2022-08-26",
+    "org": "国金证券",
+    "title": "业绩再超预期，高端产品持续推进",
+    "rating": "买入",
+    "infoCode": "AP202208261577689768"
+   }
+  ],
+  "near_ir_files": [],
+  "price_ctx": {
+   "close_at_report": 19.29,
+   "ret60_before_pct": -10.2,
+   "dd_from_250d_high_pct": -33.6,
+   "close_t5": 18.64,
+   "close_t20": 16.84,
+   "ret_t20_pct": -12.7,
+   "ret_t60_pct": -7.5
+  }
+ },
+ {
+  "period": "2022Q3",
+  "report_date": "2022-10-29",
+  "period_end": "2022-09-30",
+  "confidence": "high",
+  "single_q_亿": {
+   "revenue": 26.34,
+   "net_profit": 3.61,
+   "parent_net": 3.6,
+   "rd": 2.116
+  },
+  "cumulative_亿": {
+   "revenue": 68.6,
+   "parent_net": 8.53
+  },
+  "yoy": {
+   "revenue_yoy": 30.1,
+   "parent_net_yoy": 64.2,
+   "net_profit_yoy": 63.9
+  },
+  "qoq": {
+   "revenue_qoq": 22.9,
+   "parent_net_qoq": 30.9
+  },
+  "margins_single": {
+   "gross": 29.7,
+   "net": 13.7,
+   "parent_net": 13.7
+  },
+  "ocf_single_亿": 2.5,
+  "cash_content": 0.69,
+  "ar_亿": 15.96,
+  "pe_at_report": 19.783783783783786,
+  "pe_pctile_at_report": 0.3,
+  "announcement": {
+   "date": "2022-10-29",
+   "title": "2022年三季度报告",
+   "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300308&announcementId=1214963288&orgId=9900022016&announceTime=20221029"
+  },
+  "window_reports": [
+   {
+    "d": "2022-11-04",
+    "org": "国金证券",
+    "title": "业绩再超预期，800G产品带来成长新动能",
+    "rating": "买入",
+    "infoCode": "AP202211041579948022"
+   },
+   {
+    "d": "2022-11-02",
+    "org": "西南证券",
+    "title": "营收归母双创新高，数通龙头地位稳固",
+    "rating": "买入",
+    "infoCode": "AP202211021579826375"
+   },
+   {
+    "d": "2022-11-01",
+    "org": "群益证券",
+    "title": "三季度再超市场预期，海外数通市场持续高景气",
+    "rating": "增持",
+    "infoCode": "AP202211011579710013"
+   },
+   {
+    "d": "2022-11-01",
+    "org": "中邮证券",
+    "title": "2022年三季报点评：单季业绩创历史新高，盈利能力持续提升",
+    "rating": "买入",
+    "infoCode": "AP202211011579700391"
+   },
+   {
+    "d": "2022-10-31",
+    "org": "国元证券",
+    "title": "2022年三季度报告点评：产品结构优化叠加降本增效，公司第三季度净利润同比增长64.2%",
+    "rating": "增持",
+    "infoCode": "AP202210311579664429"
+   },
+   {
+    "d": "2022-10-31",
+    "org": "民生证券",
+    "title": "2022年三季报点评：海外数通高景气依旧，公司业绩超预期",
+    "rating": "买入",
+    "infoCode": "AP202210311579662245"
+   }
+  ],
+  "near_ir_files": [],
+  "price_ctx": {
+   "close_at_report": 18.68,
+   "ret60_before_pct": -11.9,
+   "dd_from_250d_high_pct": -35.7,
+   "close_t5": 19.26,
+   "close_t20": 17.85,
+   "ret_t20_pct": -4.5,
+   "ret_t60_pct": -0.7
+  }
+ },
+ {
+  "period": "2022Q4",
+  "report_date": "2023-04-24",
+  "period_end": "2022-12-31",
+  "confidence": "high",
+  "single_q_亿": {
+   "revenue": 27.77,
+   "net_profit": 3.83,
+   "parent_net": 3.71,
+   "rd": 2.064
+  },
+  "cumulative_亿": {
+   "revenue": 96.4,
+   "parent_net": 12.24
+  },
+  "yoy": {
+   "revenue_yoy": 17.0,
+   "parent_net_yoy": 17.2,
+   "net_profit_yoy": 19.3
+  },
+  "qoq": {
+   "revenue_qoq": 5.4,
+   "parent_net_qoq": 3.2
+  },
+  "margins_single": {
+   "gross": 32.8,
+   "net": 13.8,
+   "parent_net": 13.4
+  },
+  "ocf_single_亿": 9.81,
+  "cash_content": 2.64,
+  "ar_亿": 15.09,
+  "pe_at_report": 54.05696202531645,
+  "pe_pctile_at_report": 76.8,
+  "announcement": {
+   "date": "2023-04-24",
+   "title": "2022年年度报告",
+   "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300308&announcementId=1216523562&orgId=9900022016&announceTime=20230424"
+  },
+  "window_reports": [
+   {
+    "d": "2023-05-08",
+    "org": "民生证券",
+    "title": "2022年年报及2023年一季报点评：业绩超预期，产品结构优化驱动盈利能力加速提升",
+    "rating": "买入",
+    "infoCode": "AP202305081586381157"
+   },
+   {
+    "d": "2023-05-08",
+    "org": "西南证券",
+    "title": "业绩超预期，800G快速放量",
+    "rating": "增持",
+    "infoCode": "AP202305081586352345"
+   },
+   {
+    "d": "2023-05-04",
+    "org": "中邮证券",
+    "title": "2022年报及2023年一季报点评：业绩稳健增长，AI需求带动高速光模块放量",
+    "rating": "买入",
+    "infoCode": "AP202305041586239303"
+   },
+   {
+    "d": "2023-04-27",
+    "org": "国元证券",
+    "title": "2022年报及2023年一季报点评：第一季度归母净利润同比增长14.95% 高速率产品占比提升，盈利能力显著增强",
+    "rating": "买入",
+    "infoCode": "AP202304271585934914"
+   },
+   {
+    "d": "2023-04-27",
+    "org": "中航证券",
+    "title": "2022年年报暨2023年一季报点评：产品结构优化驱动业绩亮眼增长，800G光模块需求持续放量",
+    "rating": "买入",
+    "infoCode": "AP202304271585930604"
+   },
+   {
+    "d": "2023-04-24",
+    "org": "华金证券",
+    "title": "卡位算力核心赛道，800G持续放量拉高业绩",
+    "rating": "增持",
+    "infoCode": "AP202304241585738432"
+   },
+   {
+    "d": "2023-04-24",
+    "org": "国金证券",
+    "title": "高端产品上量，利润增长超预期",
+    "rating": "买入",
+    "infoCode": "AP202304241585732620"
+   },
+   {
+    "d": "2023-04-24",
+    "org": "信达证券",
+    "title": "业绩表现亮眼，全球800G光模块龙头核心受益于AI发展",
+    "rating": "",
+    "infoCode": "AP202304231585729044"
+   }
+  ],
+  "near_ir_files": [],
+  "price_ctx": {
+   "close_at_report": 59.01,
+   "ret60_before_pct": 219.5,
+   "dd_from_250d_high_pct": -4.4,
+   "close_t5": 58.86,
+   "close_t20": 64.59,
+   "ret_t20_pct": 9.5,
+   "ret_t60_pct": 55.7
+  }
+ },
+ {
+  "period": "2023Q1",
+  "report_date": "2023-04-24",
+  "period_end": "2023-03-31",
+  "confidence": "high",
+  "single_q_亿": {
+   "revenue": 18.37,
+   "net_profit": 2.45,
+   "parent_net": 2.5,
+   "rd": 1.564
+  },
+  "cumulative_亿": {
+   "revenue": 18.4,
+   "parent_net": 2.5
+  },
+  "yoy": {
+   "revenue_yoy": -12.0,
+   "parent_net_yoy": 15.0,
+   "net_profit_yoy": 13.6
+  },
+  "qoq": {
+   "revenue_qoq": -33.8,
+   "parent_net_qoq": -32.7
+  },
+  "margins_single": {
+   "gross": 29.5,
+   "net": 13.3,
+   "parent_net": 13.6
+  },
+  "ocf_single_亿": 5.0,
+  "cash_content": 2.0,
+  "ar_亿": 11.6,
+  "pe_at_report": 54.05696202531645,
+  "pe_pctile_at_report": 76.8,
+  "announcement": {
+   "date": "2023-04-24",
+   "title": "2023年一季度报告",
+   "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300308&announcementId=1216523567&orgId=9900022016&announceTime=20230424"
+  },
+  "window_reports": [
+   {
+    "d": "2023-05-08",
+    "org": "民生证券",
+    "title": "2022年年报及2023年一季报点评：业绩超预期，产品结构优化驱动盈利能力加速提升",
+    "rating": "买入",
+    "infoCode": "AP202305081586381157"
+   },
+   {
+    "d": "2023-05-08",
+    "org": "西南证券",
+    "title": "业绩超预期，800G快速放量",
+    "rating": "增持",
+    "infoCode": "AP202305081586352345"
+   },
+   {
+    "d": "2023-05-04",
+    "org": "中邮证券",
+    "title": "2022年报及2023年一季报点评：业绩稳健增长，AI需求带动高速光模块放量",
+    "rating": "买入",
+    "infoCode": "AP202305041586239303"
+   },
+   {
+    "d": "2023-04-27",
+    "org": "国元证券",
+    "title": "2022年报及2023年一季报点评：第一季度归母净利润同比增长14.95% 高速率产品占比提升，盈利能力显著增强",
+    "rating": "买入",
+    "infoCode": "AP202304271585934914"
+   },
+   {
+    "d": "2023-04-27",
+    "org": "中航证券",
+    "title": "2022年年报暨2023年一季报点评：产品结构优化驱动业绩亮眼增长，800G光模块需求持续放量",
+    "rating": "买入",
+    "infoCode": "AP202304271585930604"
+   },
+   {
+    "d": "2023-04-24",
+    "org": "华金证券",
+    "title": "卡位算力核心赛道，800G持续放量拉高业绩",
+    "rating": "增持",
+    "infoCode": "AP202304241585738432"
+   },
+   {
+    "d": "2023-04-24",
+    "org": "国金证券",
+    "title": "高端产品上量，利润增长超预期",
+    "rating": "买入",
+    "infoCode": "AP202304241585732620"
+   },
+   {
+    "d": "2023-04-24",
+    "org": "信达证券",
+    "title": "业绩表现亮眼，全球800G光模块龙头核心受益于AI发展",
+    "rating": "",
+    "infoCode": "AP202304231585729044"
+   }
+  ],
+  "near_ir_files": [],
+  "price_ctx": {
+   "close_at_report": 59.01,
+   "ret60_before_pct": 219.5,
+   "dd_from_250d_high_pct": -4.4,
+   "close_t5": 58.86,
+   "close_t20": 64.59,
+   "ret_t20_pct": 9.5,
+   "ret_t60_pct": 55.7
+  }
+ },
+ {
+  "period": "2023Q2",
+  "report_date": "2023-08-28",
+  "period_end": "2023-06-30",
+  "confidence": "high",
+  "single_q_亿": {
+   "revenue": 21.67,
+   "net_profit": 4.03,
+   "parent_net": 3.64,
+   "rd": 1.661
+  },
+  "cumulative_亿": {
+   "revenue": 40.0,
+   "parent_net": 6.14
+  },
+  "yoy": {
+   "revenue_yoy": 1.1,
+   "parent_net_yoy": 32.3,
+   "net_profit_yoy": 46.7
+  },
+  "qoq": {
+   "revenue_qoq": 17.9,
+   "parent_net_qoq": 45.6
+  },
+  "margins_single": {
+   "gross": 31.1,
+   "net": 18.6,
+   "parent_net": 16.8
+  },
+  "ocf_single_亿": 6.55,
+  "cash_content": 1.8,
+  "ar_亿": 14.32,
+  "pe_at_report": 65.58823529411764,
+  "pe_pctile_at_report": 80.6,
+  "announcement": {
+   "date": "2023-08-28",
+   "title": "2023年半年度报告",
+   "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300308&announcementId=1217655323&orgId=9900022016&announceTime=20230828"
+  },
+  "window_reports": [
+   {
+    "d": "2023-09-08",
+    "org": "民生证券",
+    "title": "2023年半年报点评：AI需求助力800G加速放量，毛利率&净利率提升显著",
+    "rating": "买入",
+    "infoCode": "AP202309081598094443"
+   },
+   {
+    "d": "2023-08-30",
+    "org": "山西证券",
+    "title": "高速产品拉动盈利，期待后续放量带来业绩高增",
+    "rating": "买入",
+    "infoCode": "AP202308301596739669"
+   },
+   {
+    "d": "2023-08-29",
+    "org": "招银国际",
+    "title": "Investors focusing on 800G transceivers ramp-up after 1H23 results",
+    "rating": "持有",
+    "infoCode": "AP202308291596601702"
+   },
+   {
+    "d": "2023-08-29",
+    "org": "国信证券",
+    "title": "800G光模块放量带动盈利能力提升",
+    "rating": "买入",
+    "infoCode": "AP202308291596600954"
+   },
+   {
+    "d": "2023-08-28",
+    "org": "国金证券",
+    "title": "业绩逐季向好，高端产品带动盈利提升",
+    "rating": "买入",
+    "infoCode": "AP202308281595911124"
+   },
+   {
+    "d": "2023-08-28",
+    "org": "群益证券",
+    "title": "上半年业绩超预期，800G光模块高需求逻辑持续得到验证",
+    "rating": "增持",
+    "infoCode": "AP202308281595909176"
+   },
+   {
+    "d": "2023-08-28",
+    "org": "东吴证券",
+    "title": "2023年中报点评：公司盈利能力提升明显，期待AI高速光模块加速放量打开业绩空间",
+    "rating": "买入",
+    "infoCode": "AP202308281595908245"
+   },
+   {
+    "d": "2023-08-27",
+    "org": "信达证券",
+    "title": "Q2业绩稳步增长，AI算力需求推动长期发展",
+    "rating": "",
+    "infoCode": "AP202308271595903049"
+   }
+  ],
+  "near_ir_files": [],
+  "price_ctx": {
+   "close_at_report": 77.89,
+   "ret60_before_pct": 3.5,
+   "dd_from_250d_high_pct": -35.0,
+   "close_t5": 78.5,
+   "close_t20": 75.02,
+   "ret_t20_pct": -3.7,
+   "ret_t60_pct": -15.4
+  }
+ },
+ {
+  "period": "2023Q3",
+  "report_date": "2023-10-23",
+  "period_end": "2023-09-30",
+  "confidence": "high",
+  "single_q_亿": {
+   "revenue": 30.26,
+   "net_profit": 6.65,
+   "parent_net": 6.82,
+   "rd": 1.489
+  },
+  "cumulative_亿": {
+   "revenue": 70.3,
+   "parent_net": 12.96
+  },
+  "yoy": {
+   "revenue_yoy": 14.9,
+   "parent_net_yoy": 89.4,
+   "net_profit_yoy": 84.1
+  },
+  "qoq": {
+   "revenue_qoq": 39.7,
+   "parent_net_qoq": 87.5
+  },
+  "margins_single": {
+   "gross": 33.5,
+   "net": 22.0,
+   "parent_net": 22.5
+  },
+  "ocf_single_亿": 2.87,
+  "cash_content": 0.42,
+  "ar_亿": 20.14,
+  "pe_at_report": 57.20238095238094,
+  "pe_pctile_at_report": 74.2,
+  "announcement": {
+   "date": "2023-10-23",
+   "title": "2023年三季度报告",
+   "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300308&announcementId=1218110303&orgId=9900022016&announceTime=20231023"
+  },
+  "window_reports": [
+   {
+    "d": "2023-10-29",
+    "org": "中航证券",
+    "title": "2023年三季报点评：800G放量叠加降本增效，利润率提升超预期",
+    "rating": "买入",
+    "infoCode": "AP202310291605634052"
+   },
+   {
+    "d": "2023-10-29",
+    "org": "华金证券",
+    "title": "800G带动业绩高增长，新产品打开成长空间",
+    "rating": "买入",
+    "infoCode": "AP202310281605352940"
+   },
+   {
+    "d": "2023-10-24",
+    "org": "国元证券",
+    "title": "2023年三季报点评：第三季度归母净利润同比增长89.45%，股权激励彰显长期信心",
+    "rating": "买入",
+    "infoCode": "AP202310241602906349"
+   },
+   {
+    "d": "2023-10-23",
+    "org": "国信证券",
+    "title": "2023年第三季度利润增长89.45%，发布股权激励计划",
+    "rating": "买入",
+    "infoCode": "AP202310231602861924"
+   },
+   {
+    "d": "2023-10-23",
+    "org": "民生证券",
+    "title": "2023年三季报点评：Q3业绩超预期，AI持续推高400G&800G需求",
+    "rating": "买入",
+    "infoCode": "AP202310231602723085"
+   },
+   {
+    "d": "2023-10-23",
+    "org": "群益证券",
+    "title": "三季度业绩再超预期，800G等高端光模块大幅提升盈利能力",
+    "rating": "增持",
+    "infoCode": "AP202310231602720691"
+   },
+   {
+    "d": "2023-10-23",
+    "org": "国金证券",
+    "title": "800G带动盈利提升，业绩逐季改善",
+    "rating": "买入",
+    "infoCode": "AP202310231602718074"
+   },
+   {
+    "d": "2023-10-23",
+    "org": "东吴证券",
+    "title": "2023年3季报点评：盈利能力继续提升，期待高速产品持续打开空间",
+    "rating": "买入",
+    "infoCode": "AP202310221602716327"
+   }
+  ],
+  "near_ir_files": [],
+  "price_ctx": {
+   "close_at_report": 66.83,
+   "ret60_before_pct": -26.8,
+   "dd_from_250d_high_pct": -44.3,
+   "close_t5": 62.32,
+   "close_t20": 71.32,
+   "ret_t20_pct": 6.7,
+   "ret_t60_pct": 4.5
+  }
+ },
+ {
+  "period": "2023Q4",
+  "report_date": "2024-04-22",
+  "period_end": "2023-12-31",
+  "confidence": "high",
+  "single_q_亿": {
+   "revenue": 36.88,
+   "net_profit": 8.95,
+   "parent_net": 8.78,
+   "rd": 2.68
+  },
+  "cumulative_亿": {
+   "revenue": 107.2,
+   "parent_net": 21.74
+  },
+  "yoy": {
+   "revenue_yoy": 32.8,
+   "parent_net_yoy": 136.3,
+   "net_profit_yoy": 133.9
+  },
+  "qoq": {
+   "revenue_qoq": 21.9,
+   "parent_net_qoq": 28.7
+  },
+  "margins_single": {
+   "gross": 35.4,
+   "net": 24.3,
+   "parent_net": 23.8
+  },
+  "ocf_single_亿": 4.54,
+  "cash_content": 0.52,
+  "ar_亿": 25.81,
+  "pe_at_report": 60.44274809160306,
+  "pe_pctile_at_report": 72.1,
+  "announcement": {
+   "date": "2024-04-22",
+   "title": "2023年年度报告",
+   "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300308&announcementId=1219703026&orgId=9900022016&announceTime=20240422"
+  },
+  "window_reports": [
+   {
+    "d": "2024-04-29",
+    "org": "招银国际",
+    "title": "公司一季度业绩为全年发展夯实了基础",
+    "rating": "买入",
+    "infoCode": "AP202404291631672248"
+   },
+   {
+    "d": "2024-04-28",
+    "org": "华龙证券",
+    "title": "2023年年报及2024年一季报点评报告：高端光模块产品放量业绩高增，后续关注1.6T光模块的量产",
+    "rating": "买入",
+    "infoCode": "AP202404281631514723"
+   },
+   {
+    "d": "2024-04-24",
+    "org": "西南证券",
+    "title": "2023年年报点评：业绩符合预期，800G产品推动高增长",
+    "rating": "买入",
+    "infoCode": "AP202404241631139709"
+   },
+   {
+    "d": "2024-04-24",
+    "org": "国元证券",
+    "title": "2023年年报及2024年Q1预告点评：AI推动速率代际缩短，看好年内800G放量",
+    "rating": "买入",
+    "infoCode": "AP202404241631110084"
+   },
+   {
+    "d": "2024-04-23",
+    "org": "上海证券",
+    "title": "中际旭创23年年报及24年一季报点评：Q1业绩高增速，AI驱动光模块放量",
+    "rating": "买入",
+    "infoCode": "AP202404231631078221"
+   },
+   {
+    "d": "2024-04-23",
+    "org": "民生证券",
+    "title": "2023年年报及2024年一季报点评：业绩符合预期，AI持续推高高端光模块需求",
+    "rating": "买入",
+    "infoCode": "AP202404231631033310"
+   },
+   {
+    "d": "2024-04-22",
+    "org": "开源证券",
+    "title": "公司信息更新报告：高速光通信时代，光模块龙头扬帆起航",
+    "rating": "买入",
+    "infoCode": "AP202404221630957682"
+   },
+   {
+    "d": "2024-04-22",
+    "org": "国金证券",
+    "title": "行业景气度向上，公司处于高增长轨道",
+    "rating": "买入",
+    "infoCode": "AP202404221630949262"
+   }
+  ],
+  "near_ir_files": [
+   "ir_2024-04-22.txt",
+   "ir_2024-04-30.txt"
+  ],
+  "price_ctx": {
+   "close_at_report": 111.56,
+   "ret60_before_pct": 61.9,
+   "dd_from_250d_high_pct": -15.1,
+   "close_t5": 132.64,
+   "close_t20": 122.65,
+   "ret_t20_pct": 9.9,
+   "ret_t60_pct": 19.3
+  }
+ },
+ {
+  "period": "2024Q1",
+  "report_date": "2024-04-22",
+  "period_end": "2024-03-31",
+  "confidence": "high",
+  "single_q_亿": {
+   "revenue": 48.43,
+   "net_profit": 10.28,
+   "parent_net": 10.09,
+   "rd": 2.574
+  },
+  "cumulative_亿": {
+   "revenue": 48.4,
+   "parent_net": 10.09
+  },
+  "yoy": {
+   "revenue_yoy": 163.6,
+   "parent_net_yoy": 303.8,
+   "net_profit_yoy": 320.2
+  },
+  "qoq": {
+   "revenue_qoq": 31.3,
+   "parent_net_qoq": 15.0
+  },
+  "margins_single": {
+   "gross": 32.8,
+   "net": 21.2,
+   "parent_net": 20.8
+  },
+  "ocf_single_亿": 6.51,
+  "cash_content": 0.64,
+  "ar_亿": 32.96,
+  "pe_at_report": 60.44274809160306,
+  "pe_pctile_at_report": 72.1,
+  "announcement": {
+   "date": "2024-04-22",
+   "title": "2024年一季度报告",
+   "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300308&announcementId=1219703023&orgId=9900022016&announceTime=20240422"
+  },
+  "window_reports": [
+   {
+    "d": "2024-04-29",
+    "org": "招银国际",
+    "title": "公司一季度业绩为全年发展夯实了基础",
+    "rating": "买入",
+    "infoCode": "AP202404291631672248"
+   },
+   {
+    "d": "2024-04-28",
+    "org": "华龙证券",
+    "title": "2023年年报及2024年一季报点评报告：高端光模块产品放量业绩高增，后续关注1.6T光模块的量产",
+    "rating": "买入",
+    "infoCode": "AP202404281631514723"
+   },
+   {
+    "d": "2024-04-24",
+    "org": "西南证券",
+    "title": "2023年年报点评：业绩符合预期，800G产品推动高增长",
+    "rating": "买入",
+    "infoCode": "AP202404241631139709"
+   },
+   {
+    "d": "2024-04-24",
+    "org": "国元证券",
+    "title": "2023年年报及2024年Q1预告点评：AI推动速率代际缩短，看好年内800G放量",
+    "rating": "买入",
+    "infoCode": "AP202404241631110084"
+   },
+   {
+    "d": "2024-04-23",
+    "org": "上海证券",
+    "title": "中际旭创23年年报及24年一季报点评：Q1业绩高增速，AI驱动光模块放量",
+    "rating": "买入",
+    "infoCode": "AP202404231631078221"
+   },
+   {
+    "d": "2024-04-23",
+    "org": "民生证券",
+    "title": "2023年年报及2024年一季报点评：业绩符合预期，AI持续推高高端光模块需求",
+    "rating": "买入",
+    "infoCode": "AP202404231631033310"
+   },
+   {
+    "d": "2024-04-22",
+    "org": "开源证券",
+    "title": "公司信息更新报告：高速光通信时代，光模块龙头扬帆起航",
+    "rating": "买入",
+    "infoCode": "AP202404221630957682"
+   },
+   {
+    "d": "2024-04-22",
+    "org": "国金证券",
+    "title": "行业景气度向上，公司处于高增长轨道",
+    "rating": "买入",
+    "infoCode": "AP202404221630949262"
+   }
+  ],
+  "near_ir_files": [
+   "ir_2024-04-22.txt",
+   "ir_2024-04-30.txt"
+  ],
+  "price_ctx": {
+   "close_at_report": 111.56,
+   "ret60_before_pct": 61.9,
+   "dd_from_250d_high_pct": -15.1,
+   "close_t5": 132.64,
+   "close_t20": 122.65,
+   "ret_t20_pct": 9.9,
+   "ret_t60_pct": 19.3
+  }
+ },
+ {
+  "period": "2024Q2",
+  "report_date": "2024-08-26",
+  "period_end": "2024-06-30",
+  "confidence": "high",
+  "single_q_亿": {
+   "revenue": 59.56,
+   "net_profit": 13.79,
+   "parent_net": 13.49,
+   "rd": 2.673
+  },
+  "cumulative_亿": {
+   "revenue": 108.0,
+   "parent_net": 23.58
+  },
+  "yoy": {
+   "revenue_yoy": 174.9,
+   "parent_net_yoy": 270.8,
+   "net_profit_yoy": 242.6
+  },
+  "qoq": {
+   "revenue_qoq": 23.0,
+   "parent_net_qoq": 33.7
+  },
+  "margins_single": {
+   "gross": 33.4,
+   "net": 23.2,
+   "parent_net": 22.7
+  },
+  "ocf_single_亿": 3.18,
+  "cash_content": 0.24,
+  "ar_亿": 39.82,
+  "pe_at_report": 33.72861356932153,
+  "pe_pctile_at_report": 34.2,
+  "announcement": {
+   "date": "2024-08-26",
+   "title": "2024年半年度报告",
+   "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300308&announcementId=1220965278&orgId=9900022016&announceTime=20240826"
+  },
+  "window_reports": [
+   {
+    "d": "2024-09-10",
+    "org": "山西证券",
+    "title": "全球高速光模块最佳交付者，持续扩产迎接更高的AI浪潮",
+    "rating": "买入",
+    "infoCode": "AP202409101639813982"
+   },
+   {
+    "d": "2024-09-02",
+    "org": "东莞证券",
+    "title": "2024半年报业绩点评：高速率模块业务驱动业绩高速增长",
+    "rating": "买入",
+    "infoCode": "AP202409021639685637"
+   },
+   {
+    "d": "2024-09-01",
+    "org": "国元证券",
+    "title": "2024中报点评：盈利能力提升，硅光及1.6t产品进展顺利",
+    "rating": "买入",
+    "infoCode": "AP202409011639679358"
+   },
+   {
+    "d": "2024-08-26",
+    "org": "东吴证券",
+    "title": "2024年半年度报告点评：收入利润率双增，看好公司受益于后续需求释放",
+    "rating": "买入",
+    "infoCode": "AP202408261639449283"
+   },
+   {
+    "d": "2024-08-26",
+    "org": "民生证券",
+    "title": "2024年半年报点评：AI显著拉动400G&800G需求，公司业绩保持高增长",
+    "rating": "买入",
+    "infoCode": "AP202408261639448084"
+   },
+   {
+    "d": "2024-08-25",
+    "org": "开源证券",
+    "title": "公司信息更新报告：高速光模块加速放量，毛利率同比提升",
+    "rating": "买入",
+    "infoCode": "AP202408251639444351"
+   }
+  ],
+  "near_ir_files": [],
+  "price_ctx": {
+   "close_at_report": 112.44,
+   "ret60_before_pct": 1.5,
+   "dd_from_250d_high_pct": -28.7,
+   "close_t5": 102.23,
+   "close_t20": 120.09,
+   "ret_t20_pct": 6.8,
+   "ret_t60_pct": 12.8
+  }
+ },
+ {
+  "period": "2024Q3",
+  "report_date": "2024-10-23",
+  "period_end": "2024-09-30",
+  "confidence": "high",
+  "single_q_亿": {
+   "revenue": 65.14,
+   "net_profit": 14.65,
+   "parent_net": 13.94,
+   "rd": 2.173
+  },
+  "cumulative_亿": {
+   "revenue": 173.1,
+   "parent_net": 37.53
+  },
+  "yoy": {
+   "revenue_yoy": 115.2,
+   "parent_net_yoy": 104.4,
+   "net_profit_yoy": 120.2
+  },
+  "qoq": {
+   "revenue_qoq": 9.4,
+   "parent_net_qoq": 3.3
+  },
+  "margins_single": {
+   "gross": 33.6,
+   "net": 22.5,
+   "parent_net": 21.4
+  },
+  "ocf_single_亿": 3.48,
+  "cash_content": 0.25,
+  "ar_亿": 47.09,
+  "pe_at_report": 37.00473933649289,
+  "pe_pctile_at_report": 39.7,
+  "announcement": {
+   "date": "2024-10-23",
+   "title": "2024年三季度报告",
+   "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300308&announcementId=1221474464&orgId=9900022016&announceTime=20241023"
+  },
+  "window_reports": [
+   {
+    "d": "2024-11-04",
+    "org": "山西证券",
+    "title": "三季报业绩符合预期，持续扩产备料并积极研发布局3.2T、CPO等",
+    "rating": "买入",
+    "infoCode": "AP202411041640701311"
+   },
+   {
+    "d": "2024-10-29",
+    "org": "国元证券",
+    "title": "2024年三季报点评：汇兑及物料紧缺有短期影响，看好硅光及1.6t占比提升",
+    "rating": "买入",
+    "infoCode": "AP202410291640565571"
+   },
+   {
+    "d": "2024-10-28",
+    "org": "华龙证券",
+    "title": "2024年三季报点评报告：高速光模块需求旺盛，业绩持续增长",
+    "rating": "买入",
+    "infoCode": "AP202410281640542636"
+   },
+   {
+    "d": "2024-10-28",
+    "org": "上海证券",
+    "title": "中际旭创2024年三季报点评：Q3业绩持续高增，光通信产业密集催化",
+    "rating": "买入",
+    "infoCode": "AP202410281640540361"
+   },
+   {
+    "d": "2024-10-25",
+    "org": "华金证券",
+    "title": "业绩大幅增长，期待1.6T等高速光模块放量",
+    "rating": "买入",
+    "infoCode": "AP202410251640501342"
+   },
+   {
+    "d": "2024-10-24",
+    "org": "东吴证券",
+    "title": "2024年三季报点评：增长趋势向好，期待硅光、1.6T产品放量贡献业绩",
+    "rating": "买入",
+    "infoCode": "AP202410241640455451"
+   },
+   {
+    "d": "2024-10-23",
+    "org": "国金证券",
+    "title": "业绩高增，1.6T产品将于Q4出货",
+    "rating": "买入",
+    "infoCode": "AP202410231640429246"
+   },
+   {
+    "d": "2024-10-22",
+    "org": "开源证券",
+    "title": "公司信息更新报告：业绩符合预期，盈利能力提升，高速光模块销售大幅增加",
+    "rating": "买入",
+    "infoCode": "AP202410221640423751"
+   }
+  ],
+  "near_ir_files": [],
+  "price_ctx": {
+   "close_at_report": 154.26,
+   "ret60_before_pct": 16.2,
+   "dd_from_250d_high_pct": -16.1,
+   "close_t5": 139.35,
+   "close_t20": 136.24,
+   "ret_t20_pct": -11.7,
+   "ret_t60_pct": -23.8
+  }
+ },
+ {
+  "period": "2024Q4",
+  "report_date": "2025-04-21",
+  "period_end": "2024-12-31",
+  "confidence": "high",
+  "single_q_亿": {
+   "revenue": 65.5,
+   "net_profit": 15.0,
+   "parent_net": 14.19,
+   "rd": 5.02
+  },
+  "cumulative_亿": {
+   "revenue": 238.6,
+   "parent_net": 51.71
+  },
+  "yoy": {
+   "revenue_yoy": 77.6,
+   "parent_net_yoy": 61.7,
+   "net_profit_yoy": 67.6
+  },
+  "qoq": {
+   "revenue_qoq": 0.5,
+   "parent_net_qoq": 1.8
+  },
+  "margins_single": {
+   "gross": 35.1,
+   "net": 22.9,
+   "parent_net": 21.7
+  },
+  "ocf_single_亿": 18.49,
+  "cash_content": 1.3,
+  "ar_亿": 46.04,
+  "pe_at_report": 15.523900573613766,
+  "pe_pctile_at_report": 0.0,
+  "announcement": {
+   "date": "2025-04-21",
+   "title": "2024年年度报告",
+   "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300308&announcementId=1223155483&orgId=9900022016&announceTime=20250421"
+  },
+  "window_reports": [
+   {
+    "d": "2025-04-28",
+    "org": "华龙证券",
+    "title": "2024年年报和2025年一季报点评报告：高速光模块需求快速增长，公司业绩持续增长",
+    "rating": "买入",
+    "infoCode": "AP202504281663789697"
+   },
+   {
+    "d": "2025-04-25",
+    "org": "上海证券",
+    "title": "中际旭创24年年报&25年一季报点评：Q1业绩稳步提升，利润端持续边际改善",
+    "rating": "买入",
+    "infoCode": "AP202504251662082118"
+   },
+   {
+    "d": "2025-04-23",
+    "org": "东吴证券",
+    "title": "2024年报及2025一季报点评：业绩符合预期，高端产品持续放量",
+    "rating": "买入",
+    "infoCode": "AP202504231661162230"
+   },
+   {
+    "d": "2025-04-23",
+    "org": "招银国际",
+    "title": "Solid 1Q25 earnings w/ strong beat on margins",
+    "rating": "买入",
+    "infoCode": "AP202504231660922279"
+   },
+   {
+    "d": "2025-04-22",
+    "org": "国信证券",
+    "title": "2024年及2025年Q1高速光模块出货持续增加",
+    "rating": "增持",
+    "infoCode": "AP202504221660362451"
+   },
+   {
+    "d": "2025-04-22",
+    "org": "民生证券",
+    "title": "2024年年报及2025年一季报点评：业绩符合预期，AI带动高端光模块需求高增",
+    "rating": "买入",
+    "infoCode": "AP202504211660107183"
+   },
+   {
+    "d": "2025-04-21",
+    "org": "开源证券",
+    "title": "公司信息更新报告：业绩符合预期，充分受益于AI算力基础设施建设",
+    "rating": "买入",
+    "infoCode": "AP202504211659874352"
+   },
+   {
+    "d": "2025-04-21",
+    "org": "国金证券",
+    "title": "业绩持续快速提升，1.6T产品出货有望逐季增长",
+    "rating": "买入",
+    "infoCode": "AP202504211659811781"
+   }
+  ],
+  "near_ir_files": [
+   "ir_2025-04-20.txt",
+   "ir_2025-04-30.txt"
+  ],
+  "price_ctx": {
+   "close_at_report": 79.29,
+   "ret60_before_pct": -32.6,
+   "dd_from_250d_high_pct": -56.9,
+   "close_t5": 81.49,
+   "close_t20": 92.56,
+   "ret_t20_pct": 16.7,
+   "ret_t60_pct": 126.0
+  }
+ },
+ {
+  "period": "2025Q1",
+  "report_date": "2025-04-21",
+  "period_end": "2025-03-31",
+  "confidence": "high",
+  "single_q_亿": {
+   "revenue": 66.74,
+   "net_profit": 16.91,
+   "parent_net": 15.83,
+   "rd": 2.903
+  },
+  "cumulative_亿": {
+   "revenue": 66.7,
+   "parent_net": 15.83
+  },
+  "yoy": {
+   "revenue_yoy": 37.8,
+   "parent_net_yoy": 56.8,
+   "net_profit_yoy": 64.5
+  },
+  "qoq": {
+   "revenue_qoq": 1.9,
+   "parent_net_qoq": 11.6
+  },
+  "margins_single": {
+   "gross": 36.7,
+   "net": 25.3,
+   "parent_net": 23.7
+  },
+  "ocf_single_亿": 21.64,
+  "cash_content": 1.37,
+  "ar_亿": 48.06,
+  "pe_at_report": 15.523900573613766,
+  "pe_pctile_at_report": 0.0,
+  "announcement": {
+   "date": "2025-04-21",
+   "title": "2025年一季度报告",
+   "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300308&announcementId=1223155474&orgId=9900022016&announceTime=20250421"
+  },
+  "window_reports": [
+   {
+    "d": "2025-04-28",
+    "org": "华龙证券",
+    "title": "2024年年报和2025年一季报点评报告：高速光模块需求快速增长，公司业绩持续增长",
+    "rating": "买入",
+    "infoCode": "AP202504281663789697"
+   },
+   {
+    "d": "2025-04-25",
+    "org": "上海证券",
+    "title": "中际旭创24年年报&25年一季报点评：Q1业绩稳步提升，利润端持续边际改善",
+    "rating": "买入",
+    "infoCode": "AP202504251662082118"
+   },
+   {
+    "d": "2025-04-23",
+    "org": "东吴证券",
+    "title": "2024年报及2025一季报点评：业绩符合预期，高端产品持续放量",
+    "rating": "买入",
+    "infoCode": "AP202504231661162230"
+   },
+   {
+    "d": "2025-04-23",
+    "org": "招银国际",
+    "title": "Solid 1Q25 earnings w/ strong beat on margins",
+    "rating": "买入",
+    "infoCode": "AP202504231660922279"
+   },
+   {
+    "d": "2025-04-22",
+    "org": "国信证券",
+    "title": "2024年及2025年Q1高速光模块出货持续增加",
+    "rating": "增持",
+    "infoCode": "AP202504221660362451"
+   },
+   {
+    "d": "2025-04-22",
+    "org": "民生证券",
+    "title": "2024年年报及2025年一季报点评：业绩符合预期，AI带动高端光模块需求高增",
+    "rating": "买入",
+    "infoCode": "AP202504211660107183"
+   },
+   {
+    "d": "2025-04-21",
+    "org": "开源证券",
+    "title": "公司信息更新报告：业绩符合预期，充分受益于AI算力基础设施建设",
+    "rating": "买入",
+    "infoCode": "AP202504211659874352"
+   },
+   {
+    "d": "2025-04-21",
+    "org": "国金证券",
+    "title": "业绩持续快速提升，1.6T产品出货有望逐季增长",
+    "rating": "买入",
+    "infoCode": "AP202504211659811781"
+   }
+  ],
+  "near_ir_files": [
+   "ir_2025-04-20.txt",
+   "ir_2025-04-30.txt"
+  ],
+  "price_ctx": {
+   "close_at_report": 79.29,
+   "ret60_before_pct": -32.6,
+   "dd_from_250d_high_pct": -56.9,
+   "close_t5": 81.49,
+   "close_t20": 92.56,
+   "ret_t20_pct": 16.7,
+   "ret_t60_pct": 126.0
+  }
+ },
+ {
+  "period": "2025Q2",
+  "report_date": "2025-08-27",
+  "period_end": "2025-06-30",
+  "confidence": "high",
+  "single_q_亿": {
+   "revenue": 81.15,
+   "net_profit": 25.52,
+   "parent_net": 24.12,
+   "rd": 2.953
+  },
+  "cumulative_亿": {
+   "revenue": 147.9,
+   "parent_net": 39.95
+  },
+  "yoy": {
+   "revenue_yoy": 36.2,
+   "parent_net_yoy": 78.8,
+   "net_profit_yoy": 85.0
+  },
+  "qoq": {
+   "revenue_qoq": 21.6,
+   "parent_net_qoq": 52.4
+  },
+  "margins_single": {
+   "gross": 41.5,
+   "net": 31.4,
+   "parent_net": 29.7
+  },
+  "ocf_single_亿": 10.54,
+  "cash_content": 0.44,
+  "ar_亿": 63.45,
+  "pe_at_report": 52.43548387096775,
+  "pe_pctile_at_report": 66.8,
+  "announcement": {
+   "date": "2025-08-27",
+   "title": "2025年半年度报告",
+   "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300308&announcementId=1224585964&orgId=9900022016&announceTime=20250827"
+  },
+  "window_reports": [
+   {
+    "d": "2025-08-31",
+    "org": "上海证券",
+    "title": "中际旭创2025年半年报点评：H1业绩稳步提升，公司成长确定性不变",
+    "rating": "买入",
+    "infoCode": "AP202508311737285913"
+   },
+   {
+    "d": "2025-08-30",
+    "org": "民生证券",
+    "title": "2025年半年报点评：800G加速放量驱动业绩高增，毛利率提升显著",
+    "rating": "买入",
+    "infoCode": "AP202508301736983071"
+   },
+   {
+    "d": "2025-08-29",
+    "org": "招银国际",
+    "title": "Record revenue and earnings coupled with significant margin expansion; Maintain BUY",
+    "rating": "买入",
+    "infoCode": "AP202508291736443807"
+   },
+   {
+    "d": "2025-08-29",
+    "org": "东吴证券",
+    "title": "2025半年度业绩点评：利润率亮眼，scale-up有望助力公司长期成长",
+    "rating": "买入",
+    "infoCode": "AP202508291736329727"
+   },
+   {
+    "d": "2025-08-27",
+    "org": "群益证券",
+    "title": "二季度毛利率快速提升，1.6T下半年即将批量出货",
+    "rating": "增持",
+    "infoCode": "AP202508271735282277"
+   },
+   {
+    "d": "2025-08-27",
+    "org": "开源证券",
+    "title": "公司信息更新报告：全球光模块龙头业绩持续亮眼",
+    "rating": "买入",
+    "infoCode": "AP202508271735273617"
+   }
+  ],
+  "near_ir_files": [
+   "ir_2025-08-27.txt"
+  ],
+  "price_ctx": {
+   "close_at_report": 323.7,
+   "ret60_before_pct": 239.3,
+   "dd_from_250d_high_pct": -6.0,
+   "close_t5": 424.79,
+   "close_t20": 422.1,
+   "ret_t20_pct": 30.4,
+   "ret_t60_pct": 61.6
+  }
+ },
+ {
+  "period": "2025Q3",
+  "report_date": "2025-10-31",
+  "period_end": "2025-09-30",
+  "confidence": "high",
+  "single_q_亿": {
+   "revenue": 102.16,
+   "net_profit": 33.27,
+   "parent_net": 31.37,
+   "rd": 3.597
+  },
+  "cumulative_亿": {
+   "revenue": 250.0,
+   "parent_net": 71.32
+  },
+  "yoy": {
+   "revenue_yoy": 56.8,
+   "parent_net_yoy": 125.0,
+   "net_profit_yoy": 127.2
+  },
+  "qoq": {
+   "revenue_qoq": 25.9,
+   "parent_net_qoq": 30.0
+  },
+  "margins_single": {
+   "gross": 42.8,
+   "net": 32.6,
+   "parent_net": 30.7
+  },
+  "ocf_single_亿": 22.36,
+  "cash_content": 0.71,
+  "ar_亿": 66.95,
+  "pe_at_report": 60.79820051413882,
+  "pe_pctile_at_report": 74.7,
+  "announcement": {
+   "date": "2025-10-31",
+   "title": "2025年三季度报告",
+   "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300308&announcementId=1224773075&orgId=9900022016&announceTime=20251031"
+  },
+  "window_reports": [
+   {
+    "d": "2025-11-06",
+    "org": "上海证券",
+    "title": "中际旭创2025年三季报点评：旭创三季报业绩稳增长，AI浪潮驱动高成长",
+    "rating": "买入",
+    "infoCode": "AP202511061776120054"
+   },
+   {
+    "d": "2025-11-06",
+    "org": "群益证券",
+    "title": "需求推动三季度业绩高增长，1.6T产品即将迎来大规模出货",
+    "rating": "增持",
+    "infoCode": "AP202511061776091711"
+   },
+   {
+    "d": "2025-11-04",
+    "org": "民生证券",
+    "title": "2025年三季报点评：业绩高增符合预期，硅光、1.6T领航",
+    "rating": "买入",
+    "infoCode": "AP202511041775029491"
+   },
+   {
+    "d": "2025-11-03",
+    "org": "东吴证券",
+    "title": "2025三季报点评：业绩符合预期，看好高端产品放量",
+    "rating": "买入",
+    "infoCode": "AP202511031774341762"
+   },
+   {
+    "d": "2025-11-03",
+    "org": "招银国际",
+    "title": "Record-high quarter driven by AI demand; Robust cloud capex underpins outlook",
+    "rating": "买入",
+    "infoCode": "AP202511031774211632"
+   },
+   {
+    "d": "2025-11-01",
+    "org": "国元证券",
+    "title": "2025年三季度报告点评：业绩同环比高增，1.6t进入规模部署阶段",
+    "rating": "买入",
+    "infoCode": "AP202511011773273771"
+   },
+   {
+    "d": "2025-10-31",
+    "org": "开源证券",
+    "title": "公司信息更新报告：业绩持续亮眼，高速光模块出货量提升",
+    "rating": "买入",
+    "infoCode": "AP202510311772644632"
+   },
+   {
+    "d": "2025-10-31",
+    "org": "国金证券",
+    "title": "硅光+1.6T放量增收增利，scale-up打开光模块行业成长空间",
+    "rating": "买入",
+    "infoCode": "AP202510311772510538"
+   }
+  ],
+  "near_ir_files": [
+   "ir_2025-10-31.txt"
+  ],
+  "price_ctx": {
+   "close_at_report": 472.01,
+   "ret60_before_pct": 118.3,
+   "dd_from_250d_high_pct": -12.8,
+   "close_t5": 489.05,
+   "close_t20": 513.5,
+   "ret_t20_pct": 8.8,
+   "ret_t60_pct": 30.2
+  }
+ },
+ {
+  "period": "2025Q4",
+  "report_date": "2026-03-31",
+  "period_end": "2025-12-31",
+  "confidence": "high",
+  "single_q_亿": {
+   "revenue": 132.35,
+   "net_profit": 40.1,
+   "parent_net": 36.65,
+   "rd": 6.699
+  },
+  "cumulative_亿": {
+   "revenue": 382.4,
+   "parent_net": 107.97
+  },
+  "yoy": {
+   "revenue_yoy": 102.1,
+   "parent_net_yoy": 158.3,
+   "net_profit_yoy": 167.3
+  },
+  "qoq": {
+   "revenue_qoq": 29.6,
+   "parent_net_qoq": 16.8
+  },
+  "margins_single": {
+   "gross": 44.5,
+   "net": 30.3,
+   "parent_net": 27.7
+  },
+  "ocf_single_亿": 54.41,
+  "cash_content": 1.48,
+  "ar_亿": 62.77,
+  "pe_at_report": 58.103061224489785,
+  "pe_pctile_at_report": 68.2,
+  "announcement": {
+   "date": "2026-03-31",
+   "title": "2025年年度报告",
+   "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300308&announcementId=1225056459&orgId=9900022016&announceTime=20260331"
+  },
+  "window_reports": [
+   {
+    "d": "2026-04-09",
+    "org": "华鑫证券",
+    "title": "公司事件点评报告：高速光模块需求强劲增长，进一步加大产能投入",
+    "rating": "买入",
+    "infoCode": "AP202604091821077597"
+   },
+   {
+    "d": "2026-04-02",
+    "org": "东吴证券",
+    "title": "2025年报点评：业绩符合预期，高端产能释放",
+    "rating": "买入",
+    "infoCode": "AP202604021820983821"
+   },
+   {
+    "d": "2026-04-01",
+    "org": "群益证券",
+    "title": "AI高景气继续推动业绩增长，1.6T出货进展顺利",
+    "rating": "增持",
+    "infoCode": "AP202604011820947579"
+   },
+   {
+    "d": "2026-04-01",
+    "org": "招银国际",
+    "title": "Stronger into 2026 on 1.6T ramp and SiPh mix",
+    "rating": "买入",
+    "infoCode": "AP202604011820937277"
+   },
+   {
+    "d": "2026-03-31",
+    "org": "国金证券",
+    "title": "经营稳健，前瞻布局下一代光互连",
+    "rating": "买入",
+    "infoCode": "AP202603311820918747"
+   }
+  ],
+  "near_ir_files": [
+   "ir_2026-03-30.txt",
+   "ir_2026-04-17.txt",
+   "ir_2026-04-24.txt"
+  ],
+  "price_ctx": {
+   "close_at_report": 568.41,
+   "ret60_before_pct": -11.0,
+   "dd_from_250d_high_pct": -13.6,
+   "close_t5": 687.14,
+   "close_t20": 845.0,
+   "ret_t20_pct": 48.7,
+   "ret_t60_pct": 123.4
+  }
+ },
+ {
+  "period": "2026Q1",
+  "report_date": "2026-04-17",
+  "period_end": "2026-03-31",
+  "confidence": "high",
+  "single_q_亿": {
+   "revenue": 194.96,
+   "net_profit": 63.17,
+   "parent_net": 57.35,
+   "rd": 6.447
+  },
+  "cumulative_亿": {
+   "revenue": 195.0,
+   "parent_net": 57.35
+  },
+  "yoy": {
+   "revenue_yoy": 192.1,
+   "parent_net_yoy": 262.3,
+   "net_profit_yoy": 273.7
+  },
+  "qoq": {
+   "revenue_qoq": 47.3,
+   "parent_net_qoq": 56.5
+  },
+  "margins_single": {
+   "gross": 46.1,
+   "net": 32.4,
+   "parent_net": 29.4
+  },
+  "ocf_single_亿": 33.68,
+  "cash_content": 0.59,
+  "ar_亿": 95.36,
+  "pe_at_report": 62.85081240768094,
+  "pe_pctile_at_report": 73.9,
+  "announcement": {
+   "date": "2026-04-17",
+   "title": "2026年一季度报告",
+   "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300308&announcementId=1225111941&orgId=9900022016&announceTime=20260417"
+  },
+  "window_reports": [
+   {
+    "d": "2026-04-23",
+    "org": "华龙证券",
+    "title": "2026年一季报点评报告：全球算力投资持续增长，公司业绩持续高增",
+    "rating": "买入",
+    "infoCode": "AP202604231821486143"
+   },
+   {
+    "d": "2026-04-19",
+    "org": "开源证券",
+    "title": "公司信息更新报告：业绩兑现高增验证产业景气，AI算力基建驱动长期价值跃迁",
+    "rating": "买入",
+    "infoCode": "AP202604191821320623"
+   },
+   {
+    "d": "2026-04-17",
+    "org": "国金证券",
+    "title": "高速光模块放量增收增利，NPO等新技术核心卡位",
+    "rating": "买入",
+    "infoCode": "AP202604171821286408"
+   },
+   {
+    "d": "2026-04-17",
+    "org": "群益证券",
+    "title": "1.6T推动一季度盈利高速增长，后续业绩具备高确定性",
+    "rating": "增持",
+    "infoCode": "AP202604171821284282"
+   },
+   {
+    "d": "2026-04-17",
+    "org": "招银国际",
+    "title": "1Q26 earnings: Brighter than a shooting star",
+    "rating": "买入",
+    "infoCode": "AP202604171821281745"
+   }
+  ],
+  "near_ir_files": [
+   "ir_2026-04-17.txt",
+   "ir_2026-04-24.txt"
+  ],
+  "price_ctx": {
+   "close_at_report": 850.0,
+   "ret60_before_pct": 43.6,
+   "dd_from_250d_high_pct": -1.6,
+   "close_t5": 885.99,
+   "close_t20": 1037.0,
+   "ret_t20_pct": 22.0,
+   "ret_t60_pct": 30.9
+  }
+ },
+ {
+  "period": "2026Q2",
+  "report_date": "2026-08-22",
+  "period_end": "2026-06-30",
+  "confidence": "high",
+  "single_q_亿": {
+   "revenue": 222.81,
+   "net_profit": 84.17,
+   "parent_net": 79.17,
+   "rd": 5.083
+  },
+  "cumulative_亿": {
+   "revenue": 417.8,
+   "parent_net": 136.51
+  },
+  "yoy": {
+   "revenue_yoy": 174.6,
+   "parent_net_yoy": 228.2,
+   "net_profit_yoy": 229.8
+  },
+  "qoq": {
+   "revenue_qoq": 14.3,
+   "parent_net_qoq": 38.1
+  },
+  "margins_single": {
+   "gross": 46.4,
+   "net": 37.8,
+   "parent_net": 35.5
+  },
+  "ocf_single_亿": -15.68,
+  "cash_content": -0.2,
+  "ar_亿": 150.01,
+  "pe_at_report": 47.11532214401733,
+  "pe_pctile_at_report": 51.7,
+  "announcement": {
+   "date": "2026-08-22",
+   "title": "2026年半年度报告",
+   "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300308&announcementId=1225491753&orgId=9900022016&announceTime=20260822"
+  },
+  "window_reports": [
+   {
+    "d": "2026-09-02",
+    "org": "交银国际证券",
+    "title": "1.6T产品继续推进，NPO/2.4T等新产品蓄势待发，维持买入",
+    "rating": "买入",
+    "infoCode": "AP202609021828904437"
+   },
+   {
+    "d": "2026-08-24",
+    "org": "招银国际",
+    "title": "业绩符合预期；追光不止，下一代光互连蓄势待发",
+    "rating": "买入",
+    "infoCode": "AP202608241828350956"
+   },
+   {
+    "d": "2026-08-23",
+    "org": "开源证券",
+    "title": "公司信息更新报告：业绩超预期，Scale-up互联打开成长新空间",
+    "rating": "买入",
+    "infoCode": "AP202608231828344475"
+   }
+  ],
+  "near_ir_files": [
+   "ir_2026-08-23.txt"
+  ],
+  "price_ctx": {
+   "close_at_report": 870.22,
+   "ret60_before_pct": -25.1,
+   "dd_from_250d_high_pct": -38.6,
+   "close_t5": 851.9,
+   "close_t20": 941.0,
+   "ret_t20_pct": 8.1,
+   "ret_t60_pct": -10.9
+  }
+ }
+]

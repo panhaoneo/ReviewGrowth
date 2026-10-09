@@ -1,0 +1,18 @@
+{
+  "code": "300308",
+  "name": "中际旭创",
+  "thscode": "300308.SZ",
+  "start_date": "2018-01-01",
+  "end_date": "2026-09-30",
+  "warmup_start": "2017-10-01",
+  "view_mode": "both",
+  "extend_after_days": 120,
+  "benchmarks": {
+    "399006.SZ": { "name": "创业板指", "bs": "sz.399006" },
+    "000300.SH": { "name": "沪深300", "bs": "sh.000300" },
+    "000993.SH": { "name": "全指信息", "bs": "sh.000993", "role": "industry" }
+  },
+  "earnings_window": { "before_days": 5, "after_days": 15 },
+  "pdf_per_window": 8,
+  "refresh_days": 7
+}

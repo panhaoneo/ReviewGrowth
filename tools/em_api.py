@@ -111,7 +111,8 @@ def report_url(info_code):
 
 def download_pdf(info_code, publish_date, org, title, target_dir):
     """下载研报 PDF（须带 Referer）。成功返回路径，失败 None；已存在直接返回。
-    pdf.dfcfw.com 对连续批量请求会临时限流（403/超时），此处单独退避重试。"""
+    注意：pdf.dfcfw.com 对长连接（keep-alive 会话）会拖入涓流/CLOSE_WAIT 状态，
+    故此处刻意使用独立短连接（requests.get 每请求新连接），并单独限速+退避重试。"""
     if not info_code:
         return None
     safe = lambda s: re.sub(r'[\\/:*?"<>|]', "_", s or "")[:60]
@@ -120,14 +121,19 @@ def download_pdf(info_code, publish_date, org, title, target_dir):
     if target.exists() and target.stat().st_size >= 1024:
         return str(target)
     for attempt in range(3):
-        r = em_get(PDF_TPL.format(info_code=info_code),
-                   headers={"Referer": "https://data.eastmoney.com/"}, timeout=60)
-        if r is not None and r.status_code == 200 and len(r.content) >= 1024:
-            target.parent.mkdir(parents=True, exist_ok=True)
-            target.write_bytes(r.content)
-            return str(target)
+        time.sleep(0.6 + random.uniform(0, 0.4))
+        try:
+            r = requests.get(PDF_TPL.format(info_code=info_code),
+                             headers={"User-Agent": UA, "Referer": "https://data.eastmoney.com/"},
+                             timeout=30)
+            if r.status_code == 200 and len(r.content) >= 1024:
+                target.parent.mkdir(parents=True, exist_ok=True)
+                target.write_bytes(r.content)
+                return str(target)
+        except Exception:
+            pass
         if attempt < 2:
-            time.sleep(3 + attempt * 3)
+            time.sleep(2 + attempt * 2)
     return None
 
 

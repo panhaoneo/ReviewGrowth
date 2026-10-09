@@ -49,7 +49,7 @@ def main():
     end_plus = (date.fromisoformat(cfg["end_date"]) + timedelta(days=120)).isoformat()
     se = f"{cfg['start_date']}~{end_plus}"
     log(f"抓取巨潮公告 {se}（龙头股公告量大，按 30/页 分页）")
-    anns = query_announcements(code, se, page_size=30, max_pages=60)
+    anns = query_announcements(code, se, page_size=30, max_pages=100)
     log(f"公告 {len(anns)} 条")
     out = []
     n_irm = n_fc = n_rep = 0

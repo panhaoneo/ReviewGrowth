@@ -1,0 +1,367 @@
+[
+  {
+    "id": "A:20180123", "date": "2018-01-23", "type": "A", "importance": "低",
+    "title": "5% 以上股东减持预披露（噪音类事件）",
+    "summary": "持股 5% 以上股东披露减持计划；此后一年间减持/质押类公告频繁出现。",
+    "source": "巨潮资讯网 · 关于持股5%以上股东减持计划的预披露公告",
+    "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300308&announcementId=1204352238&orgId=9900022016&announceTime=20180123",
+    "published_at": "2018-01-23", "available_at": "2018-01-23",
+    "tags": ["减持", "噪音"], "confidence": "high",
+    "as_of": {
+      "summary": "并表转型刚完成，老股东（旭创原股东）进入减持通道——短期供给压力明确；但经营层面 100G 出货正处爬坡、400G 送样推进中，与减持行为无关。",
+      "logic_state": "中性",
+      "evidence": ["老股东退出", "100G 出货爬坡"]
+    },
+    "hindsight": {
+      "summary": "减持与质押公告贯穿 2018 年下跌全程（39→15.9），是弱势中筹码结构的放大器；2019 年起基本面反转后其影响完全消失。",
+      "verification": "与后续五年的股价趋势无相关性"
+    }
+  },
+  {
+    "id": "A:20180911", "date": "2018-09-11", "type": "A", "importance": "中",
+    "title": "董事长及总裁增持计划（腰斩后内部人出手）",
+    "summary": "公告董事长及总裁增持股份计划；此后公告显示该计划持续推进并完成。",
+    "source": "巨潮资讯网 · 关于董事长及总裁增持股份计划的公告",
+    "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300308&announcementId=1205428102&orgId=9900022016&announceTime=20180911",
+    "published_at": "2018-09-11", "available_at": "2018-09-11",
+    "tags": ["增持", "内部人信号"], "confidence": "high",
+    "as_of": {
+      "summary": "股价自 4 月高点 39.3 腰斩至 20 区域后的内部人增持——管理层用真金白银表达'价格显著低于价值'；同期公司 400G 送样与海外客户拓展正常推进。",
+      "logic_state": "中性（信心信号）",
+      "evidence": ["管理层增持", "400G 进展正常"]
+    },
+    "hindsight": {
+      "summary": "增持后 1 个月见大底 15.86（2018-10-12），随后第一波行情启动（至 2020-02 约 3 倍）。管理层增持是有效的底部信号。",
+      "verification": "1 个月后见底，18 个月 3 倍"
+    }
+  },
+  {
+    "id": "A:20200215", "date": "2020-02-15", "type": "A", "importance": "中",
+    "title": "收购储翰科技框架协议（上游光器件整合）",
+    "summary": "签署股权收购框架协议，拟收购成都储翰科技（有源光器件/光芯片封装）股权，向产业链上游延伸。",
+    "source": "巨潮资讯网 · 关于签署股权收购框架协议的公告",
+    "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300308&announcementId=1207307734&orgId=9900022016&announceTime=20200215",
+    "published_at": "2020-02-15", "available_at": "2020-02-15",
+    "tags": ["并购", "上游整合"], "confidence": "high",
+    "as_of": {
+      "summary": "第一波高点（50 区域）后的产业整合动作：光器件环节自制比例提升有利于成本与交付；收购规模不大，战略意义为主。",
+      "logic_state": "增强",
+      "evidence": ["上游光器件整合"]
+    },
+    "hindsight": {
+      "summary": "2020-06 完成收购后与 400G 放量形成协同（研报多次提及'储翰并表协同促增长'）；长冬期内储翰盈利受行业影响，未构成拖累。",
+      "verification": "协同效应在 2020 年报中得到体现"
+    }
+  },
+  {
+    "id": "A:20210325", "date": "2021-03-25", "type": "A", "importance": "中",
+    "title": "终止可转债改定增 + 核心员工增持（低位双重信号）",
+    "summary": "公告拟终止向不特定对象发行可转债、并筹划向特定对象发行股票；同日公告部分核心员工及高管增持公司股份计划。",
+    "source": "巨潮资讯网 · 关于拟终止向不特定对象发行可转换公司债券暨筹划向特定对象发行股票的提示性公告",
+    "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300308&announcementId=1209445468&orgId=9900022016&announceTime=20210325",
+    "published_at": "2021-03-25", "available_at": "2021-03-25",
+    "tags": ["融资", "增持", "低位信号"], "confidence": "high",
+    "as_of": {
+      "summary": "股价 20 区域（四年低位）的两重信号：①融资路径切换为定增（更适配机构长线资金）；②核心员工与高管真金白银增持。经营层面 2020 年报（4 月披露）营收 +39% 正待验证。",
+      "logic_state": "中性",
+      "evidence": ["定增筹划", "核心员工增持"]
+    },
+    "hindsight": {
+      "summary": "此次增持价位（20 附近）在随后两年横盘未被套牢，2023 年起 AI 行情中成为极佳成本；定增于 2021-10 完成（31.00 元/股、约 27 亿元），为 800G/硅光产能提前卡位。",
+      "verification": "增持与定增均在周期底部区间完成"
+    }
+  },
+  {
+    "id": "A:20210508", "date": "2021-05-08", "type": "A", "importance": "中",
+    "title": "2021 年度定增预案（投向 400G/800G 与硅光）",
+    "summary": "披露 2021 年度向特定对象发行 A 股股票预案：募集资金聚焦高速光模块产能与硅光技术研发。",
+    "source": "巨潮资讯网 · 2021年度向特定对象发行A股股票预案",
+    "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300308&announcementId=1209940092&orgId=9900022016&announceTime=20210508",
+    "published_at": "2021-05-08", "available_at": "2021-05-08",
+    "tags": ["定增", "800G", "硅光"], "confidence": "high",
+    "as_of": {
+      "summary": "在 800G 尚未放量（2021 年）的时点把募资投向 800G 与硅光——扩产决策领先需求整整两年；对当期投资者是'管理层有未来订单能见度'的证据。",
+      "logic_state": "增强",
+      "evidence": ["募投指向 800G/硅光"]
+    },
+    "hindsight": {
+      "summary": "800G 与硅光正是 2023-2026 的核心增长引擎（硅光占比 >50%、毛利率 24%→46%）——该次融资的'前瞻卡位'是全周期最关键的资本决策之一。",
+      "verification": "2023-2026 收入结构与毛利率验证投向"
+    }
+  },
+  {
+    "id": "A:20211023", "date": "2021-10-23", "type": "A", "importance": "低",
+    "title": "2021 定增发行完成（31.00 元/股、约 27 亿元）",
+    "summary": "向特定对象发行完成：发行数量 8,708 万股、发行价格 31.00 元/股，募集资金约 27 亿元（发行情况报告书原文）。",
+    "source": "巨潮资讯网 · 向特定对象发行股票发行情况报告书",
+    "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300308&announcementId=1211362210&orgId=9900022016&announceTime=20211023",
+    "published_at": "2021-10-23", "available_at": "2021-10-23",
+    "tags": ["定增", "弹药"], "confidence": "high",
+    "as_of": {
+      "summary": "发行价 31.00 元/股、机构完成认购——在行业低谷期仍能完成融资，产能弹药落地；但市场焦点仍在需求（2021Q3 业绩平淡）。",
+      "logic_state": "中性",
+      "evidence": ["发行价 31.00 元", "募资约 27 亿"]
+    },
+    "hindsight": {
+      "summary": "资金投向的 800G 产能在 2023-2024 成为最稀缺资产；发行后股价仍横盘约一年（熊市末段），但产业意义在 2023 年兑现。",
+      "verification": "融资→产能→兑现的时间差约 18 个月"
+    }
+  },
+  {
+    "id": "A:20220407", "date": "2022-04-07", "type": "A", "importance": "中",
+    "title": "回购方案启动（底部区间的多轮护盘）",
+    "summary": "公告回购公司股份方案；2022 年 4 月至 12 月公司连续推出多轮回购并全部实施完成（4/7-7/2、9/17-10/11、10/11-12/15 等）。",
+    "source": "巨潮资讯网 · 关于回购公司股份方案的公告",
+    "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300308&announcementId=1212828984&orgId=9900022016&announceTime=20220407",
+    "published_at": "2022-04-07", "available_at": "2022-04-07",
+    "tags": ["回购", "底部信号"], "confidence": "high",
+    "as_of": {
+      "summary": "股价 20 区域（逼近四年最低）时的回购方案；同时经营层面 2022Q1 营收 +42% 仍在增长——基本面与股价的极限背离区（'业绩增、股价跌'已持续两年）。",
+      "logic_state": "中性（价值信号）",
+      "evidence": ["回购方案", "2022Q1 营收 +42%"]
+    },
+    "hindsight": {
+      "summary": "2022 年内完成多轮回购，10-10 见大底 15.86 后 AI 行情启动；回购密集期正是全周期最佳买点区域。",
+      "verification": "回购完成后 2 个月内开启 7.5 倍的 AI 预期行情"
+    }
+  },
+  {
+    "id": "A:20221229", "date": "2022-12-29", "type": "A", "importance": "中",
+    "title": "第三期员工持股计划（AI 行情前夜）",
+    "summary": "发布第三期员工持股计划（草案）及管理办法；2023-03 完成非交易过户。",
+    "source": "巨潮资讯网 · 第三期员工持股计划（草案）",
+    "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300308&announcementId=1215472339&orgId=9900022016&announceTime=20221229",
+    "published_at": "2022-12-29", "available_at": "2022-12-29",
+    "tags": ["员工持股", "底部信号"], "confidence": "high",
+    "as_of": {
+      "summary": "在股价约 17 元区域设立第三期员工持股——内部人在 ChatGPT 行情前夜完成利益绑定；与 2022 全年回购形成连续的底部信号链。",
+      "logic_state": "中性（信心信号）",
+      "evidence": ["第三期持股计划", "价格处于四年底部"]
+    },
+    "hindsight": {
+      "summary": "持股计划设立后半年内股价 7.5 倍（至 2023-06 的 119.9）——内部人择时样本；2024 年首个锁定期解锁条件达成。",
+      "verification": "设立于历史级行情起点"
+    }
+  },
+  {
+    "id": "A:20230622", "date": "2023-06-22", "type": "A", "importance": "低",
+    "title": "收购重庆君歌电子 62.45% 股权（汽车光电子延伸）",
+    "summary": "公告收购重庆君歌电子 62.45% 股权（车载光电/激光雷达相关）。",
+    "source": "巨潮资讯网 · 关于收购重庆君歌电子科技有限公司62.45%股权的公告",
+    "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300308&announcementId=1217119596&orgId=9900022016&announceTime=20230622",
+    "published_at": "2023-06-22", "available_at": "2023-06-22",
+    "tags": ["并购", "汽车光电"], "confidence": "high",
+    "as_of": {
+      "summary": "在 AI 行情第一波高点（119.9）刚过时的外延投资：车载光电子方向试探第二赛道；规模小，对主业无影响。",
+      "logic_state": "中性",
+      "evidence": ["车载光电布局"]
+    },
+    "hindsight": {
+      "summary": "该赛道 2023-2026 未成为主要叙事（AI 需求完全主导）；公司自动驾驶光互连产品在 2025-04 说明会中提到'正在推广'。",
+      "verification": "车载业务营收占比始终较小"
+    }
+  },
+  {
+    "id": "A:20251111", "date": "2025-11-11", "type": "A", "importance": "中",
+    "title": "启动 H 股上市筹备（全球化资本平台）",
+    "summary": "公告授权管理层启动境外发行股份（H 股）并在香港联交所上市的筹备工作。",
+    "source": "巨潮资讯网 · 关于授权公司管理层启动公司境外发行股份（H股）上市相关筹备工作的提示性公告",
+    "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300308&announcementId=1224797136&orgId=9900022016&announceTime=20251111",
+    "published_at": "2025-11-11", "available_at": "2025-11-11",
+    "tags": ["H股", "全球化"], "confidence": "high",
+    "as_of": {
+      "summary": "在 1.6T 主升段（股价 500+ 区域）启动 H 股筹备：海外扩产与备料的资金前置安排，也是应对地缘风险的产能全球化信号。",
+      "logic_state": "增强",
+      "evidence": ["H 股筹备", "海外产能扩张需求"]
+    },
+    "hindsight": {
+      "summary": "2026-07-30 H 股挂牌，管理层口径募资约 70 亿美元——为 2027 年扩产与上游锁料提供充足弹药。",
+      "verification": "8 个月内完成筹备到上市"
+    }
+  },
+  {
+    "id": "A:20260729", "date": "2026-07-29", "type": "A", "importance": "中",
+    "title": "董事长提议回购（顶点回撤 -40% 后的管理层动作）",
+    "summary": "公告收到董事长提议回购公司股份；此后公司推出回购方案并于 9 月实施。",
+    "source": "巨潮资讯网 · 关于收到董事长提议回购公司股份的公告",
+    "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300308&announcementId=1225445769&orgId=9900022016&announceTime=20260729",
+    "published_at": "2026-07-29", "available_at": "2026-07-29",
+    "tags": ["回购", "调整期信号"], "confidence": "high",
+    "as_of": {
+      "summary": "股价自 6 月顶点回撤约 40% 后董事长提议回购——管理层认为调整过度；同期 2026H1 业绩尚未披露（8-22 披露 +228%），基本面与股价再度背离。",
+      "logic_state": "中性（信心信号）",
+      "evidence": ["提议回购", "顶点后 -40%"]
+    },
+    "hindsight": {
+      "summary": "回购于 9 月完成（9-25 结果公告）；8-22 披露的中报证实基本面仍强，但股价未逆转调整趋势（截至 10-09 仍处 775 区域）——本轮调整的定价矛盾不在回购能解决的层面。",
+      "verification": "回购未能扭转调整，'分子强、分母弱'再现"
+    }
+  },
+  {
+    "id": "A:20260730", "date": "2026-07-30", "type": "A", "importance": "高",
+    "title": "H 股挂牌上市（募资约 70 亿美元）",
+    "summary": "境外上市股份（H 股）在香港联交所挂牌并上市交易；据管理层在 2026-08-23 电话会披露，本次港股发行募资约 70 亿美元。",
+    "source": "巨潮资讯网 · 关于境外上市股份（H股）挂牌并上市交易的公告",
+    "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300308&announcementId=1225449717&orgId=9900022016&announceTime=20260730",
+    "published_at": "2026-07-30", "available_at": "2026-07-30",
+    "tags": ["H股", "融资", "全球化"], "confidence": "high",
+    "kline_label": "H股上市募资约70亿美元",
+    "as_of": {
+      "summary": "全球化资本平台落地：募资投向扩产与备料（'为 27 年更大规模上量做好准备'——见 8-23 电话会）；在调整期完成大额融资，兼具'弹药'与'信心'双重含义。",
+      "logic_state": "增强",
+      "evidence": ["H 股挂牌", "募资约 70 亿美元"]
+    },
+    "hindsight": {
+      "summary": "上市后一个月公司披露 2026H1（营收+175%/归母+228%）与 2027 年订单能见度——融资的'见顶联想'被基本面证伪；但股价受 2027 增速定价压制，尚未修复。",
+      "verification": "融资用途与订单前瞻匹配"
+    }
+  },
+  {
+    "id": "C:20220713", "date": "2022-07-13", "type": "C", "importance": "低",
+    "title": "调研纪要（2022-07-11）：数通需求与激光雷达",
+    "summary": "2022-07-11 投资者关系活动记录表（2022-07-13 披露）：交流内容涵盖海外数通需求、400G 出货与激光雷达布局方向。",
+    "source": "巨潮资讯网 · 投资者关系活动记录表20220711",
+    "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300308&announcementId=1214015885&orgId=9900022016&announceTime=20220713",
+    "published_at": "2022-07-13", "available_at": "2022-07-13",
+    "tags": ["调研纪要"], "confidence": "high",
+    "as_of": {
+      "summary": "底部巩固期的常规调研：海外数通需求延续（2022Q2 业绩已于 8-26 披露：营收+17%/归母+32%），激光雷达为新方向试探。",
+      "logic_state": "中性",
+      "evidence": ["海外数通需求"]
+    },
+    "hindsight": {
+      "summary": "调研后 3 个月（2022-10-10）股价见四年大底——底部区的调研密度上升本身就是机构开始关注的信号。",
+      "verification": "3 个月后见底 15.86"
+    }
+  },
+  {
+    "id": "C:20240129", "date": "2024-01-29", "type": "C", "importance": "高",
+    "title": "业绩预告电话会（2024-01-28）：800G 从 3 月起量、1.6T 下半年部署",
+    "summary": "2024-01-28 电话会议（董秘王军、财务总监王晓丽）：2023 年归母预告 20-23 亿元（+63%~88%）；披露'2023 年 3 月起海外大客户 800G 需求起量并不断补充订单'、'预计 AI 大客户最快 2024 下半年采购部署 1.6T'；硅光 400G/800G 已批量出货。",
+    "source": "巨潮资讯网 · 投资者关系活动记录表20240128",
+    "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300308&announcementId=1219023735&orgId=9900022016&announceTime=20240129",
+    "published_at": "2024-01-29", "available_at": "2024-01-29",
+    "tags": ["电话会", "订单证据", "1.6T"], "confidence": "high",
+    "kline_label": "800G起量确认 · 1.6T预告",
+    "as_of": {
+      "summary": "回撤底部（67.3 区域）的关键一手信息：①800G 订单逐季环比增长、Q4 出货增速仍显著；②DSP/EML 供应链已缓解；③1.6T 大客户下半年部署——订单证据与产品节奏双确认；业绩预告 +63%~88% 印证兑现。",
+      "logic_state": "增强",
+      "evidence": ["800G 订单环比增长", "1.6T 下半年部署", "业绩预告 +63~88%"]
+    },
+    "hindsight": {
+      "summary": "该电话会恰在兑现主升起点（1-29 后股价 67→184，+173%）：'订单证据+悲观情绪极值'的组合是最佳 as-of 买点样本。1.6T 于 2025 年如期放量。",
+      "verification": "订单指引与后续 5 个季度业绩全部兑现"
+    }
+  },
+  {
+    "id": "C:20250407", "date": "2025-04-07", "type": "C", "importance": "高",
+    "title": "关税专题电话会（2025-04-06）：客户未调整订单、泰国工厂全面交付",
+    "summary": "2025-04-06 紧急电话会议（120+ 家机构）：①海外客户尚未调整任何需求和订单、未要求改变贸易条款；②公司已具备全面在泰国工厂生产与交付能力，进口芯片可直接发往泰国；③EML 预计二季度起缓解；④800G/400G 需求指引维持，1.6T 需求'有所递延'；⑤2026 年 1.6T 将更大规模部署（OFC 交流）。",
+    "source": "巨潮资讯网 · 投资者关系活动记录表20250406",
+    "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300308&announcementId=1223014174&orgId=9900022016&announceTime=20250407",
+    "published_at": "2025-04-07", "available_at": "2025-04-07",
+    "tags": ["电话会", "关税", "订单证据", "底部"], "confidence": "high",
+    "kline_label": "关税会议：订单未变",
+    "as_of": {
+      "summary": "关税恐慌极值（4-09 见底 65.3）前 48 小时的关键事实：订单未调整 + 泰国全面交付（关税规避路径成立）——把'政策不确定'与'经营确定'分离；谨慎项是 1.6T 需求递延的表述。",
+      "logic_state": "中性（订单逻辑未破坏 vs 外生冲击定价）",
+      "evidence": ["订单未调整", "泰国工厂交付", "1.6T 递延"]
+    },
+    "hindsight": {
+      "summary": "两个交易日后股价见全周期大底（65.3），随后 14 个月 19.7 倍——'订单事实 vs 情绪恐慌'的背离定价是超级买点。",
+      "verification": "5 个季度后回看：订单指引全部兑现，1.6T 2025H2 如期放量"
+    }
+  },
+  {
+    "id": "C:20250430", "date": "2025-04-30", "type": "C", "importance": "中",
+    "title": "2024 年度业绩说明会（2025-04-30）：泰国发货关税为 0、已接到 1.6T 订单",
+    "summary": "2024 年度业绩说明会（董事长刘圣等全员出席）：①'二季度绝大部分海外订单从泰国工厂生产和发货，关税为 0'；②'已接到 1.6T 订单，二季度到下半年出货量逐渐增长'；③2025 年收入主要来自 1.6T/800G/400G，在手订单充足；④投资者连续 6 问股价（月线 7 连跌）与管理层市值管理回应。",
+    "source": "巨潮资讯网 · 投资者关系活动记录表20250430",
+    "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300308&announcementId=1223447072&orgId=9900022016&announceTime=20250430",
+    "published_at": "2025-04-30", "available_at": "2025-04-30",
+    "tags": ["业绩说明会", "关税", "1.6T 订单"], "confidence": "high",
+    "as_of": {
+      "summary": "大底后 3 周的补充验证：泰国发货关税为 0（税率路径具体化）、1.6T 订单在手；同时投资者的高压提问（股价月线 7 连跌）反证恐慌水位——基本面事实与市场情绪完全脱节。",
+      "logic_state": "增强",
+      "evidence": ["泰国关税为 0", "1.6T 订单在手"]
+    },
+    "hindsight": {
+      "summary": "此后 Q2 财报（+79%）与 Q3（+125%）连续兑现；说明会中'1.6T 二季度起出货'的指引精确命中。",
+      "verification": "指引与兑现节奏一致"
+    }
+  },
+  {
+    "id": "C:20250827", "date": "2025-08-27", "type": "C", "importance": "高",
+    "title": "2025 中报电话会：净利率首破 30%、1.6T 规模出货",
+    "summary": "2025 中报电话会（财务总监王晓丽、董秘王军）：2025H1 营收 147.89 亿（+37%）、毛利率 39.33%；Q2 单季毛利率 41.5%（环比 +5pct）、归母 24.12 亿（+52% QoQ）、净利率首破 30%；1.6T 二季度起逐步出货且有信心毛利率继续改善；首次中期分红；scale-up 光连接机会（NPO/CPO 讨论）；国内客户 400G 放量。",
+    "source": "巨潮资讯网 · 投资者关系活动记录表20250827",
+    "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300308&announcementId=1224599825&orgId=9900022016&announceTime=20250827",
+    "published_at": "2025-08-27", "available_at": "2025-08-27",
+    "tags": ["电话会", "毛利率", "1.6T", "scale-up"], "confidence": "high",
+    "kline_label": "净利率破30% · 1.6T放量",
+    "as_of": {
+      "summary": "主升段确认会：毛利率 41.5% 与净利率 30% 是历史上从未到达的高度，且管理层给出'1.6T 毛利率更好'+'scale-up 光连接机会'的增量叙事——戴维斯双击的加速信号；首次中期分红强化股东回报。",
+      "logic_state": "增强",
+      "evidence": ["净利率首破 30%", "1.6T 规模出货", "scale-up 新场景"]
+    },
+    "hindsight": {
+      "summary": "此后两个季度归母 +125%/+158% 继续加速、股价再涨约 4 倍（至 2026-06 顶点）——毛利率加速段是全周期最陡峭的主升。",
+      "verification": "利润率高增持续 4 个季度"
+    }
+  },
+  {
+    "id": "C:20260424", "date": "2026-04-24", "type": "C", "importance": "中",
+    "title": "2025 年度业绩说明会：16 问覆盖 1.6T 产能、毛利率与 2027 展望",
+    "summary": "2025 年度业绩说明会（2026-04-24）：①1.6T 量产出货且'每个季度出货量环比提升'；②2026Q1 综合毛利率 46%；③已接到部分客户 2026 年全年订单、在手订单排至年底；④硅光占比已超一半；⑤6.4T NPO 与 12.8T XPO 研发中；⑥2025 年末年化产能达 2800 万只、2026 年继续快速扩产。",
+    "source": "巨潮资讯网 · 投资者关系活动记录表20260424",
+    "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300308&announcementId=1225185699&orgId=9900022016&announceTime=20260424",
+    "published_at": "2026-04-24", "available_at": "2026-04-24",
+    "tags": ["业绩说明会", "毛利率", "订单能见度"], "confidence": "high",
+    "as_of": {
+      "summary": "46% 毛利率与'订单排到年底'的组合支撑高位置信度；新叙事（6.4T NPO/12.8T XPO、scale-up）在册；管理层同时承认'资本开支的周期是肯定存在的'——风险自陈并存。",
+      "logic_state": "增强",
+      "evidence": ["毛利率 46%", "订单排至年底", "NPO/XPO 储备"]
+    },
+    "hindsight": {
+      "summary": "2026Q2（8-22 披露）归母 +228% 兑现指引；但股价自 6 月顶点进入 -44% 调整——说明 46% 毛利率后的市场焦点已切换至 2027 增速与竞争。",
+      "verification": "业绩兑现但估值先行回撤"
+    }
+  },
+  {
+    "id": "C:20260823", "date": "2026-08-23", "type": "C", "importance": "高",
+    "title": "2026 中报电话会：2027 年订单快速增长、NPO 领先定制",
+    "summary": "2026 中报电话会（2026-08-23）：①'主要客户已给出 2027 年指引和订单，2027 年 1.6T/800G 订单相较 2026 仍保持快速增长'；②云厂商上调 2026/2027 资本开支指引；③NPO 预计 2027 出货（公司首批）、2.4T/XPO 2027H2 量产；④汇率：Q1/Q2 汇兑损失 3/4 亿元（报表折算为主）；⑤7 月港股发行募资约 70 亿美元支撑扩产备料；⑥承认新玩家将获得部分新云客户份额，但 CSP 固有供应商份额稳定。",
+    "source": "巨潮资讯网 · 投资者关系活动记录表20260823",
+    "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300308&announcementId=1225493952&orgId=9900022016&announceTime=20260823",
+    "published_at": "2026-08-23", "available_at": "2026-08-23",
+    "tags": ["电话会", "2027 订单", "NPO", "竞争"], "confidence": "high",
+    "kline_label": "2027订单指引 · NPO领先",
+    "as_of": {
+      "summary": "调整阶段最完整的 as-of 材料：2027 年订单指引（快速增长）+ 资本开支上修 + NPO 首批卡位——分子端信号全面正面；唯一边际转弱：新进入者份额分流（新云客户）与物料涨价的成本压力自陈。",
+      "logic_state": "增强（分子）",
+      "evidence": ["2027 订单快速增长", "NPO 2027 首批", "新玩家分流新云客户"]
+    },
+    "hindsight": {
+      "summary": "（进行中）会后股价仍在调整区间运行（8-23 至 10-09 约 -10%）——2027 订单指引尚未扭转市场对'增速中枢与竞争'的定价，与 2023 年'预期与兑现的时间差'结构相似，等待 2027H1 兑现验证。",
+      "verification": "待 2027 年订单兑现验证（进行中）"
+    }
+  },
+  {
+    "id": "A:20260925", "date": "2026-09-25", "type": "A", "importance": "低",
+    "title": "回购实施完成（调整期筹码支撑落地）",
+    "summary": "公告股份回购结果暨股份变动：7 月董事长提议的回购方案已完成实施。",
+    "source": "巨潮资讯网 · 关于股份回购结果暨股份变动公告",
+    "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=300308&announcementId=1225583167&orgId=9900022016&announceTime=20260925",
+    "published_at": "2026-09-25", "available_at": "2026-09-25",
+    "tags": ["回购", "筹码"], "confidence": "high",
+    "as_of": {
+      "summary": "提议（7-29）到完成（9-25）约两个月内落地——管理层在调整期兑现了回购承诺；同期 2026H1 业绩（+228%）已披露，基本面与股价背离持续。",
+      "logic_state": "中性（信心信号）",
+      "evidence": ["回购完成", "业绩 +228% 同期披露"]
+    },
+    "hindsight": {
+      "summary": "回购完成后至 10-09 股价仍在 775 区域震荡（区间 -44% 未修复）——本轮调整的定价矛盾（2027 增速与竞争）非回购可解",
+      "verification": "进行中"
+    }
+  }
+]

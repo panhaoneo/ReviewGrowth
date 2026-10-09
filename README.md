@@ -9,6 +9,7 @@
 | 股票 | 区间 | 报告 |
 |---|---|---|
 | 宁德时代 300750 | 2019-01-01 ~ 2022-12-31 | [复盘页](https://panhaoneo.github.io/ReviewGrowth/review.html?code=300750) · [Markdown 报告](https://panhaoneo.github.io/ReviewGrowth/data/300750/report.html) · [置信度报告](https://panhaoneo.github.io/ReviewGrowth/data/300750/confidence.html) |
+| 中际旭创 300308 | 2018-01-01 ~ 2026-09-30（四段超级成长走势） | [复盘页](https://panhaoneo.github.io/ReviewGrowth/review.html?code=300308) · [Markdown 报告](https://panhaoneo.github.io/ReviewGrowth/data/300308/report.html) · [置信度报告](https://panhaoneo.github.io/ReviewGrowth/data/300308/confidence.html) |
 
 ## 核心特性
 

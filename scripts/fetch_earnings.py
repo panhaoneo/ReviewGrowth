@@ -19,7 +19,6 @@ from common import (cfg_argparse, d2ms, data_dir, is_fresh, load_config,  # noqa
                     load_json, log, ms_to_date, now_str, save_json)
 from fuyao_api import fetch_statement, fetch_indicators  # noqa: E402
 
-DISPLAY_YEARS = (2019, 2022)
 INCOME_FLOW = ["operating_income", "operating_costs", "operating_expenses", "sales_fee",
                "manage_fee", "research_and_development_expenses", "operating_profit",
                "profit_total", "income_tax_expense", "net_profit",
@@ -66,6 +65,23 @@ def index_rows(rows):
     return out
 
 
+def _span_chunks(start, end, years=8):
+    """fuyao 三表要求区间跨度 <= 10 年 → 按 8 年分块"""
+    from datetime import date, timedelta
+    s, e = date.fromisoformat(start), date.fromisoformat(end)
+    while s <= e:
+        ce = min(date(s.year + years, s.month, s.day), e)
+        yield s.isoformat(), ce.isoformat()
+        s = ce + timedelta(days=1)
+
+
+def fetch_statement_chunked(thscode, kind, start, end):
+    rows = []
+    for cs, ce in _span_chunks(start, end):
+        rows.extend(fetch_statement(thscode, kind, d2ms(cs), d2ms(ce, end_of_day=True)))
+    return rows
+
+
 def prev_period(y, q):
     qn = int(q[1])
     if qn == 1:
@@ -84,18 +100,19 @@ def main():
         return
 
     thscode = cfg["thscode"]
-    start_ms, end_ms = d2ms("2017-01-01"), d2ms("2023-06-30", end_of_day=True)
-    log("抓取三表 2017-01 ~ 2023-06（区间模式）")
-    income = index_rows(fetch_statement(thscode, "income", start_ms, end_ms))
-    balance = index_rows(fetch_statement(thscode, "balance", start_ms, end_ms))
-    cashflow = index_rows(fetch_statement(thscode, "cashflow", start_ms, end_ms))
+    sy, ey = int(cfg["start_date"][:4]), int(cfg["end_date"][:4])
+    st_start, st_end = f"{sy - 2}-01-01", f"{ey + 1}-06-30"
+    log(f"抓取三表 {st_start} ~ {st_end}（区间模式，按 8 年分块）")
+    income = index_rows(fetch_statement_chunked(thscode, "income", st_start, st_end))
+    balance = index_rows(fetch_statement_chunked(thscode, "balance", st_start, st_end))
+    cashflow = index_rows(fetch_statement_chunked(thscode, "cashflow", st_start, st_end))
     if not income:
         raise RuntimeError("利润表为空，终止")
     log(f"三表: 利润{len(income)}期 / 负债{len(balance)}期 / 现金流{len(cashflow)}期")
 
     # 累计口径实证判定（同年 Q1<=Q2<=Q3<=Q4 单调）
     ok_years, years = 0, 0
-    for y in range(2018, 2023):
+    for y in range(sy, ey + 1):
         rows = [income.get((y, f"Q{i}")) for i in range(1, 5)]
         vals = [num(r.get("operating_income")) if r else None for r in rows]
         if all(v is not None for v in vals):
@@ -128,7 +145,7 @@ def main():
 
     # 指标（16 期）
     ind_map = {}
-    for y in range(DISPLAY_YEARS[0], DISPLAY_YEARS[1] + 1):
+    for y in range(sy, ey + 1):
         for qi in range(1, 5):
             ind = fetch_indicators(thscode, f"{y}-{qi}")
             if ind:
@@ -162,7 +179,7 @@ def main():
                   for k, v in income.items()}
 
     periods, gap_list = [], []
-    for y in range(DISPLAY_YEARS[0], DISPLAY_YEARS[1] + 1):
+    for y in range(sy, ey + 1):
         for qi in range(1, 5):
             q = f"Q{qi}"
             ir = income.get((y, q))

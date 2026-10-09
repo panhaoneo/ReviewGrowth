@@ -1,0 +1,229 @@
+标题: 1Q26 earnings: Brighter than a shooting star
+机构: 招银国际 | 分析师: Kevin Zhang,Aaron GUO
+日期: 2026-04-17 | 评级: 买入
+EPS预测(当年/次年/后年): 25.24 / 38.6 / 59.46
+来源: https://data.eastmoney.com/report/info/AP202604171821281745.html
+窗口: 2026Q1 | score=40.0
+
+===== 第1页 =====
+ 
+PLEASE READ THE ANALYST CERTIFICATION AND IMPORTANT DISCLOSURES ON LAST PAGE  
+MORE REPORTS FROM BLOOMBERG: RESP CMBR <GO> OR http://www.cmbi.com.hk  1 
+ MN 
+ 
+17 Apr 2026  
+CMB International Global Markets | Equity Research | Company Update   
+ 
+ 
+ 
+Innolight (300308 CH)   
+Innolight (300308 CH) - 1Q26 
+earnings: Brighter than a 
+shooting star  
+ 
+ 1Q26 earnings:  Brigh ter than a shooting star    
+ 
+Innolight delivered a standout 1Q26, with revenue jumping  192% YoY / 47.3% 
+QoQ to RMB19.5bn (vs. Bloomberg consensus of RMB15.4bn), and net profit 
+surging  262% YoY / 56.5% QoQ to RMB5.7bn (vs. RMB4.4bn consensus), both 
+marking new quarterly highs. During the period, GPM  expanded further to 46.1%  
+(vs. 44.5% in 4Q25) , primar ily due to improving mix and rising SiPho  
+penetration. Mgmt. framed the strong quarter not as a one -off outperformance 
+but as  a reflection of sustained demand strength and improved execution, with 
+robust capacity ramp -up, including Thailand, and resilient raw material 
+procurement supporting shipment in a tight S/D backdrop.  Maintain BUY with 
+TP adjusted to RMB1,080  on 28x rollover 2027E P/E (prev. 28x 2026E P/E).  
+ 800G and 1.6T ramped up in tandem, with rising SiPho mix further 
+lifting margin . Revenue strength was driven by concurrent ramp -up in both 
+800G and 1.6T products, indicating that growth is broadening across the 
+company’s high -end optical portfolio rather than being tied to a single 
+product inflection. M gmt. highlighted meaningful cont ribution from both 
+800G and 1.6T shipments in 1Q26, with the richer product mix continuing to 
+drive margin higher. Within 1.6T, SiPho is expected to account for more than 
+half of shipments this year, reinforcing our view that rising SiPho penetration 
+shoul d remain an important structural support to margin.  
+ NPO is the earlier catalyst, while XPO provides broader deployment 
+flexibility.  Mgm t. indicated NPO has already received explicit customer 
+demand indications and could enter volume production in 2027, wit h the use 
+case tied primarily to scale -up architectures. XPO, by contrast, is still in 
+active customer promotion, but was positioned across both scale -up and 
+scale -out scenarios, with transmission reach of roughly 100m to 2km, 
+implying broader deployment p otential once commercialization visibility 
+improves . 
+ Maintain BUY with TP revised  to RMB1,080 on rollover  28x 2027E P/E, 
+supported by an order backlog that now stretches through 2026 and 
+into 2027 (and even beyond ). In our view,  what stood out this quarter was 
+not only the magnitude of the beat, but the quality of execution behind it: 
+Capacity expansion landed on time, supply -chain preparation remained 
+effective despite tight upstream conditions, while product mix was moving 
+struc turally upward . We believe this supports a more durable ear nings 
+profile and strengthens confidence that Innolight can c apture incremental 
+upside from future architectural shifts . 
+  
+Target Price   RMB1080.00  
+(Previous TP   RMB707.00)  
+Up/Downside   33.4%  
+Current Price   RMB809.61  
+   
+China Semiconductors  
+Kevin ZHANG  
+(852) 3761 8727  
+kevinzhang@cmbi.com.hk   
+Aaron GUO  
+(852) 3916 3715  
+aaronguo@cmbi.com.hk  
+ 
+Stock Data    
+Mkt Cap (RMB mn)  899,557.7  
+Avg 3 mths t/o (RMB mn)  18,372.9  
+52w High/Low (RMB)  809.61/77.61  
+Total Issued Shares (mn)  1111.1  
+Source: FactSet    
+ 
+Shareholding Structure   
+Shandong Zhongji Investment 
+Holdings Co.  10.9%  
+Wang Weixiu  6.3%  
+Source: Bloomberg    
+ 
+Share Performance  
+ Absolute  Relative  
+1-mth 44.1%  42.7%  
+3-mth 31.2%  29.6%  
+6-mth 120.6%  98.9%  
+Source: FactSet  
+12-mth Price Performance  
+  Source: FactSet  
+ Earnings Summary       
+(YE 31 Dec)  FY24A  FY25A  FY26E  FY27E  FY28E  
+Revenue (RMB mn)  23,862  38,240  84,065  121,495  175,287  
+  YoY growth (%)  122.6  60.3 119.8  44.5 44.3 
+Gross margin (%)  33.8 42.0 45.6 46.6 48.5 
+Net profit (RMB mn)  5,171.5  10,797.3  28,040.8  42,888.3  66,064.9  
+  YoY growth (%)  137.9  108.8  159.7  52.9 54.0 
+EPS (Reported) (RMB)  4.72 9.80 25.24  38.60  59.46  
+P/E (x)  171.5  82.6 32.1 21.0 13.6 
+ 
+Source: Company data, Bloomberg, CMBIGM estimates  
+
+===== 第2页 =====
+ 
+ 17 Apr 2026  
+ 
+PLEASE READ THE ANALYST CERTIFICATION AND IMPORTANT DISCLOSURES ON LAST PAGE    2 
+ 
+Financial Summary  
+ 
+INCOME STATEMENT  2023A  2024A  2025A  2026E  2027E  2028E  
+YE 31 Dec (RMB mn)        
+Revenue  10,718  23,862  38,240  84,065  121,495  175,287  
+Cost of goods sold  (7,182)  (15,796)  (22,166)  (45,764)  (64,904)  (90,216)  
+Gross profit  3,536  8,067  16,074  38,301  56,591  85,071  
+Operating expenses  (1,042)  (2,017)  (2,477)  (4,966)  (5,875)  (6,946)  
+Selling expense  (51) (47) (78) (171)  (182)  (263)  
+SG&A expense  (558)  (879)  (987)  (2,088)  (3,025)  (4,364)  
+R&D expense  (739)  (1,244)  (1,615)  (3,425)  (4,707)  (6,440)  
+Others  306 153 202 717 2,039  4,121  
+Operating profit  2,494  6,050  13,597  33,334  50,717  78,125  
+Other income  2 5 10 22 31 45 
+Other expense  (4) (2) (7) (16) (23) (33) 
+Pre-tax profit  2,492  6,052  13,600  33,340  50,725  78,137  
+Income tax  (285)  (681)  (2,020)  (3,667)  (5,580)  (8,595)  
+After tax profit  2,208  5,372  11,580  29,673  45,146  69,542  
+Minority interest   34 200 782 1,632  2,257  3,477  
+Net profit  2,174  5,171  10,797  28,041  42,888  66,065  
+ 
+ 
+BALANCE SHEET  2023A  2024A  2025A  2026E  2027E  2028E  
+YE 31 Dec (RMB mn)        
+Current assets  11,319  18,196  31,084  57,579  104,507  165,819  
+Cash & equivalents  3,317  5,054  10,987  23,545  65,480  112,701  
+Account receivables  2,581  4,604  6,277  14,912  15,046  21,452  
+Inventories  4,295  7,051  12,681  17,411  21,710  27,724  
+Prepayment  59 80 134 236 341 491 
+Other current assets  1,067  1,407  1,005  1,475  1,931  3,451  
+Non-current assets  8,687  10,671  14,205  18,574  25,778  35,557  
+PP&E  3,948  5,820  7,081  11,257  14,553  19,829  
+Right -of-use assets  27 34 105 853 1,773  2,975  
+Deferred income tax  82 222 541 541 909 1,555  
+Intangibles  401 378 378 254 250 352 
+Goodwill  1,939  1,939  1,939  1,939  1,939  1,939  
+Other non -current assets  2,291  2,279  4,163  3,731  6,354  8,908  
+Total assets  20,007  28,866  45,289  76,153  130,285  201,377  
+       
+Current liabilities  4,360  6,497  11,558  14,435  25,812  31,538  
+Short -term borrowings  62 1,426  301 913 1,491  1,807  
+Account payables  1,857  2,991  7,330  7,716  15,401  16,731  
+Tax payable  213 244 1,250  2,102  3,596  5,558  
+Other current liabilities  2,039  1,545  2,287  3,052  4,220  5,741  
+Contract liabilities  3 10 26 40 58 83 
+Accrued expenses  187 282 364 612 1,047  1,618  
+Non-current liabilities  872 2,076  2,109  3,199  5,111  7,621  
+Long -term borrowings  319 606 510 510 510 510 
+Bond payables  0  0  0  0  0  0  
+Deferred income  216 270 291 490 838 1,295  
+Other non -current liabilities  337 1,200  1,308  2,200  3,763  5,816  
+Total liabilities  5,232  8,573  13,668  17,634  30,922  39,160  
+       
+Share capital  803 1,121  1,111  1,111  1,111  1,111  
+Retained earnings  5,870  10,624  20,248  45,065  82,962  141,280  
+Other reserves  7,589  7,388  8,406  8,856  9,544  10,604  
+Total shareholders equity  14,261  19,134  29,765  55,032  93,617  152,995  
+Minority interest  513 1,159  1,856  3,488  5,745  9,222  
+Total equity and liabilities  20,007  28,866  45,289  76,153  130,285  201,377  
+    
+===== 第3页 =====
+ 
+ 17 Apr 2026  
+ 
+PLEASE READ THE ANALYST CERTIFICATION AND IMPORTANT DISCLOSURES ON LAST PAGE    3 
+CASH FLOW  2023A  2024A  2025A  2026E  2027E  2028E  
+YE 31 Dec (RMB mn)        
+Operating        
+Profit before taxation  2,492  6,052  13,600  33,340  50,725  78,137  
+Depreciation & amortization  525 713 934 1,152  1,468  1,936  
+Tax paid  (285)  (681)  (2,020)  (3,667)  (5,580)  (8,595)  
+Change in working capital  (830)  (3,210)  (1,958)  (12,341)  4,520  (10,261)  
+Others  (6) 290 340 1,137  1,822  1,981  
+Net cash from operations  1,897  3,165  10,896  19,621  52,955  63,198  
+       
+Investing        
+Capital expenditure  (1,704)  (2,866)  (2,760)  (4,899)  (7,079)  (10,213)  
+Acquisition of subsidiaries/ investments  (3,971)  (2,725)  0  0  0  0  
+Net proceeds from disposal of short -term 
+investments  4,435  2,619  0  0  0  0  
+Others  65 37 121 1,201  1,596  2,221  
+Net cash from investing   (1,176)  (2,935)  (2,639)  (3,698)  (5,484)  (7,992)  
+       
+Financing        
+Dividend paid  (207)  (399)  (1,083)  (2,918)  (4,456)  (6,849)  
+Net borrowings  (884)  1,685  (1,114)  612 578 316 
+Proceeds from share issues  (109)  246 205 0  0  0  
+Others  884 (40) (152)  (1,317)  (1,317)  (1,317)  
+Net cash from financing   (316)  1,492  (2,144)  (3,623)  (5,196)  (7,850)  
+       
+Net change in cash        
+Cash at the beginning of the year  2,809  3,234  4,988  10,944  23,502  65,437  
+Exchange difference  20 39 (178)  0  0  0  
+Others  405 1,715  6,134  12,559  41,935  47,221  
+Cash at the end of the year  3,234  4,988  10,944  23,502  65,437  112,658  
+GROWTH  2023A  2024A  2025A  2026E  2027E  2028E  
+YE 31 Dec        
+Revenue  11.2%  122.6%  60.3%  119.8%  44.5%  44.3%  
+Gross profit  25.1%  128.1%  99.3%  138.3%  47.8%  50.3%  
+Operating profit  87.9%  142.6%  124.7%  145.2%  52.1%  54.0%  
+Net profit  77.6%  137.9%  108.8%  159.7%  52.9%  54.0%  
+PROFITABILITY  2023A  2024A  2025A  2026E  2027E  2028E  
+YE 31 Dec        
+Gross profit margin  33.0%  33.8%  42.0%  45.6%  46.6%  48.5%  
+Operating margin  23.3%  25.4%  35.6%  39.7%  41.7%  44.6%  
+Return on equity (ROE)  16.6%  31.0%  44.2%  66.1%  57.7%  53.6%  
+GEARING/LIQUIDITY/ACTIVITIES  2023A  2024A  2025A  2026E  2027E  2028E  
+YE 31 Dec        
+Current ratio (x)  2.6 2.8 2.7 4.0 4.0 5.3 
+VALUATION  2023A  2024A  2025A  2026E  2027E  2028E  
+YE 31 Dec        
+P/E 404.8  171.5  82.6 32.1 21.0 13.6 
+P/E (diluted)  410.7  174.9  83.4 32.1 21.0 13.6 
+ 
+Source: Company data, CMBIGM estimates. Note: The calculation of net cash includes financial assets.  

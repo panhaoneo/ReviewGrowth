@@ -23,12 +23,13 @@
 
 | 数据 | 源 | 坑 |
 |---|---|---|
-| 财报三表/指标 | 同花顺 fuyao `X-api-key` | **`report_date_ms`（披露日）系统性偏移约 1 年，已弃用**；披露日一律用巨潮公告（`fetch_earnings.py` 已实现） |
-| 个股/指数 K 线 | **baostock 前复权**（adjustflag=2） | fuyao `adjust=forward` 复权因子在 2019-2021 呈漂移误差（应为常数），已弃用；baostock 指数覆盖：399006/000300/399808 可用（980032 不可用） |
-| 估值历史 | baostock peTTM/pbMRQ/psTTM | 前复权口径变化点：2023-04-26 宁德时代 10 转 8（此前价格约 0.51 倍） |
-| 研报 | 东财 reportapi | `predictThisYearEps` 等字段已停更（全空）→ 盈利预测改从 PDF 抽取；PDF 批量下载需限速（`download_pdf` 内置退避）；`infoCode` 拼详情页 `data.eastmoney.com/report/info/{infoCode}.html` |
-| 公告 | 巨潮 hisAnnouncement/query | **pageSize 必须 ≤30**（>30 时 pageNum 失效返回重复页）；orgId 走动态映射表 |
+| 财报三表/指标 | 同花顺 fuyao `X-api-key` | **`report_date_ms`（披露日）系统性偏移约 1 年，已弃用**；披露日一律用巨潮公告（`fetch_earnings.py` 已实现）。**三表区间跨度须 ≤10 年**（code=1003）——`fetch_earnings.py` 已按 8 年分块 |
+| 个股/指数 K 线 | **baostock 前复权**（adjustflag=2） | fuyao `adjust=forward` 复权因子漂移（已弃用）；**baostock 数据服务偶发故障（TCP 10030 超时）**——已内置快速探活 + 腾讯行情自动降级（`tencent_api.py`：个股 qfq、指数 day；注意参数第 6 位必须保留、单次 ≤800 根分块） |
+| 估值历史 | baostock peTTM/pbMRQ/psTTM | 故障时降级为「不复权价/EPS-TTM」近似（PB/PS 缺失，写 gaps；服务恢复后 --force 重抓） |
+| 研报 | 东财 reportapi | `predictThisYearEps` 等字段停更（多数为空）→ 盈利预测从 PDF 抽取；**PDF 批量下载不要复用 requests.Session（长连接会被 pdf.dfcfw.com 拖入涓流/CLOSE_WAIT）——用独立短连接**（`download_pdf` 已实现）；PDF 下载按 1s+ 限速 |
+| 公告 | 巨潮 hisAnnouncement/query | **pageSize 必须 ≤30**（>30 时 pageNum 失效返回重复页）；orgId 走动态映射表；长区间公告量大（300308 八年 1990 条），`fetch_events` 上限已升至 100 页 |
 | 新闻 | 东财搜索 | 仅近期，历史缺失（写入 gaps，不虚构 N 类事件） |
+| 多波次长区间 | — | 34 期财报的 9 问分析建议用子代理按波次分组撰写（`_groups/earnings_analysis_P*.json`），再由脚本合并；timeline 由 A/C 手写 + R 手写 + E 脚本生成合并 |
 
 ## 硬性规则（违反即返工）
 

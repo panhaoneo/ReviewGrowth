@@ -16,8 +16,55 @@ sys.path.insert(0, os.path.join(_REPO, "tools"))
 from common import (cfg_argparse, data_dir, is_fresh, load_config, load_json,  # noqa: E402
                     log, now_str, save_json)
 from baostock_api import valuation_history, logout  # noqa: E402
+from tencent_api import fetch_kline_tx, tx_symbol  # noqa: E402
 
 MIN_OBS = 120   # 分位计算最少样本（约半年）
+
+
+def pe_approx_series(cfg, code, start, end):
+    """baostock 不可用时的 PE-TTM 近似：不复权收盘价 / EPS-TTM（按披露日 as-of 生效）。
+    EPS-TTM = 本期累计EPS + 上年年报EPS - 上年同期累计EPS（Q4 即年报值）。
+    局限：未计报告期之间的股本变动基数差异；PB/PS 缺失。返回升序 [{date,pe,pb,ps,turnover}] 或 None。"""
+    bars = fetch_kline_tx(tx_symbol(cfg["thscode"]), start, end, adjust=None)
+    earn = load_json(os.path.join(data_dir(code), "earnings.json")) or {}
+    raw = earn.get("raw", {}).get("income") or []
+    if not bars or not raw:
+        return None
+    eps_map = {}
+    for r in raw:
+        try:
+            eps_map[(int(r["fiscal_year"]), r["fiscal_period"])] = float(r.get("basic_eps"))
+        except (TypeError, ValueError, KeyError):
+            continue
+    pts = []
+    for p in earn.get("periods", []):
+        if not p.get("available_at"):
+            continue
+        y, q = p["fiscal_year"], p["fiscal_period"]
+        cur = eps_map.get((y, q))
+        if q == "Q4":
+            ttm = cur
+        else:
+            ttm = None
+            a, b, c = cur, eps_map.get((y - 1, "Q4")), eps_map.get((y - 1, q))
+            if a is not None and b is not None and c is not None:
+                ttm = a + b - c
+        if ttm and ttm > 0:
+            pts.append((p["available_at"], ttm))
+    if not pts:
+        return None
+    pts.sort()
+    out = []
+    for b in bars:
+        ttm = None
+        for d, e in pts:
+            if d <= b["d"]:
+                ttm = e
+            else:
+                break
+        out.append({"date": b["d"], "pe": (b["c"] / ttm) if ttm else None,
+                    "pb": None, "ps": None, "turnover": None})
+    return out
 
 
 def main():
@@ -35,11 +82,21 @@ def main():
            + timedelta(days=cfg.get("extend_after_days", 120))).isoformat()
     log(f"baostock 估值历史 {start} ~ {end}")
     series = valuation_history(code, start, end)
+    vsource = "baostock peTTM/pbMRQ/psTTM（分位=as-of 扩展窗口，min_obs=%d）" % MIN_OBS
     gaps = []
     if not series:
-        gaps.append({"scope": "估值历史", "reason": "baostock 不可用或返回为空",
+        log("  ↳ baostock 不可用，尝试 PE 近似（不复权价/EPS-TTM）")
+        series = pe_approx_series(cfg, code, start, end)
+        if series:
+            vsource = "PE 近似：不复权收盘价 / EPS-TTM（baostock 降级后备源）"
+            gaps.append({"scope": "估值明细", "reason": "baostock 数据服务不可达",
+                         "impact": "中：PB/PS 缺失；PE 为近似值（EPS 基数与股本变动未精细还原）",
+                         "mitigation": "服务恢复后 --only fetch_valuation --force 重抓"})
+            log(f"  ↳ PE 近似序列 {len(series)} 日")
+    if not series:
+        gaps.append({"scope": "估值历史", "reason": "baostock 与腾讯均不可用",
                      "impact": "PE/PB/PS 历史与分位缺失，页面显示缺口条"})
-        save_json(out_path, {"fetch_time": now_str(), "source": "baostock",
+        save_json(out_path, {"fetch_time": now_str(), "source": vsource,
                              "status": "unavailable", "series": [], "peg_at_earnings": [], "gaps": gaps})
         log("⚠ valuation.json: 估值不可用（降级）")
         return
@@ -85,7 +142,7 @@ def main():
     logout()
     save_json(out_path, {
         "fetch_time": now_str(),
-        "source": "baostock peTTM/pbMRQ/psTTM（分位=as-of 扩展窗口，min_obs=%d）" % MIN_OBS,
+        "source": vsource,
         "status": "ok",
         "series": out,
         "peg_at_earnings": peg_rows,
