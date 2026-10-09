@@ -1,0 +1,83 @@
+{
+ "generated_at": "2026-10-09 18:33:25",
+ "sources": [
+  {
+   "name": "同花顺 fuyao",
+   "coverage": "日K线(前复权)/财报三表/财务指标",
+   "url": "https://fuyao.aicubes.cn",
+   "confidence": "high",
+   "fetch_time": "2026-10-09 18:12:59"
+  },
+  {
+   "name": "baostock",
+   "coverage": "基准指数日K/估值历史(PE/PB/PS)",
+   "url": "http://baostock.com",
+   "confidence": "high",
+   "fetch_time": "2026-10-09 18:04:38"
+  },
+  {
+   "name": "巨潮资讯网",
+   "coverage": "公告/定期报告披露日(权威源)",
+   "url": "https://www.cninfo.com.cn",
+   "confidence": "high",
+   "fetch_time": "2026-10-09 18:02:41"
+  },
+  {
+   "name": "东方财富",
+   "coverage": "机构研报元数据+PDF/个股新闻",
+   "url": "https://data.eastmoney.com",
+   "confidence": "medium",
+   "fetch_time": "2026-10-09 18:16:01"
+  }
+ ],
+ "gaps": [
+  {
+   "scope": "扣非净利润/存货/合同负债/应收明细",
+   "reason": "fuyao 三表接口字段不含这些科目；巨大公告量下未逐期提取财报 PDF 附注",
+   "impact": "中：增长质量分析退化为可用科目（毛利率/现金流/应收/货币资金）组合判断",
+   "mitigation": "页面财报卡附巨潮公告原文链接可供人工核对；后续可从财报 PDF 批量补充",
+   "from": "analysis"
+  },
+  {
+   "scope": "电话会/业绩说明会全文",
+   "reason": "公开渠道仅有深交所要求的《投资者关系活动记录表》摘要（2022 年 4 次会议已抽取原文），无逐字稿",
+   "impact": "中：Q&A 分析以记录表所载要点为准，可能遗漏未记录细节",
+   "mitigation": "2022 年 4 次关键电话会已用记录表原文；其余时期标注缺失",
+   "from": "analysis"
+  },
+  {
+   "scope": "新闻 2019-2021",
+   "reason": "东财新闻接口无历史回溯（仅覆盖近期），cls 快讯无历史",
+   "impact": "中：早期叙事以公告/研报/年报替代，可能漏掉未成公告的市场信息",
+   "mitigation": "timeline 不虚构 N 类条目；已知信息用公告与研报补足",
+   "from": "analysis"
+  },
+  {
+   "scope": "研报盈利预测结构化字段（东财 predictThisYearEps 等）",
+   "reason": "东财 reportapi 实测全部返回空字符串（字段已停更）",
+   "impact": "高：一致预期曲线无法直接从接口获得",
+   "mitigation": "改为从 126 篇关键研报 PDF 前 3 页抽取盈利预测（consensus.json），覆盖每期财报窗口",
+   "from": "analysis"
+  },
+  {
+   "scope": "电话会提问方身份/参会机构明细",
+   "reason": "记录表仅列参与单位类型与人数（如 2022-10-21 受邀投资者 1700 人）",
+   "impact": "低",
+   "mitigation": "—",
+   "from": "analysis"
+  },
+  {
+   "scope": "2022 年报后（2023-01 起）行情仅延伸至 2023-04-28",
+   "reason": "复盘区间为 2019-2022，延伸窗口用于 FY2022 财报（2023-03-10）的 T+60 反馈",
+   "impact": "低：2023 年后续走势不在复盘范围",
+   "mitigation": "—",
+   "from": "analysis"
+  },
+  {
+   "scope": "新闻 2019-2021",
+   "reason": "东财新闻接口无历史回溯",
+   "impact": "中：早期叙事以公告/研报/年报替代",
+   "from": "analysis"
+  }
+ ]
+}

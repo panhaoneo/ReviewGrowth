@@ -1,0 +1,18 @@
+{
+  "code": "300750",
+  "name": "宁德时代",
+  "thscode": "300750.SZ",
+  "start_date": "2019-01-01",
+  "end_date": "2022-12-31",
+  "warmup_start": "2018-06-11",
+  "view_mode": "both",
+  "extend_after_days": 120,
+  "benchmarks": {
+    "399006.SZ": { "name": "创业板指", "bs": "sz.399006" },
+    "000300.SH": { "name": "沪深300", "bs": "sh.000300" },
+    "399808.SZ": { "name": "中证新能源", "bs": "sz.399808", "role": "industry" }
+  },
+  "earnings_window": { "before_days": 5, "after_days": 15 },
+  "pdf_per_window": 8,
+  "refresh_days": 7
+}

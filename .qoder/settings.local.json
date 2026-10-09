@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(ls -la /Users/panhao01/Code/ReviewGrowth/ && echo \"---\" && find /Users/panhao01/Code/ReviewGrowth -type f -not -path \"*/.git/*\" | head -50)"
+    ]
+  }
+}

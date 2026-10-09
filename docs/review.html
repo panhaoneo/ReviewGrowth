@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>复盘加载中…</title>
+<script src="assets/vendor/echarts.min.js"></script>
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header id="topbar">
+  <div class="tb-left">
+    <a href="index.html" class="back" title="返回列表">←</a>
+    <h1 id="stock-name">…</h1>
+    <span id="stock-range" class="sub"></span>
+  </div>
+  <div class="tb-center">
+    <div class="mode-toggle" id="mode-toggle">
+      <button data-mode="as_of" class="active">当时视角</button>
+      <button data-mode="hindsight">事后视角</button>
+    </div>
+    <span class="cursor-wrap">
+      <span class="sub">光标</span>
+      <input type="date" id="cursor-input">
+      <button id="cursor-prev" title="上一条关键事件">◀</button>
+      <button id="cursor-next" title="下一条关键事件">▶</button>
+    </span>
+  </div>
+  <div class="tb-right">
+    <span class="legend" title="高：权威源或双源一致 / 中：单一非权威源 / 低：待验证">
+      <span class="dot high"></span>高 <span id="cnt-high">0</span>
+      <span class="dot medium"></span>中 <span id="cnt-medium">0</span>
+      <span class="dot low"></span>低 <span id="cnt-low">0</span>
+    </span>
+    <span class="chips" id="type-chips"></span>
+  </div>
+</header>
+
+<main id="layout">
+  <aside id="left-pane">
+    <h2 class="pane-title">时间轴 <span class="sub" id="timeline-count"></span></h2>
+    <div id="timeline" class="scrolly"></div>
+  </aside>
+
+  <section id="center-pane">
+    <div id="kline" style="width:100%;height:460px"></div>
+    <div id="phase-legend" class="phase-legend"></div>
+    <div class="panels-row">
+      <div class="panel">
+        <h2 class="pane-title">一致预期 EPS <span class="sub">东财研报预测散点（按目标财年）</span></h2>
+        <div id="consensus" style="width:100%;height:260px"></div>
+      </div>
+      <div class="panel" id="valuation-panel">
+        <h2 class="pane-title">估值 <span class="sub">PE-TTM / 历史分位</span></h2>
+        <div id="valuation" style="width:100%;height:260px"></div>
+      </div>
+    </div>
+    <div class="panel">
+      <h2 class="pane-title">财报切片 <span class="sub">点击行跳转光标</span></h2>
+      <div id="earnings-table" class="tablewrap"></div>
+    </div>
+    <div class="panel">
+      <h2 class="pane-title">逻辑验证矩阵 <span class="sub">假设 × 状态变迁（增强/中性/减弱/破坏）</span></h2>
+      <div id="logic-matrix"></div>
+    </div>
+    <div class="panel" id="review-panel">
+      <h2 class="pane-title">复盘结论 <span class="sub">事后视角</span></h2>
+      <div id="review-body"></div>
+    </div>
+  </section>
+
+  <aside id="right-pane">
+    <h2 class="pane-title">as-of 信息包 <span class="sub" id="asof-cursor"></span></h2>
+    <div id="detail-card"></div>
+    <div id="info-package" class="scrolly"></div>
+  </aside>
+</main>
+
+<footer id="footer">
+  <div id="footer-sources"></div>
+  <div id="footer-gaps"></div>
+  <p class="sub">本页面数据来源于巨潮资讯网、东方财富、同花顺、baostock 等公开渠道，仅供学习研究使用，不构成投资建议。
+  每条数据均附来源链接；置信度：<span class="dot high"></span>高（权威源/双源一致） <span class="dot medium"></span>中（单一非权威源） <span class="dot low"></span>低（待验证）。
+  <a href="#" id="data-sources-link">数据源与缺口清单</a> · <a href="#" id="report-link">Markdown 复盘报告</a> · <a href="#" id="confidence-link">数据缺失与置信度报告</a></p>
+</footer>
+
+<div id="tooltip-float"></div>
+<script src="assets/app.js"></script>
+</body>
+</html>

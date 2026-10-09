@@ -1,0 +1,9 @@
+# 密钥与本地文件
+data/THS_API_KEY
+data/*/reports_pdf/
+data/*/ir_pdf/
+__pycache__/
+*.pyc
+.DS_Store
+.venv/
+venv/
