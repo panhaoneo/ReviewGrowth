@@ -109,6 +109,9 @@
     $("kz-left").addEventListener("click", () => panBy(-0.3));
     $("kz-right").addEventListener("click", () => panBy(0.3));
     $("kz-reset").addEventListener("click", () => { S.zoom = null; applyZoom(0, 100); });
+    $("asof-banner").addEventListener("click", (e) => {
+      if (e.target && e.target.id === "asof-restore") restoreCursor(S.site.meta.end_date, false);
+    });
 
     // 主题切换
     $("theme-btn").addEventListener("click", () => {
@@ -156,8 +159,7 @@
     let target = null;
     if (dir > 0) target = dates.find((d) => d > S.cursor) || dates[dates.length - 1];
     else target = [...dates].reverse().find((d) => d < S.cursor) || dates[0];
-    S.cursor = target; sync(); renderAll();
-    ensureFocus(S.cursor);
+    moveCursorTo(target);
   }
 
   function sync() {
@@ -169,17 +171,43 @@
     history.replaceState(null, "", location.pathname + "?" + u.toString());
   }
 
-  function select(id, moveCursor) {
+  /* 选中条目：只做「K线定位 + 右栏详情」，不改变光标（光标=信息可见截止日，须显式移动） */
+  function select(id) {
     // 再点同一项 = 取消选择
     if (S.selected === id) { S.selected = null; sync(); renderAll(); return; }
-    const it = tlAll().find((x) => x.id === id);
-    if (it && moveCursor && S.cursor !== it.available_at) S.prevCursor = S.cursor;
     S.selected = id;
-    if (it && moveCursor) S.cursor = it.available_at;
     sync(); renderAll();
-    if (it && moveCursor) ensureFocus(it.available_at);
+    const it = tlAll().find((x) => x.id === id);
+    if (it) focusSelected(it.date);
     const el = document.querySelector('.tl-item[data-id="' + CSS.escape(id) + '"]');
     if (el) el.scrollIntoView({ block: "center", behavior: "smooth" });
+  }
+
+  /* 把 K 线视图聚焦到某事件（不改光标、不截断）：过于全览时缩放到约一年的友好窗口，否则仅平移 */
+  function focusSelected(date) {
+    const bars = barsDisplay();
+    if (!bars.length || !date) return;
+    let idx = bars.findIndex((b) => b.d >= date);
+    if (idx < 0) idx = bars.length - 1;
+    const total = bars.length;
+    const z = currentZoom();
+    const curSpan = z.end - z.start;
+    const wantSpan = Math.max(8, Math.min(100, (240 / total) * 100));
+    const span = Math.min(curSpan, Math.max(wantSpan, 8));
+    const sIdx = (z.start / 100) * total, eIdx = (z.end / 100) * total;
+    if (curSpan <= span * 1.05 && idx >= sIdx && idx <= eIdx) return;   // 已在舒适窗口内
+    let ns = (idx / total) * 100 - span / 2;
+    ns = Math.max(0, Math.min(ns, 100 - span));
+    applyZoom(ns, ns + span);
+  }
+
+  /* 显式移动光标（详情卡按钮/◀▶）：记录上一步以便「返回」 */
+  function moveCursorTo(date) {
+    if (!date || date === S.cursor) return;
+    S.prevCursor = S.cursor;
+    S.cursor = date;
+    sync(); renderAll();
+    ensureFocus(date);
   }
 
   /* 还原光标 / 清除选择 */
@@ -249,9 +277,22 @@
       b.classList.toggle("active", b.dataset.mode === S.mode));
     $("cursor-input").value = S.cursor;
     $("asof-cursor").textContent = "@ " + S.cursor + (inAsOf() ? "（可见信息截至该日）" : "（事后复盘）");
+    renderCursorBanner();
     renderCounts(); renderTimeline(); renderKline(); renderDetail();
     renderInfoPackage(); renderConsensus(); renderValuationChart();
     renderEarningsTable(); renderLogic(); renderReview(); renderFooter(); renderPhaseLegend();
+  }
+
+  /* 当时视角的截断提示（显示在图表上方，一键恢复全览） */
+  function renderCursorBanner() {
+    const banner = $("asof-banner");
+    if (!banner) return;
+    const truncated = inAsOf() && S.cursor < S.site.meta.end_date;
+    banner.classList.toggle("hidden", !truncated);
+    if (truncated) {
+      const n = tlAll().filter((it) => it.available_at > S.cursor).length;
+      banner.innerHTML = "当时视角：已隐藏 " + esc(S.cursor) + " 之后的 " + n + ' 条信息 · <button id="asof-restore">恢复全览</button>';
+    }
   }
 
   function renderCounts() {
@@ -290,7 +331,7 @@
     }
     $("timeline").innerHTML = rows.join("") || "<p class='sub'>暂无</p>";
     $("timeline").querySelectorAll(".tl-item").forEach((el) =>
-      el.addEventListener("click", () => select(el.dataset.id, true)));
+      el.addEventListener("click", () => select(el.dataset.id)));
   }
 
   /* ── K线 ── */
@@ -341,6 +382,7 @@
       let d = it.date;
       if (!priceByDate[d]) { const nxt = dates.find((x) => x >= d); if (!nxt) return; d = nxt; }
       const idx = dates.indexOf(d);
+      const isSel = it.id === S.selected;
       let label = { show: false };
       if (it.kline_label && showMarkerLabels) {
         labelOnTop = (idx - lastLabelIdx < 45) ? !labelOnTop : true;
@@ -353,8 +395,8 @@
       }
       marks.push({
         name: it.id, coord: [d, priceByDate[d].h], value: it.type, itemId: it.id,
-        symbol: TYPE_SYMBOL[it.type], symbolSize: it.kline_label ? 16 : 15,
-        itemStyle: { color: TYPE_COLORS[it.type], borderColor: P.ttBg, borderWidth: 1 },
+        symbol: TYPE_SYMBOL[it.type], symbolSize: (it.kline_label ? 16 : 15) + (isSel ? 5 : 0),
+        itemStyle: { color: TYPE_COLORS[it.type], borderColor: isSel ? P.cursorLine : P.ttBg, borderWidth: isSel ? 2 : 1 },
         label,
       });
     });
@@ -424,7 +466,7 @@
 
     klineChart.off("click");
     klineChart.on("click", (p) => {
-      if (p.componentType === "markPoint" && p.data && p.data.itemId) { select(p.data.itemId, false); return; }
+      if (p.componentType === "markPoint" && p.data && p.data.itemId) { select(p.data.itemId); return; }
       if (p.componentType === "series" && p.seriesType === "candlestick" && p.name) {
         S.cursor = p.name; sync(); renderAll();
       }
@@ -469,8 +511,9 @@
     }
     const a = it.as_of || {};
     let h = '<div class="detail-actions">' +
+      (it.available_at !== S.cursor ? '<button data-act="move">◉ 光标移到此日</button>' : "") +
       (S.prevCursor ? '<button data-act="back">← 返回 ' + esc(S.prevCursor) + "</button>" : "") +
-      '<button data-act="end">回到区间末</button>' +
+      (S.cursor !== S.site.meta.end_date ? '<button data-act="end">回到区间末</button>' : "") +
       '<button data-act="clear">✕ 取消选择</button></div>';
     h += '<div class="card"><div class="c-head"><span class="tbadge ' + esc(it.type) + '">' + esc(it.type) + "</span>" +
       '<span class="c-title">' + esc(it.title) + "</span></div>" +
@@ -494,8 +537,9 @@
     el.innerHTML = h;
     el.querySelectorAll("button[data-act]").forEach((b) => b.addEventListener("click", () => {
       const act = b.dataset.act;
-      if (act === "back") restoreCursor(S.prevCursor, true);
-      else if (act === "end") restoreCursor(S.site.meta.end_date, true);
+      if (act === "move") moveCursorTo(it.available_at);
+      else if (act === "back") restoreCursor(S.prevCursor, false);
+      else if (act === "end") restoreCursor(S.site.meta.end_date, false);
       else if (act === "clear") { S.selected = null; sync(); renderAll(); }
     }));
   }
@@ -535,7 +579,7 @@
     h += '<div class="sec-label">近期仍有效（' + recent.length + "）</div>" + (recent.map(card).join("") || '<p class="sub">—</p>');
     $("info-package").innerHTML = h;
     $("info-package").querySelectorAll(".card").forEach((el) =>
-      el.addEventListener("click", () => select(el.dataset.id, false)));
+      el.addEventListener("click", () => select(el.dataset.id)));
   }
 
   /* ── 一致预期 ── */
@@ -627,8 +671,8 @@
     $("earnings-table").querySelectorAll("tr.clickable").forEach((tr) =>
       tr.addEventListener("click", () => {
         const id = "E:" + tr.dataset.period;
-        if (tlAll().some((x) => x.id === id)) select(id, true);
-        else if (tr.dataset.date) { S.cursor = tr.dataset.date; sync(); renderAll(); }
+        if (tlAll().some((x) => x.id === id)) select(id);
+        else if (tr.dataset.date) moveCursorTo(tr.dataset.date);
       }));
   }
 
