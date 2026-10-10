@@ -203,7 +203,11 @@
 
   /* 显式移动光标（详情卡按钮/◀▶）：记录上一步以便「返回」 */
   function moveCursorTo(date) {
-    if (!date || date === S.cursor) return;
+    if (!date) return;
+    const br = (S.site && S.site.meta.bar_range) || [];
+    if (br[0] && date < br[0]) date = br[0];
+    if (br[1] && date > br[1]) date = br[1];
+    if (date === S.cursor) return;
     S.prevCursor = S.cursor;
     S.cursor = date;
     sync(); renderAll();

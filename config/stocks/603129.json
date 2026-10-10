@@ -1,0 +1,18 @@
+{
+  "code": "603129",
+  "name": "春风动力",
+  "thscode": "603129.SH",
+  "start_date": "2019-08-01",
+  "end_date": "2021-08-31",
+  "warmup_start": "2019-05-01",
+  "view_mode": "both",
+  "extend_after_days": 120,
+  "benchmarks": {
+    "000300.SH": { "name": "沪深300", "bs": "sh.000300" },
+    "000001.SH": { "name": "上证指数", "bs": "sh.000001" },
+    "000989.SH": { "name": "全指可选", "bs": "sh.000989", "role": "industry" }
+  },
+  "earnings_window": { "before_days": 5, "after_days": 15 },
+  "pdf_per_window": 8,
+  "refresh_days": 7
+}

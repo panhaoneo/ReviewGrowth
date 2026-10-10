@@ -46,8 +46,9 @@ def main():
         return
 
     from datetime import date, timedelta
-    end_plus = (date.fromisoformat(cfg["end_date"]) + timedelta(days=120)).isoformat()
-    se = f"{cfg['start_date']}~{end_plus}"
+    start_minus = (date.fromisoformat(cfg["start_date"]) - timedelta(days=120)).isoformat()
+    end_plus = (date.fromisoformat(cfg["end_date"]) + timedelta(days=360)).isoformat()
+    se = f"{start_minus}~{end_plus}"
     log(f"抓取巨潮公告 {se}（龙头股公告量大，按 30/页 分页）")
     anns = query_announcements(code, se, page_size=30, max_pages=100)
     log(f"公告 {len(anns)} 条")

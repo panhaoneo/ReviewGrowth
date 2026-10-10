@@ -239,7 +239,7 @@ def check_as_of_leak(obj, path, v):
             check_as_of_leak(val, f"{path}[{i}]", v)
 
 
-def validate(site, v, report_ids):
+def validate(site, v, report_urls):
     bars = site["bars"]
     r_start, r_end = site["meta"]["start_date"], site["meta"]["end_date"]
     lo = (date.fromisoformat(r_start) - timedelta(days=30)).isoformat()
@@ -278,12 +278,11 @@ def validate(site, v, report_ids):
                 v.fail(f"timeline[{it.get('id')}] available_at 与财报 report_date 不一致")
         if it.get("type") == "R":
             su = it.get("source_url", "")
-            if not su.startswith("https://data.eastmoney.com/report/"):
-                v.fail(f"timeline[{it.get('id')}] R 项 source_url 非东财研报详情页")
-            else:
-                ic = su.rsplit("/", 1)[-1].replace(".html", "")
-                if ic not in report_ids:
-                    v.warn(f"timeline[{it.get('id')}] 研报 infoCode {ic} 不在 reports.json")
+            if su not in report_urls and not su.startswith("https://data.eastmoney.com/report/"):
+                if not any(w in su for w in ("data.eastmoney.com", "sina.com.cn")):
+                    v.fail(f"timeline[{it.get('id')}] R 项 source_url 非法: {su[:60]}")
+                else:
+                    v.warn(f"timeline[{it.get('id')}] R 项链接不在 reports.json 中")
         elif it.get("type") in ("A", "N", "C"):
             if not it.get("source_url"):
                 v.fail(f"timeline[{it.get('id')}] {it.get('type')} 项缺少 source_url")
@@ -519,7 +518,7 @@ def main():
         },
     }
 
-    validate(site, v, {r["infoCode"] for r in reports["reports"]})
+    validate(site, v, {r.get("source_url") for r in reports["reports"] if r.get("source_url")})
     for w in v.warnings:
         log(f"⚠ {w}")
     if v.errors:

@@ -1,0 +1,5293 @@
+{
+ "fetch_time": "2026-10-10 21:28:40",
+ "source": "PE 近似：不复权收盘价 / EPS-TTM（baostock 降级后备源）",
+ "status": "ok",
+ "series": [
+  {
+   "date": "2019-05-06",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-05-07",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-05-08",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-05-09",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-05-10",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-05-13",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-05-14",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-05-15",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-05-16",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-05-17",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-05-20",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-05-21",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-05-22",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-05-23",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-05-24",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-05-27",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-05-28",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-05-29",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-05-30",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-05-31",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-06-03",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-06-04",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-06-05",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-06-06",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-06-10",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-06-11",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-06-12",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-06-13",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-06-14",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-06-17",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-06-18",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-06-19",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-06-20",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-06-21",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-06-24",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-06-25",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-06-26",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-06-27",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-06-28",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-07-01",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-07-02",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-07-03",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-07-04",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-07-05",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-07-08",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-07-09",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-07-10",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-07-11",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-07-12",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-07-15",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-07-16",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-07-17",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-07-18",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-07-19",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-07-22",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-07-23",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-07-24",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-07-25",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-07-26",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-07-29",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-07-30",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-07-31",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-08-01",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-08-02",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-08-05",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-08-06",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-08-07",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-08-08",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-08-09",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-08-12",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-08-13",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-08-14",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-08-15",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-08-16",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-08-19",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-08-20",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-08-21",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-08-22",
+   "pe": null,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-08-23",
+   "pe": 18.771929824561404,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-08-26",
+   "pe": 20.649122807017545,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-08-27",
+   "pe": 22.149122807017545,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-08-28",
+   "pe": 21.18421052631579,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-08-29",
+   "pe": 20.947368421052634,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-08-30",
+   "pe": 21.28070175438597,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-09-02",
+   "pe": 23.41228070175439,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-09-03",
+   "pe": 22.789473684210527,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-09-04",
+   "pe": 22.68421052631579,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-09-05",
+   "pe": 22.894736842105267,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-09-06",
+   "pe": 23.245614035087723,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-09-09",
+   "pe": 23.0,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-09-10",
+   "pe": 22.80701754385965,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-09-11",
+   "pe": 23.10526315789474,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-09-12",
+   "pe": 24.56140350877193,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-09-16",
+   "pe": 24.73684210526316,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-09-17",
+   "pe": 23.157894736842106,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-09-18",
+   "pe": 25.114035087719298,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-09-19",
+   "pe": 26.35087719298246,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-09-20",
+   "pe": 25.47368421052632,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-09-23",
+   "pe": 25.79824561403509,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-09-24",
+   "pe": 25.438596491228072,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-09-25",
+   "pe": 24.56140350877193,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-09-26",
+   "pe": 27.017543859649127,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-09-27",
+   "pe": 27.938596491228076,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-09-30",
+   "pe": 29.210526315789473,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-10-08",
+   "pe": 29.140350877192983,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-10-09",
+   "pe": 28.894736842105264,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-10-10",
+   "pe": 31.780701754385966,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-10-11",
+   "pe": 31.21929824561404,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-10-14",
+   "pe": 32.08771929824562,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-10-15",
+   "pe": 31.710526315789476,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-10-16",
+   "pe": 30.86842105263158,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-10-17",
+   "pe": 31.1140350877193,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-10-18",
+   "pe": 29.78947368421053,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-10-21",
+   "pe": 29.71929824561404,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-10-22",
+   "pe": 30.17543859649123,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-10-23",
+   "pe": 29.315789473684216,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-10-24",
+   "pe": 29.096491228070178,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-10-25",
+   "pe": 24.268292682926827,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-10-28",
+   "pe": 24.95934959349593,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-10-29",
+   "pe": 24.39024390243902,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-10-30",
+   "pe": 24.016260162601622,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-10-31",
+   "pe": 24.00813008130081,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-11-01",
+   "pe": 24.024390243902435,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-11-04",
+   "pe": 26.430894308943085,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-11-05",
+   "pe": 28.211382113821134,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-11-06",
+   "pe": 29.593495934959343,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-11-07",
+   "pe": 29.723577235772353,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-11-08",
+   "pe": 29.52845528455284,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-11-11",
+   "pe": 29.211382113821134,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-11-12",
+   "pe": 29.47154471544715,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-11-13",
+   "pe": 32.422764227642276,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-11-14",
+   "pe": 31.162601626016254,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-11-15",
+   "pe": 30.528455284552837,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-11-18",
+   "pe": 31.560975609756092,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-11-19",
+   "pe": 32.008130081300806,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-11-20",
+   "pe": 30.894308943089424,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-11-21",
+   "pe": 30.813008130081293,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-11-22",
+   "pe": 30.081300813008124,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-11-25",
+   "pe": 30.455284552845523,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-11-26",
+   "pe": 29.764227642276417,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-11-27",
+   "pe": 30.081300813008124,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-11-28",
+   "pe": 29.341463414634145,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-11-29",
+   "pe": 29.60975609756097,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-12-02",
+   "pe": 29.536585365853654,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-12-03",
+   "pe": 29.268292682926823,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-12-04",
+   "pe": 28.528455284552845,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-12-05",
+   "pe": 31.38211382113821,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-12-06",
+   "pe": 30.325203252032512,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-12-09",
+   "pe": 30.528455284552837,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-12-10",
+   "pe": 30.349593495934954,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-12-11",
+   "pe": 30.6910569105691,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-12-12",
+   "pe": 32.886178861788615,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-12-13",
+   "pe": 33.55284552845528,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-12-16",
+   "pe": 34.08130081300813,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-12-17",
+   "pe": 33.512195121951216,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-12-18",
+   "pe": 33.33333333333333,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-12-19",
+   "pe": 33.130081300813,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-12-20",
+   "pe": 33.03252032520325,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-12-23",
+   "pe": 32.52032520325203,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-12-24",
+   "pe": 33.26829268292683,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-12-25",
+   "pe": 33.80487804878048,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-12-26",
+   "pe": 33.853658536585364,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-12-27",
+   "pe": 33.788617886178855,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-12-30",
+   "pe": 33.27642276422764,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2019-12-31",
+   "pe": 34.39024390243902,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2020-01-02",
+   "pe": 37.82926829268292,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2020-01-03",
+   "pe": 39.24390243902439,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2020-01-06",
+   "pe": 39.67479674796747,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2020-01-07",
+   "pe": 39.64227642276422,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2020-01-08",
+   "pe": 39.33333333333333,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2020-01-09",
+   "pe": 39.83739837398373,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2020-01-10",
+   "pe": 38.78048780487804,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2020-01-13",
+   "pe": 40.0650406504065,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2020-01-14",
+   "pe": 41.065040650406495,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2020-01-15",
+   "pe": 40.48780487804877,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2020-01-16",
+   "pe": 42.14634146341463,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2020-01-17",
+   "pe": 41.20325203252032,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2020-01-20",
+   "pe": 40.601626016260155,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2020-01-21",
+   "pe": 39.81300813008129,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2020-01-22",
+   "pe": 39.30894308943089,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2020-01-23",
+   "pe": 37.39837398373983,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2020-02-03",
+   "pe": 33.66666666666666,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2020-02-04",
+   "pe": 35.92682926829268,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2020-02-05",
+   "pe": 35.36585365853658,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2020-02-06",
+   "pe": 35.20325203252032,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2020-02-07",
+   "pe": 34.3170731707317,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2020-02-10",
+   "pe": 34.471544715447145,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2020-02-11",
+   "pe": 35.284552845528445,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2020-02-12",
+   "pe": 36.71544715447153,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2020-02-13",
+   "pe": 35.99186991869918,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2020-02-14",
+   "pe": 36.138211382113816,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2020-02-17",
+   "pe": 36.65040650406503,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2020-02-18",
+   "pe": 37.39837398373983,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2020-02-19",
+   "pe": 36.878048780487795,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2020-02-20",
+   "pe": 37.91056910569105,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2020-02-21",
+   "pe": 38.975609756097555,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2020-02-24",
+   "pe": 39.162601626016254,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": null
+  },
+  {
+   "date": "2020-02-25",
+   "pe": 38.658536585365844,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 85.8
+  },
+  {
+   "date": "2020-02-26",
+   "pe": 35.99999999999999,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 78.5
+  },
+  {
+   "date": "2020-02-27",
+   "pe": 35.69918699186991,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 76.2
+  },
+  {
+   "date": "2020-02-28",
+   "pe": 32.138211382113816,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 58.5
+  },
+  {
+   "date": "2020-03-02",
+   "pe": 32.3170731707317,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 58.9
+  },
+  {
+   "date": "2020-03-03",
+   "pe": 35.55284552845528,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 76.0
+  },
+  {
+   "date": "2020-03-04",
+   "pe": 34.14634146341463,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 70.6
+  },
+  {
+   "date": "2020-03-05",
+   "pe": 34.86991869918699,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 73.2
+  },
+  {
+   "date": "2020-03-06",
+   "pe": 35.83739837398373,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 77.3
+  },
+  {
+   "date": "2020-03-09",
+   "pe": 33.8780487804878,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 68.2
+  },
+  {
+   "date": "2020-03-10",
+   "pe": 33.788617886178855,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 65.4
+  },
+  {
+   "date": "2020-03-11",
+   "pe": 36.28455284552845,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 80.9
+  },
+  {
+   "date": "2020-03-12",
+   "pe": 35.66666666666666,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 75.8
+  },
+  {
+   "date": "2020-03-13",
+   "pe": 34.23577235772357,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 69.2
+  },
+  {
+   "date": "2020-03-16",
+   "pe": 31.715447154471537,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 51.5
+  },
+  {
+   "date": "2020-03-17",
+   "pe": 30.089430894308936,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 39.3
+  },
+  {
+   "date": "2020-03-18",
+   "pe": 28.463414634146336,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 24.3
+  },
+  {
+   "date": "2020-03-19",
+   "pe": 28.211382113821134,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 23.4
+  },
+  {
+   "date": "2020-03-20",
+   "pe": 27.967479674796742,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 23.2
+  },
+  {
+   "date": "2020-03-23",
+   "pe": 26.016260162601622,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 20.1
+  },
+  {
+   "date": "2020-03-24",
+   "pe": 25.788617886178855,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 19.3
+  },
+  {
+   "date": "2020-03-25",
+   "pe": 27.024390243902435,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 23.4
+  },
+  {
+   "date": "2020-03-26",
+   "pe": 26.82113821138211,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 22.5
+  },
+  {
+   "date": "2020-03-27",
+   "pe": 26.178861788617883,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 21.0
+  },
+  {
+   "date": "2020-03-30",
+   "pe": 25.081300813008127,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 16.7
+  },
+  {
+   "date": "2020-03-31",
+   "pe": 25.162601626016254,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 17.9
+  },
+  {
+   "date": "2020-04-01",
+   "pe": 25.27642276422764,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 18.5
+  },
+  {
+   "date": "2020-04-02",
+   "pe": 26.154471544715445,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 22.4
+  },
+  {
+   "date": "2020-04-03",
+   "pe": 26.520325203252025,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 25.0
+  },
+  {
+   "date": "2020-04-07",
+   "pe": 27.57723577235772,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 27.5
+  },
+  {
+   "date": "2020-04-08",
+   "pe": 27.47967479674796,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 27.3
+  },
+  {
+   "date": "2020-04-09",
+   "pe": 27.845528455284548,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 28.5
+  },
+  {
+   "date": "2020-04-10",
+   "pe": 27.032520325203247,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 27.0
+  },
+  {
+   "date": "2020-04-13",
+   "pe": 26.943089430894304,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 25.5
+  },
+  {
+   "date": "2020-04-14",
+   "pe": 28.41463414634146,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 32.5
+  },
+  {
+   "date": "2020-04-15",
+   "pe": 29.715447154471537,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 42.6
+  },
+  {
+   "date": "2020-04-16",
+   "pe": 29.341463414634145,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 38.5
+  },
+  {
+   "date": "2020-04-17",
+   "pe": 30.707317073170728,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 52.2
+  },
+  {
+   "date": "2020-04-20",
+   "pe": 31.08943089430894,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 54.4
+  },
+  {
+   "date": "2020-04-21",
+   "pe": 27.021897810218977,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 25.8
+  },
+  {
+   "date": "2020-04-22",
+   "pe": 26.992700729927,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 25.0
+  },
+  {
+   "date": "2020-04-23",
+   "pe": 26.343065693430656,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 21.7
+  },
+  {
+   "date": "2020-04-24",
+   "pe": 22.927272727272726,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 6.2
+  },
+  {
+   "date": "2020-04-27",
+   "pe": 22.557575757575755,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 3.7
+  },
+  {
+   "date": "2020-04-28",
+   "pe": 22.763636363636362,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 4.9
+  },
+  {
+   "date": "2020-04-29",
+   "pe": 24.242424242424242,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 12.7
+  },
+  {
+   "date": "2020-04-30",
+   "pe": 25.33333333333333,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 19.3
+  },
+  {
+   "date": "2020-05-06",
+   "pe": 25.33333333333333,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 19.2
+  },
+  {
+   "date": "2020-05-07",
+   "pe": 24.824242424242424,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 16.1
+  },
+  {
+   "date": "2020-05-08",
+   "pe": 25.181818181818176,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 18.9
+  },
+  {
+   "date": "2020-05-11",
+   "pe": 24.55757575757576,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 14.1
+  },
+  {
+   "date": "2020-05-12",
+   "pe": 26.06060606060606,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 24.6
+  },
+  {
+   "date": "2020-05-13",
+   "pe": 26.454545454545453,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 27.9
+  },
+  {
+   "date": "2020-05-14",
+   "pe": 26.836363636363636,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 29.5
+  },
+  {
+   "date": "2020-05-15",
+   "pe": 28.05454545454545,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 36.2
+  },
+  {
+   "date": "2020-05-18",
+   "pe": 29.260606060606058,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 42.3
+  },
+  {
+   "date": "2020-05-19",
+   "pe": 30.32121212121212,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 52.8
+  },
+  {
+   "date": "2020-05-20",
+   "pe": 30.636363636363633,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 55.9
+  },
+  {
+   "date": "2020-05-21",
+   "pe": 28.98181818181818,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 39.3
+  },
+  {
+   "date": "2020-05-22",
+   "pe": 27.860606060606056,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 34.1
+  },
+  {
+   "date": "2020-05-25",
+   "pe": 28.599999999999998,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 38.9
+  },
+  {
+   "date": "2020-05-26",
+   "pe": 29.42424242424242,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 45.3
+  },
+  {
+   "date": "2020-05-27",
+   "pe": 28.98181818181818,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 39.6
+  },
+  {
+   "date": "2020-05-28",
+   "pe": 29.206060606060603,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 41.5
+  },
+  {
+   "date": "2020-05-29",
+   "pe": 29.86060606060606,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 51.6
+  },
+  {
+   "date": "2020-06-01",
+   "pe": 32.848484848484844,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 68.6
+  },
+  {
+   "date": "2020-06-02",
+   "pe": 31.3030303030303,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 62.4
+  },
+  {
+   "date": "2020-06-03",
+   "pe": 34.43636363636363,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 79.1
+  },
+  {
+   "date": "2020-06-04",
+   "pe": 34.11515151515151,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 76.6
+  },
+  {
+   "date": "2020-06-05",
+   "pe": 35.587878787878786,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 82.5
+  },
+  {
+   "date": "2020-06-08",
+   "pe": 37.49696969696969,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 89.5
+  },
+  {
+   "date": "2020-06-09",
+   "pe": 39.96969696969697,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 96.3
+  },
+  {
+   "date": "2020-06-10",
+   "pe": 39.57575757575757,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 93.8
+  },
+  {
+   "date": "2020-06-11",
+   "pe": 40.47272727272727,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 96.9
+  },
+  {
+   "date": "2020-06-12",
+   "pe": 39.448484848484846,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 92.8
+  },
+  {
+   "date": "2020-06-15",
+   "pe": 38.58181818181818,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 88.7
+  },
+  {
+   "date": "2020-06-16",
+   "pe": 41.81818181818181,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 99.0
+  },
+  {
+   "date": "2020-06-17",
+   "pe": 40.86666666666667,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 97.5
+  },
+  {
+   "date": "2020-06-18",
+   "pe": 43.36363636363636,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 99.5
+  },
+  {
+   "date": "2020-06-19",
+   "pe": 42.07878787878788,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 98.5
+  },
+  {
+   "date": "2020-06-22",
+   "pe": 40.93939393939394,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 96.5
+  },
+  {
+   "date": "2020-06-23",
+   "pe": 40.43636363636363,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 94.0
+  },
+  {
+   "date": "2020-06-24",
+   "pe": 40.54545454545455,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 95.0
+  },
+  {
+   "date": "2020-06-29",
+   "pe": 40.64848484848484,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 95.6
+  },
+  {
+   "date": "2020-06-30",
+   "pe": 41.33939393939393,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 97.5
+  },
+  {
+   "date": "2020-07-01",
+   "pe": 42.42424242424242,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 99.0
+  },
+  {
+   "date": "2020-07-02",
+   "pe": 42.32121212121211,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 98.5
+  },
+  {
+   "date": "2020-07-03",
+   "pe": 44.72727272727272,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 99.5
+  },
+  {
+   "date": "2020-07-06",
+   "pe": 43.58181818181818,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 99.0
+  },
+  {
+   "date": "2020-07-07",
+   "pe": 43.43636363636364,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 98.6
+  },
+  {
+   "date": "2020-07-08",
+   "pe": 44.54545454545454,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 99.0
+  },
+  {
+   "date": "2020-07-09",
+   "pe": 48.35151515151515,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 99.5
+  },
+  {
+   "date": "2020-07-10",
+   "pe": 49.99999999999999,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 99.5
+  },
+  {
+   "date": "2020-07-13",
+   "pe": 50.030303030303024,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 99.5
+  },
+  {
+   "date": "2020-07-14",
+   "pe": 51.58181818181818,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 99.5
+  },
+  {
+   "date": "2020-07-15",
+   "pe": 56.739393939393935,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 99.5
+  },
+  {
+   "date": "2020-07-16",
+   "pe": 51.66060606060606,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 99.1
+  },
+  {
+   "date": "2020-07-17",
+   "pe": 55.02424242424242,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 99.1
+  },
+  {
+   "date": "2020-07-20",
+   "pe": 54.157575757575756,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 98.6
+  },
+  {
+   "date": "2020-07-21",
+   "pe": 52.72727272727272,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 98.2
+  },
+  {
+   "date": "2020-07-22",
+   "pe": 54.242424242424235,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 98.6
+  },
+  {
+   "date": "2020-07-23",
+   "pe": 57.272727272727266,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 99.5
+  },
+  {
+   "date": "2020-07-24",
+   "pe": 54.53939393939393,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 98.2
+  },
+  {
+   "date": "2020-07-27",
+   "pe": 52.83030303030303,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 96.9
+  },
+  {
+   "date": "2020-07-28",
+   "pe": 55.418181818181814,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 98.7
+  },
+  {
+   "date": "2020-07-29",
+   "pe": 56.99393939393939,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 99.1
+  },
+  {
+   "date": "2020-07-30",
+   "pe": 57.81818181818182,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 99.6
+  },
+  {
+   "date": "2020-07-31",
+   "pe": 58.90909090909091,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 99.6
+  },
+  {
+   "date": "2020-08-03",
+   "pe": 58.06666666666666,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 99.1
+  },
+  {
+   "date": "2020-08-04",
+   "pe": 58.66666666666666,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 99.1
+  },
+  {
+   "date": "2020-08-05",
+   "pe": 57.77575757575757,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 97.8
+  },
+  {
+   "date": "2020-08-06",
+   "pe": 59.39393939393939,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 99.6
+  },
+  {
+   "date": "2020-08-07",
+   "pe": 58.175757575757565,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 98.3
+  },
+  {
+   "date": "2020-08-10",
+   "pe": 58.175757575757565,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 97.9
+  },
+  {
+   "date": "2020-08-11",
+   "pe": 62.13939393939393,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 99.6
+  },
+  {
+   "date": "2020-08-12",
+   "pe": 55.92727272727272,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 94.5
+  },
+  {
+   "date": "2020-08-13",
+   "pe": 53.351515151515144,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 91.9
+  },
+  {
+   "date": "2020-08-14",
+   "pe": 53.18181818181818,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 91.6
+  },
+  {
+   "date": "2020-08-17",
+   "pe": 55.48484848484848,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 94.1
+  },
+  {
+   "date": "2020-08-18",
+   "pe": 58.18181818181818,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 97.9
+  },
+  {
+   "date": "2020-08-19",
+   "pe": 61.090909090909086,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 99.2
+  },
+  {
+   "date": "2020-08-20",
+   "pe": 59.454545454545446,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 98.8
+  },
+  {
+   "date": "2020-08-21",
+   "pe": 64.23030303030303,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 99.6
+  },
+  {
+   "date": "2020-08-24",
+   "pe": 65.66666666666666,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 99.6
+  },
+  {
+   "date": "2020-08-25",
+   "pe": 65.0969696969697,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 99.2
+  },
+  {
+   "date": "2020-08-26",
+   "pe": 66.66666666666666,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 99.6
+  },
+  {
+   "date": "2020-08-27",
+   "pe": 58.03108808290155,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 93.9
+  },
+  {
+   "date": "2020-08-28",
+   "pe": 63.35751295336787,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 98.0
+  },
+  {
+   "date": "2020-08-31",
+   "pe": 64.06735751295336,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 98.0
+  },
+  {
+   "date": "2020-09-01",
+   "pe": 66.7461139896373,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 99.6
+  },
+  {
+   "date": "2020-09-02",
+   "pe": 73.41968911917097,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 99.6
+  },
+  {
+   "date": "2020-09-03",
+   "pe": 72.4041450777202,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 99.2
+  },
+  {
+   "date": "2020-09-04",
+   "pe": 65.16580310880828,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 97.6
+  },
+  {
+   "date": "2020-09-07",
+   "pe": 66.580310880829,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 98.0
+  },
+  {
+   "date": "2020-09-08",
+   "pe": 62.720207253886,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 95.3
+  },
+  {
+   "date": "2020-09-09",
+   "pe": 60.62176165803108,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 94.1
+  },
+  {
+   "date": "2020-09-10",
+   "pe": 62.61658031088082,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 94.9
+  },
+  {
+   "date": "2020-09-11",
+   "pe": 66.83937823834196,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 98.8
+  },
+  {
+   "date": "2020-09-14",
+   "pe": 73.52331606217616,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 99.6
+  },
+  {
+   "date": "2020-09-15",
+   "pe": 72.35751295336787,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 98.5
+  },
+  {
+   "date": "2020-09-16",
+   "pe": 71.60103626943004,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 98.1
+  },
+  {
+   "date": "2020-09-17",
+   "pe": 71.22797927461139,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 97.7
+  },
+  {
+   "date": "2020-09-18",
+   "pe": 71.35233160621762,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 97.7
+  },
+  {
+   "date": "2020-09-21",
+   "pe": 72.64248704663211,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 98.9
+  },
+  {
+   "date": "2020-09-22",
+   "pe": 70.56994818652849,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 96.6
+  },
+  {
+   "date": "2020-09-23",
+   "pe": 71.92227979274611,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 97.7
+  },
+  {
+   "date": "2020-09-24",
+   "pe": 69.24870466321244,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 95.9
+  },
+  {
+   "date": "2020-09-25",
+   "pe": 69.19689119170984,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 95.5
+  },
+  {
+   "date": "2020-09-28",
+   "pe": 69.50259067357511,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 95.9
+  },
+  {
+   "date": "2020-09-29",
+   "pe": 66.83937823834196,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 94.4
+  },
+  {
+   "date": "2020-09-30",
+   "pe": 68.44559585492227,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 94.8
+  },
+  {
+   "date": "2020-10-09",
+   "pe": 69.97409326424871,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 95.9
+  },
+  {
+   "date": "2020-10-12",
+   "pe": 69.4300518134715,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 95.2
+  },
+  {
+   "date": "2020-10-13",
+   "pe": 76.37305699481865,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 99.6
+  },
+  {
+   "date": "2020-10-14",
+   "pe": 80.30569948186529,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 99.6
+  },
+  {
+   "date": "2020-10-15",
+   "pe": 78.94300518134715,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 99.3
+  },
+  {
+   "date": "2020-10-16",
+   "pe": 79.79274611398964,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 99.3
+  },
+  {
+   "date": "2020-10-19",
+   "pe": 79.8963730569948,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 99.3
+  },
+  {
+   "date": "2020-10-20",
+   "pe": 84.09844559585491,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 99.6
+  },
+  {
+   "date": "2020-10-21",
+   "pe": 84.19689119170984,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 99.6
+  },
+  {
+   "date": "2020-10-22",
+   "pe": 83.04663212435233,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 98.9
+  },
+  {
+   "date": "2020-10-23",
+   "pe": 59.10852713178294,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 84.7
+  },
+  {
+   "date": "2020-10-26",
+   "pe": 61.0,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 85.8
+  },
+  {
+   "date": "2020-10-27",
+   "pe": 65.26744186046511,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 89.0
+  },
+  {
+   "date": "2020-10-28",
+   "pe": 64.72093023255813,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 88.0
+  },
+  {
+   "date": "2020-10-29",
+   "pe": 64.56976744186046,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 87.7
+  },
+  {
+   "date": "2020-10-30",
+   "pe": 65.69767441860465,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 89.5
+  },
+  {
+   "date": "2020-11-02",
+   "pe": 66.32558139534883,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 89.5
+  },
+  {
+   "date": "2020-11-03",
+   "pe": 65.23255813953489,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 88.2
+  },
+  {
+   "date": "2020-11-04",
+   "pe": 66.74418604651162,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 90.3
+  },
+  {
+   "date": "2020-11-05",
+   "pe": 69.26356589147287,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 92.4
+  },
+  {
+   "date": "2020-11-06",
+   "pe": 67.03875968992249,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 91.1
+  },
+  {
+   "date": "2020-11-09",
+   "pe": 66.27906976744185,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 88.4
+  },
+  {
+   "date": "2020-11-10",
+   "pe": 65.50387596899225,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 87.4
+  },
+  {
+   "date": "2020-11-11",
+   "pe": 66.37596899224806,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 88.8
+  },
+  {
+   "date": "2020-11-12",
+   "pe": 65.03488372093022,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 85.4
+  },
+  {
+   "date": "2020-11-13",
+   "pe": 64.92635658914728,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 85.1
+  },
+  {
+   "date": "2020-11-16",
+   "pe": 60.97286821705426,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 81.5
+  },
+  {
+   "date": "2020-11-17",
+   "pe": 62.24031007751938,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 82.6
+  },
+  {
+   "date": "2020-11-18",
+   "pe": 60.031007751937985,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 80.6
+  },
+  {
+   "date": "2020-11-19",
+   "pe": 59.92635658914729,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 80.3
+  },
+  {
+   "date": "2020-11-20",
+   "pe": 60.75581395348837,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 81.1
+  },
+  {
+   "date": "2020-11-23",
+   "pe": 59.1860465116279,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 79.1
+  },
+  {
+   "date": "2020-11-24",
+   "pe": 58.65116279069767,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 77.9
+  },
+  {
+   "date": "2020-11-25",
+   "pe": 56.62403100775194,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 74.3
+  },
+  {
+   "date": "2020-11-26",
+   "pe": 55.065891472868216,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 73.1
+  },
+  {
+   "date": "2020-11-27",
+   "pe": 57.36434108527131,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 75.5
+  },
+  {
+   "date": "2020-11-30",
+   "pe": 52.581395348837205,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 70.0
+  },
+  {
+   "date": "2020-12-01",
+   "pe": 54.17054263565891,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 71.8
+  },
+  {
+   "date": "2020-12-02",
+   "pe": 54.810077519379846,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 72.5
+  },
+  {
+   "date": "2020-12-03",
+   "pe": 54.8062015503876,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 72.3
+  },
+  {
+   "date": "2020-12-04",
+   "pe": 56.019379844961236,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 74.3
+  },
+  {
+   "date": "2020-12-07",
+   "pe": 56.224806201550386,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 74.4
+  },
+  {
+   "date": "2020-12-08",
+   "pe": 59.674418604651166,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 80.5
+  },
+  {
+   "date": "2020-12-09",
+   "pe": 57.49999999999999,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 75.8
+  },
+  {
+   "date": "2020-12-10",
+   "pe": 58.75581395348837,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 78.7
+  },
+  {
+   "date": "2020-12-11",
+   "pe": 60.28294573643411,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 81.3
+  },
+  {
+   "date": "2020-12-14",
+   "pe": 63.081395348837205,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 84.2
+  },
+  {
+   "date": "2020-12-15",
+   "pe": 64.29457364341084,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 85.2
+  },
+  {
+   "date": "2020-12-16",
+   "pe": 64.2170542635659,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 84.6
+  },
+  {
+   "date": "2020-12-17",
+   "pe": 64.7015503875969,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 85.6
+  },
+  {
+   "date": "2020-12-18",
+   "pe": 65.81007751937985,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 88.8
+  },
+  {
+   "date": "2020-12-21",
+   "pe": 65.68604651162791,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 88.2
+  },
+  {
+   "date": "2020-12-22",
+   "pe": 64.18604651162791,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 83.6
+  },
+  {
+   "date": "2020-12-23",
+   "pe": 66.75968992248062,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 91.0
+  },
+  {
+   "date": "2020-12-24",
+   "pe": 70.65116279069767,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 94.5
+  },
+  {
+   "date": "2020-12-25",
+   "pe": 68.55813953488372,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 92.0
+  },
+  {
+   "date": "2020-12-28",
+   "pe": 67.31782945736434,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 91.4
+  },
+  {
+   "date": "2020-12-29",
+   "pe": 64.76744186046511,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 84.5
+  },
+  {
+   "date": "2020-12-30",
+   "pe": 64.15116279069767,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 82.1
+  },
+  {
+   "date": "2020-12-31",
+   "pe": 67.51550387596899,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 91.5
+  },
+  {
+   "date": "2021-01-04",
+   "pe": 65.11627906976744,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 85.2
+  },
+  {
+   "date": "2021-01-05",
+   "pe": 65.22868217054263,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 85.5
+  },
+  {
+   "date": "2021-01-06",
+   "pe": 63.096899224806194,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 80.5
+  },
+  {
+   "date": "2021-01-07",
+   "pe": 63.3062015503876,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 80.5
+  },
+  {
+   "date": "2021-01-08",
+   "pe": 63.406976744186046,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 80.9
+  },
+  {
+   "date": "2021-01-11",
+   "pe": 62.74418604651162,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 79.5
+  },
+  {
+   "date": "2021-01-12",
+   "pe": 64.09689922480621,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 81.3
+  },
+  {
+   "date": "2021-01-13",
+   "pe": 69.29844961240309,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 93.2
+  },
+  {
+   "date": "2021-01-14",
+   "pe": 72.03875968992249,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 95.9
+  },
+  {
+   "date": "2021-01-15",
+   "pe": 70.34883720930232,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 93.8
+  },
+  {
+   "date": "2021-01-18",
+   "pe": 73.0813953488372,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 96.8
+  },
+  {
+   "date": "2021-01-19",
+   "pe": 70.0,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 93.3
+  },
+  {
+   "date": "2021-01-20",
+   "pe": 72.5813953488372,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 96.2
+  },
+  {
+   "date": "2021-01-21",
+   "pe": 73.10077519379844,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 96.8
+  },
+  {
+   "date": "2021-01-22",
+   "pe": 73.17829457364341,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 96.8
+  },
+  {
+   "date": "2021-01-25",
+   "pe": 72.4031007751938,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 95.1
+  },
+  {
+   "date": "2021-01-26",
+   "pe": 68.91472868217055,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 89.9
+  },
+  {
+   "date": "2021-01-27",
+   "pe": 68.13178294573643,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 89.1
+  },
+  {
+   "date": "2021-01-28",
+   "pe": 62.77131782945736,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 76.8
+  },
+  {
+   "date": "2021-01-29",
+   "pe": 56.496124031007746,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 66.6
+  },
+  {
+   "date": "2021-02-01",
+   "pe": 54.081395348837205,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 62.7
+  },
+  {
+   "date": "2021-02-02",
+   "pe": 59.48837209302325,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 72.7
+  },
+  {
+   "date": "2021-02-03",
+   "pe": 59.52325581395348,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 72.8
+  },
+  {
+   "date": "2021-02-04",
+   "pe": 58.75193798449613,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 70.6
+  },
+  {
+   "date": "2021-02-05",
+   "pe": 58.99612403100775,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 71.3
+  },
+  {
+   "date": "2021-02-08",
+   "pe": 61.82170542635659,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 75.6
+  },
+  {
+   "date": "2021-02-09",
+   "pe": 65.90697674418604,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 85.4
+  },
+  {
+   "date": "2021-02-10",
+   "pe": 65.11627906976744,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 82.4
+  },
+  {
+   "date": "2021-02-18",
+   "pe": 63.015503875968996,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 76.9
+  },
+  {
+   "date": "2021-02-19",
+   "pe": 60.6937984496124,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 73.6
+  },
+  {
+   "date": "2021-02-22",
+   "pe": 58.37209302325581,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 68.7
+  },
+  {
+   "date": "2021-02-23",
+   "pe": 57.251937984496124,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 65.7
+  },
+  {
+   "date": "2021-02-24",
+   "pe": 55.15891472868217,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 63.1
+  },
+  {
+   "date": "2021-02-25",
+   "pe": 56.104651162790695,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 64.3
+  },
+  {
+   "date": "2021-02-26",
+   "pe": 58.143410852713174,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 67.9
+  },
+  {
+   "date": "2021-03-01",
+   "pe": 57.36434108527131,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 66.1
+  },
+  {
+   "date": "2021-03-02",
+   "pe": 54.651162790697676,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 61.3
+  },
+  {
+   "date": "2021-03-03",
+   "pe": 58.33333333333333,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 69.0
+  },
+  {
+   "date": "2021-03-04",
+   "pe": 57.10852713178294,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 65.3
+  },
+  {
+   "date": "2021-03-05",
+   "pe": 59.29457364341085,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 71.6
+  },
+  {
+   "date": "2021-03-08",
+   "pe": 61.248062015503876,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 75.5
+  },
+  {
+   "date": "2021-03-09",
+   "pe": 56.627906976744185,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 64.2
+  },
+  {
+   "date": "2021-03-10",
+   "pe": 58.13565891472869,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 67.6
+  },
+  {
+   "date": "2021-03-11",
+   "pe": 61.36821705426357,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 75.7
+  },
+  {
+   "date": "2021-03-12",
+   "pe": 59.937984496124024,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 73.1
+  },
+  {
+   "date": "2021-03-15",
+   "pe": 58.91472868217054,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 70.2
+  },
+  {
+   "date": "2021-03-16",
+   "pe": 54.31395348837209,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 59.4
+  },
+  {
+   "date": "2021-03-17",
+   "pe": 56.240310077519375,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 63.0
+  },
+  {
+   "date": "2021-03-18",
+   "pe": 55.55813953488372,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 61.7
+  },
+  {
+   "date": "2021-03-19",
+   "pe": 54.8062015503876,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 59.7
+  },
+  {
+   "date": "2021-03-22",
+   "pe": 52.14728682170542,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 56.4
+  },
+  {
+   "date": "2021-03-23",
+   "pe": 50.19767441860465,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 55.8
+  },
+  {
+   "date": "2021-03-24",
+   "pe": 49.22868217054263,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 55.1
+  },
+  {
+   "date": "2021-03-25",
+   "pe": 48.565891472868216,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 54.9
+  },
+  {
+   "date": "2021-03-26",
+   "pe": 49.37596899224806,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 55.3
+  },
+  {
+   "date": "2021-03-29",
+   "pe": 48.43798449612403,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 54.7
+  },
+  {
+   "date": "2021-03-30",
+   "pe": 48.62403100775194,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 55.0
+  },
+  {
+   "date": "2021-03-31",
+   "pe": 49.14728682170542,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 55.2
+  },
+  {
+   "date": "2021-04-01",
+   "pe": 49.166666666666664,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 55.3
+  },
+  {
+   "date": "2021-04-02",
+   "pe": 52.85271317829458,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 58.2
+  },
+  {
+   "date": "2021-04-06",
+   "pe": 50.52325581395348,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 56.5
+  },
+  {
+   "date": "2021-04-07",
+   "pe": 50.57364341085271,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 56.6
+  },
+  {
+   "date": "2021-04-08",
+   "pe": 50.620155038759684,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 56.7
+  },
+  {
+   "date": "2021-04-09",
+   "pe": 52.562015503875976,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 57.6
+  },
+  {
+   "date": "2021-04-12",
+   "pe": 50.457364341085274,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 55.9
+  },
+  {
+   "date": "2021-04-13",
+   "pe": 46.79738562091503,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 53.0
+  },
+  {
+   "date": "2021-04-14",
+   "pe": 49.93464052287582,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 55.2
+  },
+  {
+   "date": "2021-04-15",
+   "pe": 48.78431372549019,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 54.0
+  },
+  {
+   "date": "2021-04-16",
+   "pe": 47.712418300653596,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 52.9
+  },
+  {
+   "date": "2021-04-19",
+   "pe": 49.01960784313725,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 54.2
+  },
+  {
+   "date": "2021-04-20",
+   "pe": 48.53921568627451,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 53.4
+  },
+  {
+   "date": "2021-04-21",
+   "pe": 48.53921568627451,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 53.2
+  },
+  {
+   "date": "2021-04-22",
+   "pe": 49.084967320261434,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 54.6
+  },
+  {
+   "date": "2021-04-23",
+   "pe": 48.931372549019606,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 54.2
+  },
+  {
+   "date": "2021-04-26",
+   "pe": 48.69281045751634,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 53.8
+  },
+  {
+   "date": "2021-04-27",
+   "pe": 49.052287581699346,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 54.7
+  },
+  {
+   "date": "2021-04-28",
+   "pe": 48.549019607843135,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 53.1
+  },
+  {
+   "date": "2021-04-29",
+   "pe": 48.39542483660131,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 52.2
+  },
+  {
+   "date": "2021-04-30",
+   "pe": 48.00653594771242,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 51.8
+  },
+  {
+   "date": "2021-05-06",
+   "pe": 47.97712418300654,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 51.7
+  },
+  {
+   "date": "2021-05-07",
+   "pe": 46.12091503267973,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 51.1
+  },
+  {
+   "date": "2021-05-10",
+   "pe": 44.93464052287582,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 51.0
+  },
+  {
+   "date": "2021-05-11",
+   "pe": 44.80392156862745,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 50.8
+  },
+  {
+   "date": "2021-05-12",
+   "pe": 44.11764705882353,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 50.2
+  },
+  {
+   "date": "2021-05-13",
+   "pe": 43.08169934640523,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 49.4
+  },
+  {
+   "date": "2021-05-14",
+   "pe": 43.0359477124183,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 49.3
+  },
+  {
+   "date": "2021-05-17",
+   "pe": 44.80392156862745,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 51.1
+  },
+  {
+   "date": "2021-05-18",
+   "pe": 45.454248366013076,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 51.7
+  },
+  {
+   "date": "2021-05-19",
+   "pe": 45.248366013071895,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 51.6
+  },
+  {
+   "date": "2021-05-20",
+   "pe": 46.11111111111111,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 51.9
+  },
+  {
+   "date": "2021-05-21",
+   "pe": 44.75490196078431,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 50.6
+  },
+  {
+   "date": "2021-05-24",
+   "pe": 44.93464052287582,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 51.2
+  },
+  {
+   "date": "2021-05-25",
+   "pe": 45.3921568627451,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 51.8
+  },
+  {
+   "date": "2021-05-26",
+   "pe": 42.60457516339869,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 48.3
+  },
+  {
+   "date": "2021-05-27",
+   "pe": 44.6078431372549,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 50.1
+  },
+  {
+   "date": "2021-05-28",
+   "pe": 44.65686274509804,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 50.2
+  },
+  {
+   "date": "2021-05-31",
+   "pe": 43.990196078431374,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 49.4
+  },
+  {
+   "date": "2021-06-01",
+   "pe": 46.87908496732026,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 53.3
+  },
+  {
+   "date": "2021-06-02",
+   "pe": 48.20261437908496,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 54.1
+  },
+  {
+   "date": "2021-06-03",
+   "pe": 46.94117647058823,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 53.3
+  },
+  {
+   "date": "2021-06-04",
+   "pe": 47.64705882352941,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 53.4
+  },
+  {
+   "date": "2021-06-07",
+   "pe": 45.70588235294118,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 52.1
+  },
+  {
+   "date": "2021-06-08",
+   "pe": 46.1764705882353,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 52.7
+  },
+  {
+   "date": "2021-06-09",
+   "pe": 46.41503267973856,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 52.8
+  },
+  {
+   "date": "2021-06-10",
+   "pe": 49.490196078431374,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 58.9
+  },
+  {
+   "date": "2021-06-11",
+   "pe": 46.888888888888886,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 53.2
+  },
+  {
+   "date": "2021-06-15",
+   "pe": 46.07843137254902,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 51.7
+  },
+  {
+   "date": "2021-06-16",
+   "pe": 45.09803921568627,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 50.7
+  },
+  {
+   "date": "2021-06-17",
+   "pe": 44.75490196078431,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 49.4
+  },
+  {
+   "date": "2021-06-18",
+   "pe": 45.330065359477125,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 51.1
+  },
+  {
+   "date": "2021-06-21",
+   "pe": 44.885620915032675,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 50.1
+  },
+  {
+   "date": "2021-06-22",
+   "pe": 44.04248366013072,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 48.0
+  },
+  {
+   "date": "2021-06-23",
+   "pe": 42.810457516339866,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 46.5
+  },
+  {
+   "date": "2021-06-24",
+   "pe": 42.98039215686275,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 46.6
+  },
+  {
+   "date": "2021-06-25",
+   "pe": 41.43790849673202,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 44.9
+  },
+  {
+   "date": "2021-06-28",
+   "pe": 42.71241830065359,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 46.4
+  },
+  {
+   "date": "2021-06-29",
+   "pe": 42.274509803921575,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 45.6
+  },
+  {
+   "date": "2021-06-30",
+   "pe": 40.549019607843135,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 43.1
+  },
+  {
+   "date": "2021-07-01",
+   "pe": 40.69934640522876,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 43.7
+  },
+  {
+   "date": "2021-07-02",
+   "pe": 39.72222222222222,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 41.1
+  },
+  {
+   "date": "2021-07-05",
+   "pe": 38.76143790849673,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 38.8
+  },
+  {
+   "date": "2021-07-06",
+   "pe": 38.66013071895425,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 38.7
+  },
+  {
+   "date": "2021-07-07",
+   "pe": 40.03267973856209,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 42.2
+  },
+  {
+   "date": "2021-07-08",
+   "pe": 38.75816993464052,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 38.8
+  },
+  {
+   "date": "2021-07-09",
+   "pe": 39.71568627450981,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 41.3
+  },
+  {
+   "date": "2021-07-12",
+   "pe": 42.68300653594772,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 47.4
+  },
+  {
+   "date": "2021-07-13",
+   "pe": 44.69607843137255,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 50.5
+  },
+  {
+   "date": "2021-07-14",
+   "pe": 44.56862745098039,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 50.0
+  },
+  {
+   "date": "2021-07-15",
+   "pe": 42.77124183006536,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 47.5
+  },
+  {
+   "date": "2021-07-16",
+   "pe": 41.69934640522875,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 45.4
+  },
+  {
+   "date": "2021-07-19",
+   "pe": 42.01633986928104,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 45.8
+  },
+  {
+   "date": "2021-07-20",
+   "pe": 41.84640522875817,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 45.7
+  },
+  {
+   "date": "2021-07-21",
+   "pe": 40.85947712418301,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 43.8
+  },
+  {
+   "date": "2021-07-22",
+   "pe": 39.80392156862745,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 40.9
+  },
+  {
+   "date": "2021-07-23",
+   "pe": 38.54575163398693,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 37.2
+  },
+  {
+   "date": "2021-07-26",
+   "pe": 37.254901960784316,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 36.1
+  },
+  {
+   "date": "2021-07-27",
+   "pe": 35.45751633986928,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 33.2
+  },
+  {
+   "date": "2021-07-28",
+   "pe": 34.97385620915033,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 32.5
+  },
+  {
+   "date": "2021-07-29",
+   "pe": 35.1764705882353,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 32.6
+  },
+  {
+   "date": "2021-07-30",
+   "pe": 33.68300653594771,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 29.4
+  },
+  {
+   "date": "2021-08-02",
+   "pe": 35.745098039215684,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 34.6
+  },
+  {
+   "date": "2021-08-03",
+   "pe": 35.130718954248366,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 32.6
+  },
+  {
+   "date": "2021-08-04",
+   "pe": 35.28431372549019,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 33.2
+  },
+  {
+   "date": "2021-08-05",
+   "pe": 34.88888888888889,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 32.3
+  },
+  {
+   "date": "2021-08-06",
+   "pe": 33.712418300653596,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 29.3
+  },
+  {
+   "date": "2021-08-09",
+   "pe": 37.08496732026144,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 37.2
+  },
+  {
+   "date": "2021-08-10",
+   "pe": 38.02287581699346,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 38.6
+  },
+  {
+   "date": "2021-08-11",
+   "pe": 38.45424836601307,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 38.7
+  },
+  {
+   "date": "2021-08-12",
+   "pe": 39.068627450980394,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 40.5
+  },
+  {
+   "date": "2021-08-13",
+   "pe": 36.552287581699346,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 36.2
+  },
+  {
+   "date": "2021-08-16",
+   "pe": 35.630718954248366,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 34.3
+  },
+  {
+   "date": "2021-08-17",
+   "pe": 34.83660130718954,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 31.7
+  },
+  {
+   "date": "2021-08-18",
+   "pe": 34.39542483660131,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 31.3
+  },
+  {
+   "date": "2021-08-19",
+   "pe": 35.99673202614379,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 36.0
+  },
+  {
+   "date": "2021-08-20",
+   "pe": 38.712460063897765,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 40.2
+  },
+  {
+   "date": "2021-08-23",
+   "pe": 41.418530351437695,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 47.5
+  },
+  {
+   "date": "2021-08-24",
+   "pe": 44.444089456869015,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 52.6
+  },
+  {
+   "date": "2021-08-25",
+   "pe": 44.72843450479233,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 53.9
+  },
+  {
+   "date": "2021-08-26",
+   "pe": 44.79233226837061,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 54.4
+  },
+  {
+   "date": "2021-08-27",
+   "pe": 44.08945686900959,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 52.0
+  },
+  {
+   "date": "2021-08-30",
+   "pe": 43.46006389776358,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 51.3
+  },
+  {
+   "date": "2021-08-31",
+   "pe": 42.178913738019176,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 48.6
+  },
+  {
+   "date": "2021-09-01",
+   "pe": 41.21086261980831,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 46.7
+  },
+  {
+   "date": "2021-09-02",
+   "pe": 40.05111821086262,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 43.7
+  },
+  {
+   "date": "2021-09-03",
+   "pe": 39.712460063897765,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 42.2
+  },
+  {
+   "date": "2021-09-06",
+   "pe": 41.16613418530351,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 46.6
+  },
+  {
+   "date": "2021-09-07",
+   "pe": 40.42172523961661,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 44.1
+  },
+  {
+   "date": "2021-09-08",
+   "pe": 40.3929712460064,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 44.0
+  },
+  {
+   "date": "2021-09-09",
+   "pe": 39.61022364217253,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 41.5
+  },
+  {
+   "date": "2021-09-10",
+   "pe": 39.936102236421725,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 43.2
+  },
+  {
+   "date": "2021-09-13",
+   "pe": 43.1629392971246,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 51.7
+  },
+  {
+   "date": "2021-09-14",
+   "pe": 41.73162939297125,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 48.2
+  },
+  {
+   "date": "2021-09-15",
+   "pe": 41.73801916932907,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 48.3
+  },
+  {
+   "date": "2021-09-16",
+   "pe": 41.50479233226837,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 47.8
+  },
+  {
+   "date": "2021-09-17",
+   "pe": 39.57827476038339,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 41.0
+  },
+  {
+   "date": "2021-09-22",
+   "pe": 38.07348242811502,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 37.5
+  },
+  {
+   "date": "2021-09-23",
+   "pe": 38.33546325878594,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 37.7
+  },
+  {
+   "date": "2021-09-24",
+   "pe": 38.33865814696486,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 37.8
+  },
+  {
+   "date": "2021-09-27",
+   "pe": 40.361022364217256,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 44.2
+  },
+  {
+   "date": "2021-09-28",
+   "pe": 44.39616613418531,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 54.1
+  },
+  {
+   "date": "2021-09-29",
+   "pe": 46.575079872204476,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 59.5
+  },
+  {
+   "date": "2021-09-30",
+   "pe": 46.02875399361022,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 58.4
+  },
+  {
+   "date": "2021-10-08",
+   "pe": 46.635782747603834,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 59.6
+  },
+  {
+   "date": "2021-10-11",
+   "pe": 48.5111821086262,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 62.1
+  },
+  {
+   "date": "2021-10-12",
+   "pe": 47.24920127795527,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 60.4
+  },
+  {
+   "date": "2021-10-13",
+   "pe": 48.74121405750799,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 63.4
+  },
+  {
+   "date": "2021-10-14",
+   "pe": 45.86581469648563,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 57.8
+  },
+  {
+   "date": "2021-10-15",
+   "pe": 48.581469648562305,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 62.9
+  },
+  {
+   "date": "2021-10-18",
+   "pe": 47.26837060702875,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 60.3
+  },
+  {
+   "date": "2021-10-19",
+   "pe": 49.14376996805112,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 64.6
+  },
+  {
+   "date": "2021-10-20",
+   "pe": 50.64536741214058,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 67.2
+  },
+  {
+   "date": "2021-10-21",
+   "pe": 51.974440894568694,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 67.6
+  },
+  {
+   "date": "2021-10-22",
+   "pe": 51.18210862619808,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 67.1
+  },
+  {
+   "date": "2021-10-25",
+   "pe": 50.498402555910545,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 66.2
+  },
+  {
+   "date": "2021-10-26",
+   "pe": 49.801916932907346,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 65.1
+  },
+  {
+   "date": "2021-10-27",
+   "pe": 49.70287539936102,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 65.0
+  },
+  {
+   "date": "2021-10-28",
+   "pe": 48.11182108626198,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 60.3
+  },
+  {
+   "date": "2021-10-29",
+   "pe": 54.76190476190477,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 70.8
+  },
+  {
+   "date": "2021-11-01",
+   "pe": 58.319727891156475,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 77.3
+  },
+  {
+   "date": "2021-11-02",
+   "pe": 60.23809523809525,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 81.1
+  },
+  {
+   "date": "2021-11-03",
+   "pe": 59.62585034013607,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 80.2
+  },
+  {
+   "date": "2021-11-04",
+   "pe": 60.64625850340138,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 81.6
+  },
+  {
+   "date": "2021-11-05",
+   "pe": 60.19727891156463,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 80.9
+  },
+  {
+   "date": "2021-11-08",
+   "pe": 60.231292517006814,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 80.9
+  },
+  {
+   "date": "2021-11-09",
+   "pe": 59.761904761904766,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 80.0
+  },
+  {
+   "date": "2021-11-10",
+   "pe": 60.340136054421784,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 81.3
+  },
+  {
+   "date": "2021-11-11",
+   "pe": 60.20408163265307,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 80.6
+  },
+  {
+   "date": "2021-11-12",
+   "pe": 59.53401360544219,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 79.2
+  },
+  {
+   "date": "2021-11-15",
+   "pe": 62.540816326530624,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 83.7
+  },
+  {
+   "date": "2021-11-16",
+   "pe": 60.06122448979593,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 80.2
+  },
+  {
+   "date": "2021-11-17",
+   "pe": 60.472789115646265,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 81.3
+  },
+  {
+   "date": "2021-11-18",
+   "pe": 64.55782312925172,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 86.9
+  },
+  {
+   "date": "2021-11-19",
+   "pe": 62.448979591836746,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 83.4
+  },
+  {
+   "date": "2021-11-22",
+   "pe": 61.61564625850341,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 82.7
+  },
+  {
+   "date": "2021-11-23",
+   "pe": 61.90476190476191,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 82.9
+  },
+  {
+   "date": "2021-11-24",
+   "pe": 62.693877551020414,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 83.9
+  },
+  {
+   "date": "2021-11-25",
+   "pe": 61.22448979591838,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 81.9
+  },
+  {
+   "date": "2021-11-26",
+   "pe": 60.880952380952394,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 81.2
+  },
+  {
+   "date": "2021-11-29",
+   "pe": 59.8639455782313,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 78.3
+  },
+  {
+   "date": "2021-11-30",
+   "pe": 59.08163265306123,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 76.2
+  },
+  {
+   "date": "2021-12-01",
+   "pe": 58.07142857142858,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 73.3
+  },
+  {
+   "date": "2021-12-02",
+   "pe": 58.05102040816327,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 73.0
+  },
+  {
+   "date": "2021-12-03",
+   "pe": 57.448979591836746,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 72.2
+  },
+  {
+   "date": "2021-12-06",
+   "pe": 56.23469387755103,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 70.0
+  },
+  {
+   "date": "2021-12-07",
+   "pe": 55.612244897959194,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 69.2
+  },
+  {
+   "date": "2021-12-08",
+   "pe": 55.42857142857144,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 68.7
+  },
+  {
+   "date": "2021-12-09",
+   "pe": 55.459183673469404,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 68.8
+  },
+  {
+   "date": "2021-12-10",
+   "pe": 54.748299319727906,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 67.0
+  },
+  {
+   "date": "2021-12-13",
+   "pe": 54.68367346938777,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 66.9
+  },
+  {
+   "date": "2021-12-14",
+   "pe": 54.894557823129254,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 67.9
+  },
+  {
+   "date": "2021-12-15",
+   "pe": 54.33673469387756,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 66.3
+  },
+  {
+   "date": "2021-12-16",
+   "pe": 54.26870748299321,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 66.0
+  },
+  {
+   "date": "2021-12-17",
+   "pe": 53.00000000000001,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 64.8
+  },
+  {
+   "date": "2021-12-20",
+   "pe": 51.56802721088437,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 63.1
+  },
+  {
+   "date": "2021-12-21",
+   "pe": 52.27891156462586,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 63.9
+  },
+  {
+   "date": "2021-12-22",
+   "pe": 53.741496598639465,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 65.4
+  },
+  {
+   "date": "2021-12-23",
+   "pe": 55.13605442176871,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 68.6
+  },
+  {
+   "date": "2021-12-24",
+   "pe": 55.751700680272116,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 69.9
+  },
+  {
+   "date": "2021-12-27",
+   "pe": 57.92517006802723,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 73.5
+  },
+  {
+   "date": "2021-12-28",
+   "pe": 58.48639455782313,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 75.6
+  },
+  {
+   "date": "2021-12-29",
+   "pe": 57.99319727891157,
+   "pb": null,
+   "ps": null,
+   "turnover": null,
+   "pe_pctile": 73.4
+  }
+ ],
+ "peg_at_earnings": [
+  {
+   "period": "2019Q1",
+   "date": "2020-04-24",
+   "pe": 22.927272727272726,
+   "growth_yoy_pct": 38.249126,
+   "peg": 0.6
+  },
+  {
+   "period": "2019Q2",
+   "date": "2019-08-23",
+   "pe": 18.771929824561404,
+   "growth_yoy_pct": 44.064876,
+   "peg": 0.43
+  },
+  {
+   "period": "2019Q3",
+   "date": "2019-10-25",
+   "pe": 24.268292682926827,
+   "growth_yoy_pct": 45.327893,
+   "peg": 0.54
+  },
+  {
+   "period": "2019Q4",
+   "date": "2020-04-21",
+   "pe": 27.021897810218977,
+   "growth_yoy_pct": 50.566753,
+   "peg": 0.53
+  },
+  {
+   "period": "2020Q1",
+   "date": "2020-04-24",
+   "pe": 22.927272727272726,
+   "growth_yoy_pct": 169.699788,
+   "peg": 0.14
+  },
+  {
+   "period": "2020Q2",
+   "date": "2020-08-27",
+   "pe": 58.03108808290155,
+   "growth_yoy_pct": 67.512761,
+   "peg": 0.86
+  },
+  {
+   "period": "2020Q3",
+   "date": "2020-10-23",
+   "pe": 59.10852713178294,
+   "growth_yoy_pct": 109.984369,
+   "peg": 0.54
+  },
+  {
+   "period": "2020Q4",
+   "date": "2021-04-13",
+   "pe": 46.79738562091503,
+   "growth_yoy_pct": 101.538617,
+   "peg": 0.46
+  },
+  {
+   "period": "2021Q1",
+   "date": "2021-04-13",
+   "pe": 46.79738562091503,
+   "growth_yoy_pct": 65.362437,
+   "peg": 0.72
+  },
+  {
+   "period": "2021Q2",
+   "date": "2021-08-20",
+   "pe": 38.712460063897765,
+   "growth_yoy_pct": 27.085957,
+   "peg": 1.43
+  },
+  {
+   "period": "2021Q3",
+   "date": "2021-10-29",
+   "pe": 54.76190476190477,
+   "growth_yoy_pct": 7.895584,
+   "peg": 6.94
+  },
+  {
+   "period": "2021Q4",
+   "date": null,
+   "pe": null,
+   "growth_yoy_pct": 12.777043,
+   "peg": null
+  }
+ ],
+ "gaps": [
+  {
+   "scope": "估值明细",
+   "reason": "baostock 数据服务不可达",
+   "impact": "中：PB/PS 缺失；PE 为近似值（EPS 基数与股本变动未精细还原）",
+   "mitigation": "服务恢复后 --only fetch_valuation --force 重抓"
+  }
+ ]
+}

@@ -17,6 +17,7 @@ sys.path.insert(0, os.path.join(_REPO, "tools"))
 from common import (cfg_argparse, data_dir, is_fresh, load_config, load_json,  # noqa: E402
                     log, now_str, save_json)
 from em_api import download_pdf, eastmoney_reports, report_url  # noqa: E402
+from sina_api import fetch_report_text, list_reports  # noqa: E402
 
 _TITLE_KW = ["业绩", "超预期", "不及预期", "上调", "下调", "点评", "中报", "季报", "年报", "深度"]
 _STRONG_RATING = ["买入", "强推", "强烈推荐"]
@@ -122,7 +123,26 @@ def main():
     log(f"东财研报元数据 {begin} ~ {end}")
     reports = eastmoney_reports(code, begin=begin, end=end)
     reports = [r for r in reports if r["publish_date"] and r["infoCode"]]
-    log(f"研报 {len(reports)} 篇")
+    for r in reports:
+        r["source"] = "eastmoney"
+        r["source_url"] = report_url(r["infoCode"])
+    log(f"东财研报 {len(reports)} 篇")
+
+    # 东财对部分中小盘历史研报存在数据缺口 → 窗口内覆盖不足时并入新浪研报库
+    in_win_em = [r for r in reports if begin <= r["publish_date"] <= end]
+    if len(in_win_em) < 30:
+        log(f"窗口内东财研报仅 {len(in_win_em)} 篇，启用新浪研报库回退…")
+        sina = list_reports(code, begin, end)
+        log(f"新浪研报 {len(sina)} 篇（{begin} ~ {end}）")
+        for s in sina:
+            reports.append({
+                "infoCode": "SINA" + s["rptid"],
+                "title": s["title"], "publish_date": s["date"], "org": s["org"],
+                "analyst": s["analysts"], "rating": None, "last_rating": None,
+                "target_price": None, "eps_this": None, "eps_next": None, "eps_next2": None,
+                "industry": None, "source": "sina", "source_url": s["url"],
+            })
+        log(f"合并后研报总数 {len(reports)} 篇")
 
     windows = [(p["period"], p["report_date"]) for p in earn["periods"] if p.get("report_date")]
     picked = select_key_reports(reports, windows, cfg["pdf_per_window"])
@@ -133,23 +153,42 @@ def main():
     os.makedirs(txt_dir, exist_ok=True)
     n_pdf, n_txt = 0, 0
     for r in picked:
+        txt_rel = os.path.join("reports_txt", f"{r['infoCode']}.txt")
+        txt_abs = os.path.join(ddir, txt_rel)
+        if os.path.exists(txt_abs) and os.path.getsize(txt_abs) > 200:
+            r["pdf_ok"] = r.get("source") == "eastmoney"
+            r["txt_file"] = txt_rel
+            n_txt += 1
+            continue
+        if r.get("source") == "sina":
+            # 新浪正文（无需 PDF）
+            r["pdf_ok"] = False
+            text = fetch_report_text(r["source_url"])
+            time.sleep(0.5)
+            if text:
+                header = (f"标题: {r['title']}\n机构: {r['org']} | 分析师: {r['analyst']}\n"
+                          f"日期: {r['publish_date']} | 评级: {r['rating'] or '—'}\n"
+                          f"EPS预测(当年/次年/后年): {r['eps_this']} / {r['eps_next']} / {r['eps_next2']}\n"
+                          f"来源: {r['source_url']}（新浪研报库）\n"
+                          f"窗口: {r['window']} | score={r['score']}\n")
+                with open(txt_abs, "w", encoding="utf-8") as f:
+                    f.write(header + text)
+                r["txt_file"] = txt_rel
+                n_txt += 1
+            else:
+                r["txt_file"] = None
+            continue
         path = download_pdf(r["infoCode"], r["publish_date"], r["org"], r["title"], pdf_dir)
         time.sleep(0.5)   # pdf.dfcfw.com 批量限流缓解
         r["pdf_ok"] = bool(path)
         if path:
             n_pdf += 1
-            txt_rel = os.path.join("reports_txt", f"{r['infoCode']}.txt")
-            txt_abs = os.path.join(ddir, txt_rel)
-            if os.path.exists(txt_abs) and os.path.getsize(txt_abs) > 200:
-                r["txt_file"] = txt_rel
-                n_txt += 1
-                continue
             text = extract_text(path)
             if text:
                 header = (f"标题: {r['title']}\n机构: {r['org']} | 分析师: {r['analyst']}\n"
                           f"日期: {r['publish_date']} | 评级: {r['rating']}\n"
                           f"EPS预测(当年/次年/后年): {r['eps_this']} / {r['eps_next']} / {r['eps_next2']}\n"
-                          f"来源: {report_url(r['infoCode'])}\n"
+                          f"来源: {r['source_url']}\n"
                           f"窗口: {r['window']} | score={r['score']}\n")
                 with open(txt_abs, "w", encoding="utf-8") as f:
                     f.write(header + text)
@@ -159,7 +198,7 @@ def main():
                 r["txt_file"] = None
         else:
             r["txt_file"] = None
-    log(f"PDF 下载 {n_pdf}/{len(picked)}，文本可用 {n_txt}")
+    log(f"PDF/正文获取完成，文本可用 {n_txt}/{len(picked)}")
 
     # 一致预期散点（每篇研报的当年/次年/后年 EPS）
     consensus_points = []
@@ -183,7 +222,8 @@ def main():
         ps = picked_by.get(r["infoCode"], [])
         rr["key"] = bool(ps)
         rr["windows"] = [p["window"] for p in ps]
-        rr["source_url"] = report_url(r["infoCode"])
+        if not rr.get("source_url"):
+            rr["source_url"] = report_url(r["infoCode"])
         if ps:
             kp = ps[0]
             rr.update({k: kp[k] for k in ("score", "changes", "window", "pdf_ok", "txt_file")})

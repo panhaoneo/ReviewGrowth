@@ -1,0 +1,166 @@
+[
+  {
+    "id": "A:20190926", "date": "2019-09-26", "type": "A", "importance": "高",
+    "title": "子公司部分产品列入对美加征关税排除清单（关税豁免）",
+    "summary": "公告子公司部分产品（全地形车等）被列入对美加征关税排除清单，出口美国相关产品可申请关税豁免/退税。",
+    "source": "巨潮资讯网 · 关于子公司部分产品排除加征关税的公告",
+    "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=603129&announcementId=1206949747&orgId=9900032725&announceTime=20190926",
+    "published_at": "2019-09-26", "available_at": "2019-09-26",
+    "tags": ["关税", "政策", "豁免"], "confidence": "high",
+    "kline_label": "关税豁免",
+    "as_of": {
+      "summary": "中美关税博弈中公司核心出口产品获得豁免——此前 25% 加征关税对北美全地形车业务的压制（2019 年利润的重要拖累项）显著缓解；叠加 8-9 月业绩超预期（Q2 归母 +46%），基本面拐点获得政策面加持。",
+      "logic_state": "增强",
+      "evidence": ["产品列入排除清单", "与业绩拐点共振"]
+    },
+    "hindsight": {
+      "summary": "豁免红利在 2019Q4 与 2020Q1 连续兑现（退税到账、毛利率回升），股价在此后 4 个月上涨约 8 倍——但 2021-01 豁免到期并重新加征 25% 关税，又成为 2021 年毛利率崩塌的主因之一：同一政策的两面贯穿整个复盘周期。",
+      "verification": "豁免→退税（2019）→到期重征（2021）的完整循环"
+    }
+  },
+  {
+    "id": "A:20191214", "date": "2019-12-14", "type": "A", "importance": "低",
+    "title": "2019 年股份回购实施完成（累计回购约 2%+）",
+    "summary": "公告股份回购实施结果及股份变动：2019 年内以集中竞价方式持续回购，此前披露回购比例已达总股本 2% 以上。",
+    "source": "巨潮资讯网 · 关于股份回购实施结果及股份变动公告",
+    "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=603129&announcementId=1207165368&orgId=9900032725&announceTime=20191214",
+    "published_at": "2019-12-14", "available_at": "2019-12-14",
+    "tags": ["回购", "底部信号"], "confidence": "high",
+    "as_of": {
+      "summary": "公司用真金白银在低位完成大比例回购——管理层对价值判断的信号；同期基本面（业绩+关税豁免）持续改善，回购与基本面形成双重支撑。",
+      "logic_state": "增强",
+      "evidence": ["回购约 2% 股份", "业绩与政策面共振"]
+    },
+    "hindsight": {
+      "summary": "回购完成后至 2020-01 高点股价再涨约 30%，随后经历疫情急挫与 11 倍主升——低位回购是这轮行情的多重底部信号之一。",
+      "verification": "回购完成于主升起点前夜"
+    }
+  },
+  {
+    "id": "A:20191231", "date": "2019-12-31", "type": "A", "importance": "中",
+    "title": "子公司收到加征关税退税（豁免红利开始兑现）",
+    "summary": "公告子公司收到对美加征关税退税的进展：豁免申请落地为实际退税收入。",
+    "source": "巨潮资讯网 · 关于子公司收到加征关税退税的进展公告",
+    "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=603129&announcementId=1207209748&orgId=9900032725&announceTime=20191231",
+    "published_at": "2019-12-31", "available_at": "2019-12-31",
+    "tags": ["关税", "退税"], "confidence": "high",
+    "as_of": {
+      "summary": "豁免政策从'清单列入'（9-26）走到'真金白银退税到账'——政策红利确定性闭环；后续 2020Q1 报表中退税贡献约 745 万美元（约 5000 万元，招商证券点评口径）。",
+      "logic_state": "增强",
+      "evidence": ["退税落地", "政策红利确定"]
+    },
+    "hindsight": {
+      "summary": "退税在 2020 年报与季报中持续体现，成为 2020 年利润弹性的组成部分；而 2021 年豁免到期后又以 25% 加征的形式反向作用。",
+      "verification": "政策红利的完整周期闭环"
+    }
+  },
+  {
+    "id": "A:20200930", "date": "2020-09-30", "type": "A", "importance": "中",
+    "title": "增资香港和信收购 PMAG（KTM 母公司）0.88% 股权",
+    "summary": "公告对全资子公司香港和信增资 11,630,792.46 美元，用于收购 Pierer Mobility AG（PMAG，KTM 母公司）约 0.88% 少数股权，每股约 58.5863 美元；系 2018 年首次入股（约 1,800 万美元收购 26.35 万股）后的持续加码。",
+    "source": "巨潮资讯网 · 关于对外（境外）投资并签署协议的公告",
+    "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=603129&announcementId=1208513613&orgId=9900032725&announceTime=20200930",
+    "published_at": "2020-09-30", "available_at": "2020-09-30",
+    "tags": ["全球化", "KTM", "股权合作"], "confidence": "high",
+    "as_of": {
+      "summary": "增持全球高端摩托集团 PMAG 股权——'打造全球高端摩托品牌'的战略落地动作；在主升期（Q3 业绩 +228% 已验证）深化与 KTM 的技术/市场协同叙事。",
+      "logic_state": "增强",
+      "evidence": ["增资 1,163 万美元", "收购 PMAG 0.88% 股权", "此前 2018 年已首次入股"]
+    },
+    "hindsight": {
+      "summary": "合作深化延续（后续合资公司凯特摩等）；该投资的财务影响有限，主要价值在品牌与技术协同的长期叙事。",
+      "verification": "战略合作持续深化"
+    }
+  },
+  {
+    "id": "A:20210227", "date": "2021-02-27", "type": "A", "importance": "中",
+    "title": "控股股东及其一致行动人披露减持计划（高位减持开启）",
+    "summary": "公告控股股东及其一致行动人减持股份计划；此后 2021 全年减持公告持续出现（一致行动人、监事、高管多线减持）。",
+    "source": "巨潮资讯网 · 春风动力关于控股股东及其一致行动人减持股份计划公告",
+    "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=603129&announcementId=1209309992&orgId=9900032725&announceTime=20210227",
+    "published_at": "2021-02-27", "available_at": "2021-02-27",
+    "tags": ["减持", "高位信号"], "confidence": "high",
+    "kline_label": "高位减持开启",
+    "as_of": {
+      "summary": "股价自 2020-03 低点上涨约 10 倍后，控股股东方首次披露减持计划——高位供给信号；此时基本面仍强（2021Q1 业绩尚未披露），减持与业绩的赛跑成为后续观察点。",
+      "logic_state": "中性（供给信号）",
+      "evidence": ["控股股东减持计划", "股价处历史高位"]
+    },
+    "hindsight": {
+      "summary": "减持贯穿 2021 全年且股价自 1 月高点最深回撤 -51%——'减持潮+毛利率崩塌'共同构成 2021 年的双重压制；2021-08 后减持仍在继续（延伸至 2022）。",
+      "verification": "高位减持与股价拐点同步出现"
+    }
+  },
+  {
+    "id": "A:20210316", "date": "2021-03-16", "type": "A", "importance": "高",
+    "title": "2021 年度非公开发行 A 股股票预案（扩产）",
+    "summary": "披露 2021 年度非公开发行 A 股股票预案（募资用于产能建设等项目），同日披露摊薄即期回报及填补措施。",
+    "source": "巨潮资讯网 · 浙江春风动力股份有限公司2021年度非公开发行A股股票预案",
+    "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=603129&announcementId=1209386455&orgId=9900032725&announceTime=20210316",
+    "published_at": "2021-03-16", "available_at": "2021-03-16",
+    "tags": ["定增", "扩产"], "confidence": "high",
+    "as_of": {
+      "summary": "在收入高增（2021Q1 尚未披露，4-13 将验证 +151%）背景下启动扩产融资——需求侧信心的表达；短期摊薄与'高位融资'争议并存。",
+      "logic_state": "增强",
+      "evidence": ["定增预案", "扩产投向"]
+    },
+    "hindsight": {
+      "summary": "定增历经受理（5-18）/修订（6-16）/过会（6-29）/核准（7-13）/发行完成（10-08，110 元/股、17.27 亿）——恰逢股价从高位回落 40%+ 的窗口完成发行，发行价 110 元低于市价区间上沿。",
+      "verification": "融资全程与股价下行重叠"
+    }
+  },
+  {
+    "id": "A:20210713", "date": "2021-07-13", "type": "A", "importance": "低",
+    "title": "非公开发行获中国证监会核准批复",
+    "summary": "公告非公开发行股票申请获得中国证监会核准批复。",
+    "source": "巨潮资讯网 · 春风动力关于非公开发行股票申请获得中国证监会核准批复的公告",
+    "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=603129&announcementId=1210466236&orgId=9900032725&announceTime=20210713",
+    "published_at": "2021-07-13", "available_at": "2021-07-13",
+    "tags": ["定增", "审批"], "confidence": "high",
+    "as_of": {
+      "summary": "审批落地扫清发行障碍；但市场焦点已转向 2021Q2 的盈利质量（关税豁免到期 + 海运成本）。",
+      "logic_state": "中性",
+      "evidence": ["核准批复"]
+    },
+    "hindsight": {
+      "summary": "发行于 2021-10-08 完成（110 元/股、募资 17.27 亿元）——产能弹药为 2022-2023 年的收入增长提供支撑。",
+      "verification": "融资按期完成"
+    }
+  },
+  {
+    "id": "A:20211008", "date": "2021-10-08", "type": "A", "importance": "中",
+    "title": "定增发行完成：110 元/股、募资约 17.27 亿元",
+    "summary": "公告非公开发行股票发行结果暨股本变动：发行价 110 元/股，募集资金总额约 17.27 亿元（净额约 17.09 亿元）。",
+    "source": "巨潮资讯网 · 春风动力关于非公开发行股票发行结果暨股本变动的公告",
+    "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=603129&announcementId=1211194685&orgId=9900032725&announceTime=20211008",
+    "published_at": "2021-10-08", "available_at": "2021-10-08",
+    "tags": ["定增", "发行完成"], "confidence": "high",
+    "as_of": {
+      "summary": "在毛利率触底（Q3 22.1%）与股价回调 40% 的窗口完成 17.27 亿融资——机构按 110 元/股认购（低于阶段市价），产能弹药落地。",
+      "logic_state": "中性",
+      "evidence": ["发行价 110 元", "募资 17.27 亿"]
+    },
+    "hindsight": {
+      "summary": "募资投向产能扩建，与 2022 年收入继续高增（+45%）形成呼应；股价在发行完成后继续震荡至年底（158 元区域）。",
+      "verification": "融资与产能扩张周期匹配"
+    }
+  },
+  {
+    "id": "A:20211029", "date": "2021-10-29", "type": "A", "importance": "低",
+    "title": "2022-2024 年员工持股计划（草案）",
+    "summary": "发布 2022-2024 年员工持股计划（草案）及管理办法（2021-11-23 正式披露持股计划）。",
+    "source": "巨潮资讯网 · 春风动力2022年-2024年员工持股计划（草案）",
+    "source_url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=603129&announcementId=1211423381&orgId=9900032725&announceTime=20211029",
+    "published_at": "2021-10-29", "available_at": "2021-10-29",
+    "tags": ["员工持股", "激励"], "confidence": "high",
+    "as_of": {
+      "summary": "在 Q3 利润负增长（-19%）与股价回调期推出三年期员工持股——中期信心信号，与同期'盈利拐点渐显'的卖方判断形成呼应。",
+      "logic_state": "中性（信心信号）",
+      "evidence": ["三年期员工持股", "回调期推出"]
+    },
+    "hindsight": {
+      "summary": "推迟至 11-23 正式落地；此后公司 2022 年经历业绩阵痛（2022 年归母大幅下滑），该持股计划的长期兑现依赖 2023-2024 年的修复。",
+      "verification": "激励周期覆盖了随后的业绩波动期"
+    }
+  }
+]

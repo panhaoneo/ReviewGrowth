@@ -1,0 +1,925 @@
+[
+ {
+  "period": "2019Q1",
+  "report_date": "2019-04-25",
+  "period_end": "2019-03-31",
+  "confidence": "high",
+  "single_q_亿": {
+   "revenue": 6.03,
+   "net_profit": 0.202,
+   "parent_net": 0.214,
+   "rd": 0.359
+  },
+  "cumulative_亿": {
+   "revenue": 6.0,
+   "parent_net": 0.21
+  },
+  "yoy": {
+   "revenue_yoy": 40.3,
+   "parent_net_yoy": 38.2,
+   "net_profit_yoy": 30.3
+  },
+  "qoq": {
+   "revenue_qoq": -11.4,
+   "parent_net_qoq": -7.0
+  },
+  "margins_single": {
+   "gross": 28.6,
+   "net": 3.3,
+   "parent_net": 3.6
+  },
+  "ocf_single_亿": 0.11,
+  "cash_content": 0.53,
+  "ar_亿": 2.38,
+  "pe_at_report": 22.9,
+  "pe_pctile_at_report": null,
+  "announcement": {
+   "date": "2019-04-25",
+   "title": "2019年第一季度报告",
+   "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=603129&announcementId=1206094634&orgId=9900032725&announceTime=20190425"
+  },
+  "window_reports": [],
+  "price_ctx": {
+   "close_at_report": 6.45,
+   "ret60_before_pct": 0.0,
+   "dd_from_250d_high_pct": -18.1,
+   "ret_t20_pct": 4.6,
+   "ret_t60_pct": 1.1
+  }
+ },
+ {
+  "period": "2019Q2",
+  "report_date": "2019-08-23",
+  "period_end": "2019-06-30",
+  "confidence": "high",
+  "single_q_亿": {
+   "revenue": 10.32,
+   "net_profit": 0.805,
+   "parent_net": 0.824,
+   "rd": 0.507
+  },
+  "cumulative_亿": {
+   "revenue": 16.4,
+   "parent_net": 1.04
+  },
+  "yoy": {
+   "revenue_yoy": 34.9,
+   "parent_net_yoy": 45.7,
+   "net_profit_yoy": 42.2
+  },
+  "qoq": {
+   "revenue_qoq": 71.1,
+   "parent_net_qoq": 284.5
+  },
+  "margins_single": {
+   "gross": 32.9,
+   "net": 7.8,
+   "parent_net": 8.0
+  },
+  "ocf_single_亿": 1.64,
+  "cash_content": 1.99,
+  "ar_亿": 2.94,
+  "pe_at_report": 18.8,
+  "pe_pctile_at_report": null,
+  "announcement": {
+   "date": "2019-08-23",
+   "title": "2019年半年度报告",
+   "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=603129&announcementId=1206554631&orgId=9900032725&announceTime=20190823"
+  },
+  "window_reports": [
+   {
+    "d": "2019-08-26",
+    "org": "招商证券",
+    "title": "春风动力(603129)：国内大排量摩托车快速放量 业绩增长超预期",
+    "infoCode": "SINA620147023526",
+    "src": "sina"
+   }
+  ],
+  "price_ctx": {
+   "close_at_report": 7.82,
+   "ret60_before_pct": 19.0,
+   "dd_from_250d_high_pct": -6.9,
+   "ret_t20_pct": 102.4,
+   "ret_t60_pct": 205.3
+  }
+ },
+ {
+  "period": "2019Q3",
+  "report_date": "2019-10-25",
+  "period_end": "2019-09-30",
+  "confidence": "high",
+  "single_q_亿": {
+   "revenue": 7.57,
+   "net_profit": 0.363,
+   "parent_net": 0.374,
+   "rd": 0.474
+  },
+  "cumulative_亿": {
+   "revenue": 23.9,
+   "parent_net": 1.41
+  },
+  "yoy": {
+   "revenue_yoy": 13.0,
+   "parent_net_yoy": 49.0,
+   "net_profit_yoy": 45.3
+  },
+  "qoq": {
+   "revenue_qoq": -26.6,
+   "parent_net_qoq": -54.6
+  },
+  "margins_single": {
+   "gross": 30.2,
+   "net": 4.8,
+   "parent_net": 4.9
+  },
+  "ocf_single_亿": 1.24,
+  "cash_content": 3.32,
+  "ar_亿": 2.8,
+  "pe_at_report": 24.3,
+  "pe_pctile_at_report": null,
+  "announcement": {
+   "date": "2019-10-25",
+   "title": "2019年第三季度报告",
+   "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=603129&announcementId=1207014744&orgId=9900032725&announceTime=20191025"
+  },
+  "window_reports": [
+   {
+    "d": "2019-11-01",
+    "org": "天风证券",
+    "title": "春风动力(603129)首次覆盖报告：与众不同 不一样的休闲交通工具",
+    "infoCode": "SINA625921868954",
+    "src": "sina"
+   },
+   {
+    "d": "2019-10-26",
+    "org": "招商证券",
+    "title": "春风动力(603129)：利润超预期 维持强烈推荐评级",
+    "infoCode": "SINA625367859416",
+    "src": "sina"
+   },
+   {
+    "d": "2019-10-25",
+    "org": "财通证券",
+    "title": "春风动力(603129)：三季报符合预期 盈利能力持续提升",
+    "infoCode": "SINA625317700691",
+    "src": "sina"
+   }
+  ],
+  "price_ctx": {
+   "close_at_report": 16.27,
+   "ret60_before_pct": 150.2,
+   "dd_from_250d_high_pct": -33.2,
+   "ret_t20_pct": 43.9,
+   "ret_t60_pct": 123.5
+  }
+ },
+ {
+  "period": "2019Q4",
+  "report_date": "2020-04-21",
+  "period_end": "2019-12-31",
+  "confidence": "high",
+  "single_q_亿": {
+   "revenue": 8.5,
+   "net_profit": 0.37,
+   "parent_net": 0.398,
+   "rd": 0.488
+  },
+  "cumulative_亿": {
+   "revenue": 32.4,
+   "parent_net": 1.81
+  },
+  "yoy": {
+   "revenue_yoy": 24.9,
+   "parent_net_yoy": 72.7,
+   "net_profit_yoy": 70.3
+  },
+  "qoq": {
+   "revenue_qoq": 12.3,
+   "parent_net_qoq": 6.4
+  },
+  "margins_single": {
+   "gross": 35.9,
+   "net": 4.4,
+   "parent_net": 4.7
+  },
+  "ocf_single_亿": 1.24,
+  "cash_content": 3.12,
+  "ar_亿": 2.9,
+  "pe_at_report": 27.0,
+  "pe_pctile_at_report": 25.8,
+  "announcement": {
+   "date": "2020-04-21",
+   "title": "2019年年度报告",
+   "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=603129&announcementId=1207542707&orgId=9900032725&announceTime=20200421"
+  },
+  "window_reports": [
+   {
+    "d": "2020-04-24",
+    "org": "国金证券",
+    "title": "关税退回增厚业绩；国内业务将对冲外需压力",
+    "infoCode": "AP202004241378550441",
+    "src": "eastmoney"
+   },
+   {
+    "d": "2020-04-26",
+    "org": "招商证券",
+    "title": "春风动力(603129)：疫情是危也是机",
+    "infoCode": "SINA641201236267",
+    "src": "sina"
+   },
+   {
+    "d": "2020-04-24",
+    "org": "天风证券",
+    "title": "春风动力(603129)季报点评：产品持续放量 20年新品值得期待",
+    "infoCode": "SINA641080068804",
+    "src": "sina"
+   },
+   {
+    "d": "2020-04-22",
+    "org": "财通证券",
+    "title": "春风动力(603129)：内外销售兴旺 双轮驱动业绩增长",
+    "infoCode": "SINA640889241227",
+    "src": "sina"
+   },
+   {
+    "d": "2020-04-21",
+    "org": "华西证券",
+    "title": "春风动力(603129)2019年报点评：2019高增长延续2020或受海外影响",
+    "infoCode": "SINA640799183417",
+    "src": "sina"
+   },
+   {
+    "d": "2020-04-21",
+    "org": "华泰证券",
+    "title": "春风动力(603129)：业绩高增 精准卡位 发力休娱摩托",
+    "infoCode": "SINA640791328245",
+    "src": "sina"
+   }
+  ],
+  "price_ctx": {
+   "close_at_report": 23.44,
+   "ret60_before_pct": -36.8,
+   "dd_from_250d_high_pct": -41.7,
+   "ret_t20_pct": 38.2,
+   "ret_t60_pct": 214.9
+  }
+ },
+ {
+  "period": "2020Q1",
+  "report_date": "2020-04-24",
+  "period_end": "2020-03-31",
+  "confidence": "high",
+  "single_q_亿": {
+   "revenue": 6.23,
+   "net_profit": 0.56,
+   "parent_net": 0.578,
+   "rd": 0.506
+  },
+  "cumulative_亿": {
+   "revenue": 6.2,
+   "parent_net": 0.58
+  },
+  "yoy": {
+   "revenue_yoy": 3.2,
+   "parent_net_yoy": 169.7,
+   "net_profit_yoy": 177.0
+  },
+  "qoq": {
+   "revenue_qoq": -26.8,
+   "parent_net_qoq": 45.3
+  },
+  "margins_single": {
+   "gross": 32.6,
+   "net": 9.0,
+   "parent_net": 9.3
+  },
+  "ocf_single_亿": -0.23,
+  "cash_content": -0.39,
+  "ar_亿": 2.81,
+  "pe_at_report": 22.9,
+  "pe_pctile_at_report": 6.2,
+  "announcement": {
+   "date": "2020-04-24",
+   "title": "2020年第一季度报告",
+   "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=603129&announcementId=1207583181&orgId=9900032725&announceTime=20200424"
+  },
+  "window_reports": [
+   {
+    "d": "2020-04-24",
+    "org": "国金证券",
+    "title": "关税退回增厚业绩；国内业务将对冲外需压力",
+    "infoCode": "AP202004241378550441",
+    "src": "eastmoney"
+   },
+   {
+    "d": "2020-04-26",
+    "org": "招商证券",
+    "title": "春风动力(603129)：疫情是危也是机",
+    "infoCode": "SINA641201236267",
+    "src": "sina"
+   },
+   {
+    "d": "2020-04-24",
+    "org": "天风证券",
+    "title": "春风动力(603129)季报点评：产品持续放量 20年新品值得期待",
+    "infoCode": "SINA641080068804",
+    "src": "sina"
+   },
+   {
+    "d": "2020-04-22",
+    "org": "财通证券",
+    "title": "春风动力(603129)：内外销售兴旺 双轮驱动业绩增长",
+    "infoCode": "SINA640889241227",
+    "src": "sina"
+   },
+   {
+    "d": "2020-04-21",
+    "org": "华西证券",
+    "title": "春风动力(603129)2019年报点评：2019高增长延续2020或受海外影响",
+    "infoCode": "SINA640799183417",
+    "src": "sina"
+   },
+   {
+    "d": "2020-04-21",
+    "org": "华泰证券",
+    "title": "春风动力(603129)：业绩高增 精准卡位 发力休娱摩托",
+    "infoCode": "SINA640791328245",
+    "src": "sina"
+   }
+  ],
+  "price_ctx": {
+   "close_at_report": 24.25,
+   "ret60_before_pct": -30.3,
+   "dd_from_250d_high_pct": -39.7,
+   "ret_t20_pct": 41.2,
+   "ret_t60_pct": 216.7
+  }
+ },
+ {
+  "period": "2020Q2",
+  "report_date": "2020-08-27",
+  "period_end": "2020-06-30",
+  "confidence": "high",
+  "single_q_亿": {
+   "revenue": 11.59,
+   "net_profit": 1.14,
+   "parent_net": 1.162,
+   "rd": 0.438
+  },
+  "cumulative_亿": {
+   "revenue": 17.8,
+   "parent_net": 1.74
+  },
+  "yoy": {
+   "revenue_yoy": 12.4,
+   "parent_net_yoy": 40.9,
+   "net_profit_yoy": 41.7
+  },
+  "qoq": {
+   "revenue_qoq": 86.2,
+   "parent_net_qoq": 100.9
+  },
+  "margins_single": {
+   "gross": 33.3,
+   "net": 9.8,
+   "parent_net": 10.0
+  },
+  "ocf_single_亿": 3.61,
+  "cash_content": 3.11,
+  "ar_亿": 2.55,
+  "pe_at_report": 58.0,
+  "pe_pctile_at_report": 93.9,
+  "announcement": {
+   "date": "2020-08-27",
+   "title": "2020年半年度报告",
+   "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=603129&announcementId=1208259735&orgId=9900032725&announceTime=20200827"
+  },
+  "window_reports": [
+   {
+    "d": "2020-09-09",
+    "org": "招商证券",
+    "title": "春风动力(603129)：中报利润超预期 Q3预计收入利润同比大幅向好",
+    "infoCode": "SINA652950721404",
+    "src": "sina"
+   },
+   {
+    "d": "2020-08-27",
+    "org": "财通证券",
+    "title": "春风动力(603129)：爆款新车放量 Q2业绩超预期",
+    "infoCode": "SINA651865078732",
+    "src": "sina"
+   },
+   {
+    "d": "2020-08-27",
+    "org": "天风证券",
+    "title": "春风动力(603129)：H1超预期 摩托车大卖带动业绩增长",
+    "infoCode": "SINA651862573075",
+    "src": "sina"
+   },
+   {
+    "d": "2020-08-27",
+    "org": "华泰证券",
+    "title": "春风动力(603129)：新产品扩容卓有成效 Q2业绩高增长",
+    "infoCode": "SINA651861404530",
+    "src": "sina"
+   },
+   {
+    "d": "2020-08-27",
+    "org": "华西证券",
+    "title": "春风动力(603129)2020中报点评：摩托车放量业绩加速兑现",
+    "infoCode": "SINA651838560474",
+    "src": "sina"
+   }
+  ],
+  "price_ctx": {
+   "close_at_report": 98.81,
+   "ret60_before_pct": 159.5,
+   "dd_from_250d_high_pct": -7.9,
+   "ret_t20_pct": 21.9,
+   "ret_t60_pct": 36.4
+  }
+ },
+ {
+  "period": "2020Q3",
+  "report_date": "2020-10-23",
+  "period_end": "2020-09-30",
+  "confidence": "high",
+  "single_q_亿": {
+   "revenue": 13.65,
+   "net_profit": 1.201,
+   "parent_net": 1.226,
+   "rd": 0.564
+  },
+  "cumulative_亿": {
+   "revenue": 31.5,
+   "parent_net": 2.97
+  },
+  "yoy": {
+   "revenue_yoy": 80.3,
+   "parent_net_yoy": 228.0,
+   "net_profit_yoy": 231.1
+  },
+  "qoq": {
+   "revenue_qoq": 17.7,
+   "parent_net_qoq": 5.6
+  },
+  "margins_single": {
+   "gross": 32.3,
+   "net": 8.8,
+   "parent_net": 9.0
+  },
+  "ocf_single_亿": 3.39,
+  "cash_content": 2.77,
+  "ar_亿": 3.27,
+  "pe_at_report": 59.1,
+  "pe_pctile_at_report": 84.7,
+  "announcement": {
+   "date": "2020-10-23",
+   "title": "2020年第三季度报告",
+   "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=603129&announcementId=1208601530&orgId=9900032725&announceTime=20201023"
+  },
+  "window_reports": [
+   {
+    "d": "2020-10-29",
+    "org": "天风证券",
+    "title": "春风动力(603129)：Q3利润增长超200％ 大排量摩托...",
+    "infoCode": "SINA657279846683",
+    "src": "sina"
+   },
+   {
+    "d": "2020-10-24",
+    "org": "财通证券",
+    "title": "春风动力(603129)：Q3业绩持续高增 盈利能力强劲",
+    "infoCode": "SINA656876108478",
+    "src": "sina"
+   },
+   {
+    "d": "2020-10-23",
+    "org": "华泰证券",
+    "title": "春风动力(603129)：爆款策略扩产品线 业绩增长逐季加速",
+    "infoCode": "SINA656792991309",
+    "src": "sina"
+   },
+   {
+    "d": "2020-10-23",
+    "org": "华西证券",
+    "title": "春风动力(603129)：供给创造需求 销量驱动业绩增长",
+    "infoCode": "SINA656767587618",
+    "src": "sina"
+   }
+  ],
+  "price_ctx": {
+   "close_at_report": 139.31,
+   "ret60_before_pct": 71.3,
+   "dd_from_250d_high_pct": -8.6,
+   "ret_t20_pct": 3.1,
+   "ret_t60_pct": 25.9
+  }
+ },
+ {
+  "period": "2020Q4",
+  "report_date": "2021-04-13",
+  "period_end": "2020-12-31",
+  "confidence": "high",
+  "single_q_亿": {
+   "revenue": 13.79,
+   "net_profit": 0.636,
+   "parent_net": 0.683,
+   "rd": 0.856
+  },
+  "cumulative_亿": {
+   "revenue": 45.3,
+   "parent_net": 3.65
+  },
+  "yoy": {
+   "revenue_yoy": 62.2,
+   "parent_net_yoy": 71.6,
+   "net_profit_yoy": 71.9
+  },
+  "qoq": {
+   "revenue_qoq": 1.1,
+   "parent_net_qoq": -44.3
+  },
+  "margins_single": {
+   "gross": 21.5,
+   "net": 4.6,
+   "parent_net": 5.0
+  },
+  "ocf_single_亿": 0.96,
+  "cash_content": 1.41,
+  "ar_亿": 3.42,
+  "pe_at_report": 46.8,
+  "pe_pctile_at_report": 53.0,
+  "announcement": {
+   "date": "2021-04-13",
+   "title": "春风动力2020年年度报告全文",
+   "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=603129&announcementId=1209677851&orgId=9900032725&announceTime=20210413"
+  },
+  "window_reports": [
+   {
+    "d": "2021-04-19",
+    "org": "招商证券",
+    "title": "春风动力(603129)：业绩持续高速增长 Q1收入创历史新高！",
+    "infoCode": "SINA672170259742",
+    "src": "sina"
+   },
+   {
+    "d": "2021-04-16",
+    "org": "天风证券",
+    "title": "春风动力(603129)：公司业绩超市场预期 新品+渠道+品...",
+    "infoCode": "SINA671897490559",
+    "src": "sina"
+   },
+   {
+    "d": "2021-04-14",
+    "org": "中国国际金融",
+    "title": "春风动力(603129)：一季度淡季不淡 出口内销产销两旺",
+    "infoCode": "SINA671723804921",
+    "src": "sina"
+   },
+   {
+    "d": "2021-04-13",
+    "org": "华西证券",
+    "title": "春风动力(603129)：Q1业绩超预期 春风引擎再度开启",
+    "infoCode": "SINA671636924693",
+    "src": "sina"
+   },
+   {
+    "d": "2021-04-13",
+    "org": "国投证券",
+    "title": "春风动力(603129)：顺应消费升级趋势 海外市场需求有望持续复苏",
+    "infoCode": "SINA671630273632",
+    "src": "sina"
+   },
+   {
+    "d": "2021-04-13",
+    "org": "浙商证券",
+    "title": "春风动力(603129)：业绩符合预期 2021年Q1收入同...",
+    "infoCode": "SINA671614591143",
+    "src": "sina"
+   }
+  ],
+  "price_ctx": {
+   "close_at_report": 130.01,
+   "ret60_before_pct": -12.6,
+   "dd_from_250d_high_pct": -28.6,
+   "ret_t20_pct": -8.9,
+   "ret_t60_pct": -9.1
+  }
+ },
+ {
+  "period": "2021Q1",
+  "report_date": "2021-04-13",
+  "period_end": "2021-03-31",
+  "confidence": "high",
+  "single_q_亿": {
+   "revenue": 15.61,
+   "net_profit": 0.921,
+   "parent_net": 0.956,
+   "rd": 0.682
+  },
+  "cumulative_亿": {
+   "revenue": 15.6,
+   "parent_net": 0.96
+  },
+  "yoy": {
+   "revenue_yoy": 150.6,
+   "parent_net_yoy": 65.4,
+   "net_profit_yoy": 64.5
+  },
+  "qoq": {
+   "revenue_qoq": 13.2,
+   "parent_net_qoq": 40.0
+  },
+  "margins_single": {
+   "gross": 22.5,
+   "net": 5.9,
+   "parent_net": 6.1
+  },
+  "ocf_single_亿": 1.1,
+  "cash_content": 1.15,
+  "ar_亿": 4.58,
+  "pe_at_report": 46.8,
+  "pe_pctile_at_report": 53.0,
+  "announcement": {
+   "date": "2021-04-13",
+   "title": "春风动力2021年第一季度报告全文",
+   "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=603129&announcementId=1209677848&orgId=9900032725&announceTime=20210413"
+  },
+  "window_reports": [
+   {
+    "d": "2021-04-19",
+    "org": "招商证券",
+    "title": "春风动力(603129)：业绩持续高速增长 Q1收入创历史新高！",
+    "infoCode": "SINA672170259742",
+    "src": "sina"
+   },
+   {
+    "d": "2021-04-16",
+    "org": "天风证券",
+    "title": "春风动力(603129)：公司业绩超市场预期 新品+渠道+品...",
+    "infoCode": "SINA671897490559",
+    "src": "sina"
+   },
+   {
+    "d": "2021-04-14",
+    "org": "中国国际金融",
+    "title": "春风动力(603129)：一季度淡季不淡 出口内销产销两旺",
+    "infoCode": "SINA671723804921",
+    "src": "sina"
+   },
+   {
+    "d": "2021-04-13",
+    "org": "华西证券",
+    "title": "春风动力(603129)：Q1业绩超预期 春风引擎再度开启",
+    "infoCode": "SINA671636924693",
+    "src": "sina"
+   },
+   {
+    "d": "2021-04-13",
+    "org": "国投证券",
+    "title": "春风动力(603129)：顺应消费升级趋势 海外市场需求有望持续复苏",
+    "infoCode": "SINA671630273632",
+    "src": "sina"
+   },
+   {
+    "d": "2021-04-13",
+    "org": "浙商证券",
+    "title": "春风动力(603129)：业绩符合预期 2021年Q1收入同...",
+    "infoCode": "SINA671614591143",
+    "src": "sina"
+   }
+  ],
+  "price_ctx": {
+   "close_at_report": 130.01,
+   "ret60_before_pct": -12.6,
+   "dd_from_250d_high_pct": -28.6,
+   "ret_t20_pct": -8.9,
+   "ret_t60_pct": -9.1
+  }
+ },
+ {
+  "period": "2021Q2",
+  "report_date": "2021-08-20",
+  "period_end": "2021-06-30",
+  "confidence": "high",
+  "single_q_亿": {
+   "revenue": 20.46,
+   "net_profit": 1.214,
+   "parent_net": 1.255,
+   "rd": 0.813
+  },
+  "cumulative_亿": {
+   "revenue": 36.1,
+   "parent_net": 2.21
+  },
+  "yoy": {
+   "revenue_yoy": 76.5,
+   "parent_net_yoy": 8.0,
+   "net_profit_yoy": 6.4
+  },
+  "qoq": {
+   "revenue_qoq": 31.1,
+   "parent_net_qoq": 31.3
+  },
+  "margins_single": {
+   "gross": 22.5,
+   "net": 5.9,
+   "parent_net": 6.1
+  },
+  "ocf_single_亿": 1.01,
+  "cash_content": 0.81,
+  "ar_亿": 4.77,
+  "pe_at_report": 38.7,
+  "pe_pctile_at_report": 40.2,
+  "announcement": {
+   "date": "2021-08-20",
+   "title": "春风动力2021年半年度报告全文",
+   "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=603129&announcementId=1210793976&orgId=9900032725&announceTime=20210820"
+  },
+  "window_reports": [
+   {
+    "d": "2021-08-24",
+    "org": "中国国际金融",
+    "title": "春风动力(603129)：四轮车业务持续景气 期待800MT新车放量",
+    "infoCode": "SINA683120162043",
+    "src": "sina"
+   },
+   {
+    "d": "2021-08-23",
+    "org": "浙商证券",
+    "title": "春风动力(603129)：四轮车收入大增159%；合同负债、...",
+    "infoCode": "SINA683051200075",
+    "src": "sina"
+   },
+   {
+    "d": "2021-08-23",
+    "org": "国泰海通证券",
+    "title": "春风动力(603129)：经营韧性十足 Q2业绩超预期",
+    "infoCode": "SINA683031074027",
+    "src": "sina"
+   },
+   {
+    "d": "2021-08-23",
+    "org": "天风证券",
+    "title": "春风动力(603129)：中报符合市场预期 疾风知劲草 逆风终有时!",
+    "infoCode": "SINA683019139842",
+    "src": "sina"
+   },
+   {
+    "d": "2021-08-22",
+    "org": "华西证券",
+    "title": "春风动力(603129)：Q2收入延续高增 极致经营抵御短期扰动",
+    "infoCode": "SINA682914717424",
+    "src": "sina"
+   },
+   {
+    "d": "2021-08-20",
+    "org": "招商证券",
+    "title": "春风动力(603129)：销售收入持续新高 关注新品推出以及...",
+    "infoCode": "SINA682766686869",
+    "src": "sina"
+   }
+  ],
+  "price_ctx": {
+   "close_at_report": 108.8,
+   "ret60_before_pct": -11.8,
+   "dd_from_250d_high_pct": -40.3,
+   "ret_t20_pct": 2.5,
+   "ret_t60_pct": 55.9
+  }
+ },
+ {
+  "period": "2021Q3",
+  "report_date": "2021-10-29",
+  "period_end": "2021-09-30",
+  "confidence": "high",
+  "single_q_亿": {
+   "revenue": 20.81,
+   "net_profit": 1.02,
+   "parent_net": 0.989,
+   "rd": 1.066
+  },
+  "cumulative_亿": {
+   "revenue": 56.9,
+   "parent_net": 3.2
+  },
+  "yoy": {
+   "revenue_yoy": 52.5,
+   "parent_net_yoy": -19.3,
+   "net_profit_yoy": -15.0
+  },
+  "qoq": {
+   "revenue_qoq": 1.7,
+   "parent_net_qoq": -21.2
+  },
+  "margins_single": {
+   "gross": 22.1,
+   "net": 4.9,
+   "parent_net": 4.8
+  },
+  "ocf_single_亿": 0.57,
+  "cash_content": 0.58,
+  "ar_亿": 5.24,
+  "pe_at_report": 54.8,
+  "pe_pctile_at_report": 70.8,
+  "announcement": {
+   "date": "2021-10-29",
+   "title": "春风动力2021年第三季度报告",
+   "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=603129&announcementId=1211423375&orgId=9900032725&announceTime=20211029"
+  },
+  "window_reports": [
+   {
+    "d": "2021-11-03",
+    "org": "天风证券",
+    "title": "春风动力(603129)季报点评：三季报符合市场预期 股权激...",
+    "infoCode": "SINA689281056978",
+    "src": "sina"
+   },
+   {
+    "d": "2021-11-01",
+    "org": "国泰海通证券",
+    "title": "春风动力(603129)：收入端略超预期 高研发巩固龙头地位",
+    "infoCode": "SINA689064255859",
+    "src": "sina"
+   },
+   {
+    "d": "2021-10-31",
+    "org": "中国国际金融",
+    "title": "春风动力(603129)：四轮车持续高景气 大排量新品迭出",
+    "infoCode": "SINA688986446890",
+    "src": "sina"
+   },
+   {
+    "d": "2021-10-29",
+    "org": "浙商证券",
+    "title": "春风动力(603129)：营收大增81%；不利因素将改善、盈利拐点渐显",
+    "infoCode": "SINA688831225089",
+    "src": "sina"
+   },
+   {
+    "d": "2021-10-29",
+    "org": "华西证券",
+    "title": "春风动力(603129)2021年三季报点评：Q3业绩符合预...",
+    "infoCode": "SINA688821530838",
+    "src": "sina"
+   },
+   {
+    "d": "2021-10-29",
+    "org": "招商证券",
+    "title": "春风动力(603129)：收入持续快速增长 关注新车型及关税进展",
+    "infoCode": "SINA688818322802",
+    "src": "sina"
+   }
+  ],
+  "price_ctx": {
+   "close_at_report": 148.63,
+   "ret60_before_pct": 57.0,
+   "dd_from_250d_high_pct": -18.4,
+   "ret_t20_pct": 12.1,
+   "ret_t60_pct": 6.4
+  }
+ },
+ {
+  "period": "2021Q4",
+  "report_date": "2022-04-15",
+  "period_end": "2021-12-31",
+  "confidence": "high",
+  "single_q_亿": {
+   "revenue": 21.73,
+   "net_profit": 0.961,
+   "parent_net": 0.915,
+   "rd": 1.23
+  },
+  "cumulative_亿": {
+   "revenue": 78.6,
+   "parent_net": 4.12
+  },
+  "yoy": {
+   "revenue_yoy": 57.6,
+   "parent_net_yoy": 34.0,
+   "net_profit_yoy": 50.9
+  },
+  "qoq": {
+   "revenue_qoq": 4.4,
+   "parent_net_qoq": -7.5
+  },
+  "margins_single": {
+   "gross": 19.4,
+   "net": 4.4,
+   "parent_net": 4.2
+  },
+  "ocf_single_亿": -0.04,
+  "cash_content": -0.04,
+  "ar_亿": 6.49,
+  "pe_at_report": null,
+  "pe_pctile_at_report": null,
+  "announcement": {
+   "date": "2022-04-15",
+   "title": "春风动力2021年年度报告",
+   "url": "https://www.cninfo.com.cn/new/disclosure/detail?stockCode=603129&announcementId=1212923423&orgId=9900032725&announceTime=20220415"
+  },
+  "window_reports": [],
+  "price_ctx": {}
+ }
+]
